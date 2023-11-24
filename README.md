@@ -5,557 +5,177 @@
 
 ## Contents
 
-- [ActionScript](#actionscript)
-- [Assembly](#assembly)
-- [AutoIt](#autoit)
-- [Awk](#awk)
-- [Batchfile](#batchfile)
-- [C](#c)
-- [C#](#c#)
 - [C++](#c++)
-- [CMake](#cmake)
-- [CSS](#css)
-- [Clojure](#clojure)
-- [Common Lisp](#common-lisp)
-- [Coq](#coq)
-- [Cuda](#cuda)
-- [D](#d)
-- [Dart](#dart)
-- [Dockerfile](#dockerfile)
-- [Emacs Lisp](#emacs-lisp)
-- [GDScript](#gdscript)
-- [GLSL](#glsl)
-- [Go](#go)
-- [HLSL](#hlsl)
-- [HTML](#html)
-- [Haskell](#haskell)
-- [Haxe](#haxe)
-- [HolyC](#holyc)
-- [Java](#java)
-- [JavaScript](#javascript)
-- [Julia](#julia)
-- [Jupyter Notebook](#jupyter-notebook)
-- [Kotlin](#kotlin)
-- [LLVM](#llvm)
-- [Lua](#lua)
-- [Makefile](#makefile)
-- [Markdown](#markdown)
-- [Nim](#nim)
-- [OCaml](#ocaml)
-- [Objective-C](#objective-c)
-- [OpenSCAD](#openscad)
-- [Others](#others)
-- [PHP](#php)
-- [PLpgSQL](#plpgsql)
-- [POV-Ray SDL](#pov-ray-sdl)
-- [Pascal](#pascal)
-- [Perl](#perl)
-- [PowerShell](#powershell)
-- [Processing](#processing)
-- [Python](#python)
-- [Reason](#reason)
-- [Roff](#roff)
-- [Ruby](#ruby)
-- [Rust](#rust)
-- [SCSS](#scss)
-- [Scala](#scala)
-- [Scheme](#scheme)
-- [Shell](#shell)
-- [Svelte](#svelte)
-- [Swift](#swift)
 - [TypeScript](#typescript)
-- [V](#v)
+- [Rust](#rust)
+- [C#](#c#)
+- [C](#c)
+- [Python](#python)
+- [Others](#others)
+- [HLSL](#hlsl)
+- [Shell](#shell)
+- [Raku](#raku)
+- [Go](#go)
+- [JavaScript](#javascript)
+- [Kotlin](#kotlin)
+- [Swift](#swift)
+- [PostScript](#postscript)
+- [Objective-C](#objective-c)
+- [Java](#java)
+- [Vim Script](#vim-script)
+- [PHP](#php)
+- [Lua](#lua)
+- [Nix](#nix)
+- [Elixir](#elixir)
+- [Assembly](#assembly)
+- [Verilog](#verilog)
+- [Jupyter Notebook](#jupyter-notebook)
+- [QML](#qml)
+- [HTML](#html)
+- [CSS](#css)
+- [Haskell](#haskell)
+- [ActionScript](#actionscript)
+- [Batchfile](#batchfile)
+- [Vue](#vue)
+- [Awk](#awk)
+- [GDScript](#gdscript)
+- [Makefile](#makefile)
+- [Svelte](#svelte)
+- [Haxe](#haxe)
+- [GLSL](#glsl)
+- [sed](#sed)
+- [Dart](#dart)
+- [PowerShell](#powershell)
+- [Pascal](#pascal)
+- [SCSS](#scss)
+- [Nim](#nim)
+- [XSLT](#xslt)
+- [CMake](#cmake)
+- [Crystal](#crystal)
+- [Red](#red)
+- [Ruby](#ruby)
+- [Zig](#zig)
+- [D](#d)
 - [VBA](#vba)
 - [VHDL](#vhdl)
+- [POV-Ray SDL](#pov-ray-sdl)
 - [Vala](#vala)
-- [Vim Script](#vim-script)
-- [Visual Basic](#visual-basic)
-- [Zig](#zig)
+- [HolyC](#holyc)
+- [OpenSCAD](#openscad)
+- [V](#v)
+- [Clojure](#clojure)
+- [Dockerfile](#dockerfile)
+- [Roff](#roff)
 - [mcfunction](#mcfunction)
-
-## ActionScript 
-
-- [adobe/avmplus](https://github.com/adobe/avmplus) - Source code for the Actionscript virtual machine
-
-## Assembly 
-
-- [Sakura-IT/SonnetAmiga](https://github.com/Sakura-IT/SonnetAmiga) - Reimplementation of WarpOS supporting Sonnet Crescendo 7200 and other PowerPC PCI cards (mirror of CVS development repository).
-- [matt-kempster/m2c](https://github.com/matt-kempster/m2c) - A MIPS and PowerPC decompiler.
-- [pret/pokered](https://github.com/pret/pokered) - Disassembly of Pokémon Red/Blue
-- [pwk4m1/TinyBIOS](https://github.com/pwk4m1/TinyBIOS) - A minimalist open source BIOS project for fun
-- [mertyildiran/ldca](https://github.com/mertyildiran/ldca) - Self-replicating, self-modifying Assembly program that can evolve into every possible computer program in the universe (EXPERIMENTAL)
-- [davidgiven/cpm65](https://github.com/davidgiven/cpm65) - CP/M for the 6502
-- [faissaloo/mfcd](https://github.com/faissaloo/mfcd) - An 864 byte Linux fan control daemon for the mid-2011 Macbook Air
-- [NattyNarwhal/vmwmouse](https://github.com/NattyNarwhal/vmwmouse) - VMware mouse driver for Windows 3.1
-- [historicalsource/pinballfantasies](https://github.com/historicalsource/pinballfantasies) - Pinball Fantasies (MS-DOS Port)
-- [tgrysztar/fasm](https://github.com/tgrysztar/fasm) - flat assembler 1 - reconstructed source history
-- [fcambus/spleen](https://github.com/fcambus/spleen) - Monospaced bitmap fonts
-- [Myself086/Project-Nested](https://github.com/Myself086/Project-Nested) - 
-- [nrdmn/elbrus-docs](https://github.com/nrdmn/elbrus-docs) - 
-- [uniabis/z80depacker](https://github.com/uniabis/z80depacker) - Depackers for Z80
-- [akkartik/mu](https://github.com/akkartik/mu) - Soul of a tiny new machine. More thorough tests → More comprehensible and rewrite-friendly software → More resilient society.
-- [ilyakurdyukov/micro-lzmadec](https://github.com/ilyakurdyukov/micro-lzmadec) - Micro LZMA decoder
-
-## AutoIt 
-
-- [Bioruebe/UniExtract2](https://github.com/Bioruebe/UniExtract2) - Universal Extractor 2 is a tool to extract files from any type of archive or installer.
-- [rcmaehl/WhyNotWin11](https://github.com/rcmaehl/WhyNotWin11) - Detection Script to help identify why your PC is not Windows 11 Release Ready. Now Supporting Update Checks!
-
-## Awk 
-
-- [soimort/translate-shell](https://github.com/soimort/translate-shell) - :speech_balloon: Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
-
-## Batchfile 
-
-- [Skulltrail192/One-Core-API-Binaries](https://github.com/Skulltrail192/One-Core-API-Binaries) - 
-- [pal1000/mesa-dist-win](https://github.com/pal1000/mesa-dist-win) - Pre-built Mesa3D drivers for Windows
-- [corbindavenport/cobalt](https://github.com/corbindavenport/cobalt) - Lightweight operating system based on FreeDOS
-- [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) - 🚀 An open and transparent modification to Windows, designed to optimize performance and latency.
-
-## C 
-
-- [morrownr/88x2bu-20210702](https://github.com/morrownr/88x2bu-20210702) - Linux Driver for USB WiFi Adapters that are based on the RTL8812BU and RTL8822BU Chipsets - v5.13.1
-- [Dn-Programming-Core-Management/Dn-FamiTracker](https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker) - modifications and improvements for 0CC-FamiTracker (based on j0CC-FamiTracker 0.6.3)
-- [audacity/audacity](https://github.com/audacity/audacity) - Audio Editor
-- [enjoy-digital/litex](https://github.com/enjoy-digital/litex) - Build your hardware, easily!
-- [arata-nvm/mitnal](https://github.com/arata-nvm/mitnal) - Twitter client for UEFI
-- [erysdren/prey95bsp](https://github.com/erysdren/prey95bsp) - a software-rendered viewer for Prey (1995) BSP files written in C
-- [shroom00/libopenmpt_py](https://github.com/shroom00/libopenmpt_py) - Python bindings for libopenmpt.
-- [dillongoostudios/goo-engine](https://github.com/dillongoostudios/goo-engine) - Custom build of blender with some extra NPR features.
-- [andrewshadura/tnat64](https://github.com/andrewshadura/tnat64) - IPv4 to IPv6 interceptor
-- [oxesoft/oxefmsynth](https://github.com/oxesoft/oxefmsynth) - Oxe FM Synth official repository
-- [jorio/OttoMatic](https://github.com/jorio/OttoMatic) - Pangea Software’s Otto Matic 🤖
-- [gch1p/voidnsrun](https://github.com/gch1p/voidnsrun) - Run glibc binaries in musl libc Void Linux environment
-- [pelya/android-shmem](https://github.com/pelya/android-shmem) - System V shared memory emulation on Android, using ashmem. That includes shmget, shmat, shmdt and shmctl functions.
-- [little-brother/sqlite-gui](https://github.com/little-brother/sqlite-gui) - Lightweight SQLite editor for Windows
-- [manatails/uefiseven](https://github.com/manatails/uefiseven) - An EFI loader that emulates int10h interrupts needed for booting Windows 7 under UEFI Class 3 systems.
-- [Smu1zel/rufus-7](https://github.com/Smu1zel/rufus-7) - The Reliable USB Formatting Utility
-- [pbatard/rufus](https://github.com/pbatard/rufus) - The Reliable USB Formatting Utility
-- [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) - GNU toolchain for RISC-V, including GCC
-- [aligrudi/fbpdf](https://github.com/aligrudi/fbpdf) - A small framebuffer pdf, djvu, epub, xps, and cbz viewer
-- [slavaGanzin/await](https://github.com/slavaGanzin/await) - 28Kb, small memory footprint, single binary that run list of commands in parallel and waits for their termination
-- [protodomemusic/super-wavexe](https://github.com/protodomemusic/super-wavexe) - A little wavetable synthesizer optimized to make tiny executable music files.
-- [bernhardstrobl/Pico3D](https://github.com/bernhardstrobl/Pico3D) - Open World 3D Game Engine for the PicoSystem & RP2040 Microcontroller
-- [rxseger/rx_tools](https://github.com/rxseger/rx_tools) - rx_fm, rx_power, and rx_sdr tools for receiving data from SDRs, based on rtl_fm, rtl_power, and rtl_sdr from librtlsdr, but using the SoapySDR vendor-neutral SDR support library instead, intended to s
-- [TheRealOrange/icer_compression](https://github.com/TheRealOrange/icer_compression) - Progressive, error tolerant, wavelet-based image compression algorithm
-- [shuffle2/nx2elf](https://github.com/shuffle2/nx2elf) - Convert Nintendo Switch executable files to ELFs
-- [falkTX/non](https://github.com/falkTX/non) - Non reinvents the DAW.  Powerful enough to form a complete studio, fast and light enough to run on low-end hardware like the eeePC or Raspberry Pi, and so reliable that it can be used live, the Non DA
-- [wallace-aph/tiles-and-such](https://github.com/wallace-aph/tiles-and-such) - Archives of tilelable images/wallpapers
-- [aligrudi/neatlibc](https://github.com/aligrudi/neatlibc) - A small arm/x86(-64) libc
-- [ValleyBell/MidiConverters](https://github.com/ValleyBell/MidiConverters) - various tools that convert game data into MIDI files
-- [phoboslab/qoa](https://github.com/phoboslab/qoa) - The “Quite OK Audio Format” for fast, lossy audio compression
-- [snesrev/zelda3](https://github.com/snesrev/zelda3) - 
-- [landley/toybox](https://github.com/landley/toybox) - toybox
-- [oerg866/win98-quickinstall](https://github.com/oerg866/win98-quickinstall) - A framework + installer to (very) quickly install Windows 98 on anything from a 486 up to a modern system
-- [dsp56300/gearmulator](https://github.com/dsp56300/gearmulator) - Emulation of classic VA synths of the late 90s/2000s that featured the Motorola 56300 family DSP
-- [BodbDearg/PlayStation1Vsts](https://github.com/BodbDearg/PlayStation1Vsts) - A fork of the iPlug2 Framework (https://github.com/iplug2/iplug2) to host 2 VST instruments: a PlayStation 1 SPU instrument (ADPCM based sampler) and a PlayStation 1 SPU reverb module.
-- [Immediate-Mode-UI/Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) - A single-header ANSI C immediate mode cross-platform GUI library
-- [LMP88959/NTSC-CRT](https://github.com/LMP88959/NTSC-CRT) - NTSC encoding/decoding in C89 using only integers and fixed point math. Supports NES decoding. Can be used as an image filter for games or real-time applications.
-- [json-c/json-c](https://github.com/json-c/json-c) - https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/
-- [TCRF/vgmid](https://github.com/TCRF/vgmid) - C64 and SNES/SFC playroutine identity scanner
-- [mcritchlow/farbfeld](https://github.com/mcritchlow/farbfeld) - The Suckless farbfeld tool https://tools.suckless.org/farbfeld/
-- [IvorySQL/IvorySQL](https://github.com/IvorySQL/IvorySQL) - Open Source Oracle Compatible PostgreSQL.
-- [emilk/wfc](https://github.com/emilk/wfc) - A C++ port of Wave Function Collapse Tiling
-- [psi29a/unsf](https://github.com/psi29a/unsf) - Converts SoundFont .sf2 files into GUS-type instrument patches.
-- [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) - Port of OpenAI's Whisper model in C/C++
-- [x42/lv2vst](https://github.com/x42/lv2vst) - experimental LV2 to VST2.x wrapper
-- [9fans/plan9port](https://github.com/9fans/plan9port) - Plan 9 from User Space
-- [pietroborrello/CustomProcessingUnit](https://github.com/pietroborrello/CustomProcessingUnit) - The first analysis framework for CPU microcode
-- [libav/c99-to-c89](https://github.com/libav/c99-to-c89) - Tool to convert C99 code to MSVC-compatible C89
-- [jart/blink](https://github.com/jart/blink) - tiniest x86-64-linux emulator
-- [AltraMayor/f3](https://github.com/AltraMayor/f3) - F3 - Fight Flash Fraud
-- [rui314/chibicc](https://github.com/rui314/chibicc) - A small C compiler
-- [uyjulian/spc2it](https://github.com/uyjulian/spc2it) - Convert SPC files to IT (Impulse Tracker) files
-- [notaz/picodrive](https://github.com/notaz/picodrive) - Fast MegaDrive/MegaCD/32X emulator
-- [morrownr/8821au-20210708](https://github.com/morrownr/8821au-20210708) - Linux Driver for USB WiFi Adapters that are based on the RTL8811AU and RTL8821AU Chipsets - v5.12.5.2
-- [pfalcon/uzlib](https://github.com/pfalcon/uzlib) - Radically unbloated DEFLATE/zlib/gzip compression/decompression library. Can decompress any gzip/zlib data, and offers simplified compressor which produces gzip-compatible output, while requiring much
-- [nsxiv/nsxiv](https://github.com/nsxiv/nsxiv) - Read-only mirror of Neo Simple X Image Viewer
-- [woltapp/blurhash](https://github.com/woltapp/blurhash) - A very compact representation of a placeholder for an image.
-- [rxi/microtar](https://github.com/rxi/microtar) - A lightweight tar library written in ANSI C
-- [intel/qatlib](https://github.com/intel/qatlib) - 
-- [georghe-crihan/imgact_linux](https://github.com/georghe-crihan/imgact_linux) - OSX KEXT to allow seamless running of Linux binary executables (through Noah ABI) aka binfmt-misc for OSX
-- [LuisRusso/PamUUID](https://github.com/LuisRusso/PamUUID) - A PAM authentication for Linux and FreeBSD using USB Flash Drives.
-- [sjmulder/trickle](https://github.com/sjmulder/trickle) - 600 baud pipe and terminal.
-- [spkr-beep/beep](https://github.com/spkr-beep/beep) - beep is a command line tool for linux that beeps the PC speaker
-- [AndrewFromMelbourne/fb2png](https://github.com/AndrewFromMelbourne/fb2png) - Save Linux frambuffer (/dev/fb0) to a PNG image file.
-- [taviso/123elf](https://github.com/taviso/123elf) - A native port of Lotus 1-2-3 to Linux.
-- [raysan5/raylib](https://github.com/raysan5/raylib) - A simple and easy-to-use library to enjoy videogames programming
-- [raysan5/raygui](https://github.com/raysan5/raygui) - A simple and easy-to-use immediate-mode gui library
-- [dcantrell/bsdutils](https://github.com/dcantrell/bsdutils) - Alternative to GNU coreutils using software from FreeBSD
-- [vnteles/cellowm](https://github.com/vnteles/cellowm) - A floating window manager smooth as a cello
-- [sebknzl/krawall](https://github.com/sebknzl/krawall) - XM/S3M-Player for the Gameboy Advance (GBA)
-- [shadow-1/yi-hack-v3](https://github.com/shadow-1/yi-hack-v3) - Alternative Firmware for Xiaomi Cameras based on Hi3518e Chipset
-- [esxgx/sc9800-epos-sdlx](https://github.com/esxgx/sc9800-epos-sdlx) - A Simple DirectMedia Layer porting for sc9800 epos
-- [abakh/nbsdgames](https://github.com/abakh/nbsdgames) - A package of 18 text-based modern games
-- [maharmstone/quibble](https://github.com/maharmstone/quibble) - Quibble - the custom Windows bootloader
-- [jarcode-foss/glava](https://github.com/jarcode-foss/glava) - GLava - OpenGL audio spectrum visualizer
-- [AidoP/Skypaper](https://github.com/AidoP/Skypaper) - Live glsl wallpaper for Linux
-- [OpenE2K/qemu-e2k](https://github.com/OpenE2K/qemu-e2k) - QEMU with Elbrus emulation
-- [wieslawsoltes/rewavi](https://github.com/wieslawsoltes/rewavi) - rewitten/modified WAVI
-- [mirh/opemu-linux](https://github.com/mirh/opemu-linux) - Linux kernel module for emulating SSE instructions
-- [Skulltrail192/One-Core-Api](https://github.com/Skulltrail192/One-Core-Api) - A complete layer to get compatibility on XP/2003 for newer applications
-- [bulwarkid/virtual-fido](https://github.com/bulwarkid/virtual-fido) - A Virtual FIDO2 USB Device
-- [grandseiken/byacc](https://github.com/grandseiken/byacc) - Berkeley YACC (git mirror)
-- [michaelforney/sbase](https://github.com/michaelforney/sbase) - Portable UNIX tools (mirror)
-- [corsix/amx](https://github.com/corsix/amx) - Apple AMX Instruction Set
-- [dougallj/zlib-dougallj](https://github.com/dougallj/zlib-dougallj) - Experimental fork of zlib with performance improvements
-- [kentjhall/horizon-linux](https://github.com/kentjhall/horizon-linux) - arm64 Linux patched to run programs for the Nintendo Switch’s Horizon OS
-- [michaelforney/velox](https://github.com/michaelforney/velox) - velox window manager
-- [michaelforney/samurai](https://github.com/michaelforney/samurai) - ninja-compatible build tool written in C
-- [Allwinner-Homlet/H3-BSP4.4-linux](https://github.com/Allwinner-Homlet/H3-BSP4.4-linux) - 
-- [Allwinner-Homlet/H3-BSP4.4-bootloader](https://github.com/Allwinner-Homlet/H3-BSP4.4-bootloader) - 
-- [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
-- [sailfishos/gst-droid](https://github.com/sailfishos/gst-droid) - 
-- [mer-hybris/libgbinder](https://github.com/mer-hybris/libgbinder) - GLib-style interface to binder
-- [mer-hybris/pulseaudio-modules-droid-jb2q](https://github.com/mer-hybris/pulseaudio-modules-droid-jb2q) - 
-- [mer-hybris/pulseaudio-modules-droid](https://github.com/mer-hybris/pulseaudio-modules-droid) - multimedia-pulseaudio-modules-droid
-- [SapionAps/ParaTos](https://github.com/SapionAps/ParaTos) - Userspace Tos (and MiNT) emulator for Linux.
-- [frokk/goxel2](https://github.com/frokk/goxel2) - [ :warning: Not Maintained :warning: ] a cross-platform 3D voxel art editor
-- [vittorioromeo/SSVOpenHexagon](https://github.com/vittorioromeo/SSVOpenHexagon) - C++20 FOSS clone of "Super Hexagon". Depends on SSVStart, SSVEntitySystem, SSVLuaWrapper, SSVMenuSystem, JSONcpp, SFML2.0. Features JSON/LUA customizable game files, a soundtrack by BOSSFIGHT, pseudo-
-- [matanui159/ReplaySorcery](https://github.com/matanui159/ReplaySorcery) - An open-source, instant-replay solution for Linux
-- [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm) - Intel Wi-Fi Drivers for macOS
-- [xlucn/xdg-xmenu](https://github.com/xlucn/xdg-xmenu) - Generate menu for xmenu
-- [eerimoq/monolinux-jiffy](https://github.com/eerimoq/monolinux-jiffy) - A Monolinux distro for the Jiffy board!
-- [phillbush/pmenu](https://github.com/phillbush/pmenu) - A pie-menu in xlib and imlib2.
-- [saitoha/sixel](https://github.com/saitoha/sixel) - Mirror of "sixel" original version (kmiya's sixel). The origin of libsixel.
-- [ali1234/raspi-teletext](https://github.com/ali1234/raspi-teletext) - Generate teletext with a Raspberry Pi
-- [jaredmcneill/quartz64_uefi](https://github.com/jaredmcneill/quartz64_uefi) - A port of Tianocore EDK II to Rockchip RK356x based SBCs.
-- [cdown/psi-notify](https://github.com/cdown/psi-notify) - Alert when your machine is becoming oversaturated, *before* it slows to a crawl
-- [jafarlihi/connmap](https://github.com/jafarlihi/connmap) - connmap is an X11 desktop widget that shows location of your current network peers on a world map
-- [Kharacternyk/pacwall](https://github.com/Kharacternyk/pacwall) - A live wallpaper that shows the dependency graph and status of installed packages.
-- [LibreELEC/mali-midgard](https://github.com/LibreELEC/mali-midgard) - ARM Mali kernel drivers used with Midgard GPU's in LibreELEC
-- [ilyakurdyukov/jpeg-quantsmooth](https://github.com/ilyakurdyukov/jpeg-quantsmooth) - JPEG artifacts removal based on quantization coefficients.
-- [superzazu/8080](https://github.com/superzazu/8080) - A complete emulation of the Intel 8080 processor written in C99.
-- [jarun/nnn](https://github.com/jarun/nnn) - n³ The unorthodox terminal file manager
-- [kiedtl/chmap](https://github.com/kiedtl/chmap) - A CLI utility to get info for Unicode characters
-- [yshui/picom](https://github.com/yshui/picom) - A lightweight compositor for X11
-- [fairyglade/ly](https://github.com/fairyglade/ly) - display manager with console UI
-- [davatorium/rofi](https://github.com/davatorium/rofi) - Rofi: A window switcher, application launcher and dmenu replacement
-- [fangfufu/httpdirfs](https://github.com/fangfufu/httpdirfs) - A filesystem which allows you to mount HTTP directory listings, with a permanent cache. Now with Airsonic / Subsonic support!
-- [libsdl-org/sdl12-compat](https://github.com/libsdl-org/sdl12-compat) - An SDL-1.2 compatibility layer that uses SDL 2.0 behind the scenes.
-- [buffet/filet](https://github.com/buffet/filet) - A fucking fucking fast file fucker
-- [mohabaks/dotfiles](https://github.com/mohabaks/dotfiles) - :computer:  workstation/laptop configs.
-- [adrianlopezroche/fdupes](https://github.com/adrianlopezroche/fdupes) - FDUPES is a program for identifying or deleting duplicate files residing within specified directories.
-- [davidgiven/ack](https://github.com/davidgiven/ack) - The Amsterdam Compiler Kit
-- [Syniurge/ShieldControllerWinDriver](https://github.com/Syniurge/ShieldControllerWinDriver) - HIDUSB lower filter driver for NVIDIA Shield Controller
-- [sloretz/rtl8811au](https://github.com/sloretz/rtl8811au) - Driver for usb wifi devices using rtl8811au chip
-- [openzfsonwindows/ZFSin](https://github.com/openzfsonwindows/ZFSin) - OpenZFS on Windows port
-- [maharmstone/btrfs](https://github.com/maharmstone/btrfs) - WinBtrfs - an open-source btrfs driver for Windows
-- [lowprofile100/xfsd](https://github.com/lowprofile100/xfsd) - XFS readonly driver for Windows
-- [dokan-dev/dokany](https://github.com/dokan-dev/dokany) - User mode file system library for windows with FUSE Wrapper
-- [a-nikolaev/curseofwar](https://github.com/a-nikolaev/curseofwar) - A Real Time Strategy game for Linux.
-- [alunux/usbip-service-discovery](https://github.com/alunux/usbip-service-discovery) - USB/IP Service Discovery - Provide GUI and some enhancement for USB/IP userspace
-- [gordboy/rtl8812au](https://github.com/gordboy/rtl8812au) - Realtek 8812AU driver version 5.2.20.2
-- [hfiref0x/WinObjEx64](https://github.com/hfiref0x/WinObjEx64) - Windows Object Explorer 64-bit
-- [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x) - DOSBox-X fork of the DOSBox project
-- [Keruspe/GPaste](https://github.com/Keruspe/GPaste) - Clipboard management system
-- [ksherlock/mpw](https://github.com/ksherlock/mpw) - Macintosh Programmer's Workshop (mpw) compatibility layer
-- [meepingsnesroms/prc-tools-remix](https://github.com/meepingsnesroms/prc-tools-remix) - prc-tools 2.3 ported to modern Linux / Mac OS X
-- [naggety/picotts](https://github.com/naggety/picotts) - Pico TTS: text to speech voice sinthesizer from SVox, included in Android AOSP
-- [NDISulator/ndisulator](https://github.com/NDISulator/ndisulator) - NDIS miniport driver wrapper for FreeBSD
-- [nelhage/reptyr](https://github.com/nelhage/reptyr) - Reparent a running program to a new terminal
-- [PromyLOPh/pianobar](https://github.com/PromyLOPh/pianobar) - Console-based pandora.com player
-- [pr8x/ShadertoyWallpaper](https://github.com/pr8x/ShadertoyWallpaper) - Live wallpaper directly from https://shadertoy.com
-- [tenox7/cmdmax](https://github.com/tenox7/cmdmax) - maximize cmd.exe console window from command line
-- [tenox7/snoopy](https://github.com/tenox7/snoopy) - Portable Command Line Packet Sniffer for Windows
-- [tjko/jpegoptim](https://github.com/tjko/jpegoptim) - jpegoptim - utility to optimize/compress JPEG files
-- [tomaspinho/rtl8821ce](https://github.com/tomaspinho/rtl8821ce) - 
-- [vinszent/gnome-twitch](https://github.com/vinszent/gnome-twitch) - Enjoy Twitch on your GNU/Linux desktop
-- [bradleybauer/music_visualizer](https://github.com/bradleybauer/music_visualizer) - Shader viewer / music visualizer for Windows and Linux
-- [mate-desktop/engrampa](https://github.com/mate-desktop/engrampa) - A file archiver for MATE
-- [a-j-wood/pv](https://github.com/a-j-wood/pv) - Pipe Viewer - monitor the progress of data through a pipe
-- [mborgerson/fatx](https://github.com/mborgerson/fatx) - Original Xbox FATX Filesystem Library, Python bindings, FUSE driver, and GUI explorer
-- [dorimanx/exfat-nofuse](https://github.com/dorimanx/exfat-nofuse) - Android ARM Linux non-fuse read/write kernel driver for exFat and VFat Android file systems
-- [relan/exfat](https://github.com/relan/exfat) - Free exFAT file system implementation
-- [ctm/executor](https://github.com/ctm/executor) - old-school Macintosh Emulator
-- [ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) - GoodbyeDPI — Deep Packet Inspection circumvention utility (for Windows)
-- [e8johan/tosemu](https://github.com/e8johan/tosemu) - An emulator environment for TOS applications (highly experimental)
-- [tenox7/aclock](https://github.com/tenox7/aclock) - ascii analog clock for text console displays and terminals and terminal emulators
-- [tizonia/tizonia-openmax-il](https://github.com/tizonia/tizonia-openmax-il) - Command-line cloud music player for Linux with support for Spotify, Google Play Music, YouTube, SoundCloud, TuneIn, iHeartRadio, Plex servers and Chromecast devices.
-- [ps2homebrew/pfsshell](https://github.com/ps2homebrew/pfsshell) - Browse and edit PFS filesystems on APA-formatted hard drive
-- [vhelin/wla-dx](https://github.com/vhelin/wla-dx) - WLA DX - Yet Another GB-Z80/Z80/6502/65C02/65CE02/65816/68000/6800/6801/6809/8008/8080/HUC6280/SPC-700/SuperFX Multi Platform Cross Assembler Package
-- [Xfennec/progress](https://github.com/Xfennec/progress) - Linux tool to show progress for cp, mv, dd, ... (formerly known as cv)
-- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
-- [hcs64/vgm_ripping](https://github.com/hcs64/vgm_ripping) - Sources for game music ripping tools
-- [JayXon/Leanify](https://github.com/JayXon/Leanify) - lightweight lossless file minifier/optimizer
-- [linux-sunxi/sunxi-tools](https://github.com/linux-sunxi/sunxi-tools) - A collection of command line tools for ARM devices with Allwinner SoCs.
-- [NationalSecurityAgency/DCP](https://github.com/NationalSecurityAgency/DCP) - Digest, stat, and copy files from one location to another in the same read pass
-- [Aorimn/dislocker](https://github.com/Aorimn/dislocker) - FUSE driver to read/write Windows' BitLocker-ed volumes under Linux / Mac OSX
-- [AppImageCommunity/NCSA-Mosaic-AppImage](https://github.com/AppImageCommunity/NCSA-Mosaic-AppImage) - NCSA Mosaic 2.7 as an AppImage for most Linux distributions
-- [bol-van/zapret](https://github.com/bol-van/zapret) - Обход DPI в linux
-- [facebook/zstd](https://github.com/facebook/zstd) - Zstandard - Fast real-time compression algorithm
-- [fhanau/Efficient-Compression-Tool](https://github.com/fhanau/Efficient-Compression-Tool) - Fast and effective C++ file optimizer
-- [amadvance/advancecomp](https://github.com/amadvance/advancecomp) - A collection of recompression utilities for your .ZIP archives, .PNG snapshots, .MNG video clips and .GZ files
-- [inikep/lizard](https://github.com/inikep/lizard) - Lizard (formerly LZ5) is an efficient compressor with very fast decompression. It achieves compression ratio that is comparable to zip/zlib and zstd/brotli (at low and medium compression levels) at de
-- [hsoft/collapseos](https://github.com/hsoft/collapseos) - Bootstrap post-collapse technology
-- [icculus/2ine](https://github.com/icculus/2ine) - An OS/2 "emulator" for Linux.
-- [deadw00d/AROS](https://github.com/deadw00d/AROS) - 
-- [cozis/xHTTP](https://github.com/cozis/xHTTP) - A lightweight HTTP server as a library.
-- [premake/premake-core](https://github.com/premake/premake-core) - Premake
-- [cl91/NeptuneOS](https://github.com/cl91/NeptuneOS) - Neptune OS: A Windows NT personality for the seL4 microkernel
-- [TrungNguyen1909/qemu-t8030](https://github.com/TrungNguyen1909/qemu-t8030) - iPhone 11 emulated on QEMU
-- [orangeduck/Cello](https://github.com/orangeduck/Cello) - Higher level programming in C
-- [FWGS/xash3d-fwgs](https://github.com/FWGS/xash3d-fwgs) - Xash3D FWGS engine.
-- [TheScienceElf/TI-84-CE-Raytracing](https://github.com/TheScienceElf/TI-84-CE-Raytracing) - A ray tracing engine for the Ti84 CE written in C++ and ez80 assembly.
-- [kernc/xsuspender](https://github.com/kernc/xsuspender) - :eyes: :computer: :zzz: :battery: Save battery by auto-suspending unfocused X11 applications.
-- [krychu/wfc](https://github.com/krychu/wfc) - Wave Function Collapse library in C, plus a command-line tool
-- [nokia/awkcc](https://github.com/nokia/awkcc) - 
-- [janmojzis/tinyssh](https://github.com/janmojzis/tinyssh) - TinySSH is small server (less than 100000 words of code)
-- [phoboslab/qoi](https://github.com/phoboslab/qoi) - The “Quite OK Image Format” for fast, lossless image compression
-- [0x09/dspfun](https://github.com/0x09/dspfun) - Set of *nix utilities for experimentation and learning about spectral analysis of images
-- [atomicobject/heatshrink](https://github.com/atomicobject/heatshrink) - data compression library for embedded/real-time systems
-- [been-jamming/Visterm](https://github.com/been-jamming/Visterm) - A terminal application which adds an audio visualizer to the terminal!
-- [daddesio/utkencode](https://github.com/daddesio/utkencode) - Encoder for EA MicroTalk, a speech codec based on multi-pulse linear prediction used in various EA games. This encoder uses least squares on the excitation signal and does not yet take into account ps
-- [fcambus/bdf2sfd](https://github.com/fcambus/bdf2sfd) - BDF to SFD converter, allowing to vectorize bitmap fonts
-- [FD-/usb_charge](https://github.com/FD-/usb_charge) - Charge USB devices (primarily iOS devices) connected to Linux
-- [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) - Virtual cables between any audio source and any speaker in your home
-- [karlstav/cava](https://github.com/karlstav/cava) - Cross-platform Audio Visualizer
-- [haampie/libtree](https://github.com/haampie/libtree) - ldd as a tree
-- [GPUOpen-Effects/FidelityFX-CLI](https://github.com/GPUOpen-Effects/FidelityFX-CLI) - FidelityFX CLI
-- [MycroftAI/mimic1](https://github.com/MycroftAI/mimic1) - Mycroft's TTS engine, based on CMU's Flite (Festival Lite)
-- [pcercuei/lightrec](https://github.com/pcercuei/lightrec) - MIPS-to-everything dynamic recompiler for PSX emulators
-- [rsps/emul_fb](https://github.com/rsps/emul_fb) - A Linux userspace framebuffer emulator
-- [s-macke/SAM](https://github.com/s-macke/SAM) - Software Automatic Mouth - Tiny Speech Synthesizer
-- [Syllo/nvtop](https://github.com/Syllo/nvtop) - GPUs process monitoring for AMD, Intel and NVIDIA
-- [Titor8115/mandown](https://github.com/Titor8115/mandown) - man-page inspired Markdown viewer
-- [zigalenarcic/mangl](https://github.com/zigalenarcic/mangl) - An enhanced man page viewer for linux and BSD systems based on OpenGL and mandoc libraries
-- [Ildaron/ironbci](https://github.com/Ildaron/ironbci) - Open-Source Brain-Computer Interface, ADS1299 and STM32
-- [radareorg/radare2](https://github.com/radareorg/radare2) - UNIX-like reverse engineering framework and command-line toolset
-- [haileys/doslinux](https://github.com/haileys/doslinux) - Run Linux programs on DOS
-- [mattiasgustavsson/dos-like](https://github.com/mattiasgustavsson/dos-like) - Engine for making things with a MS-DOS feel, but for modern platforms
-- [aquynh/unidos](https://github.com/aquynh/unidos) - MSDOS emulator built on top of Unicorn engine
-- [unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn) - Unicorn CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, PowerPC, RiscV, S390x, TriCore, X86)
-- [pmq20/ruby-packer](https://github.com/pmq20/ruby-packer) - Packing your Ruby application into a single executable.
-- [otya128/winevdm](https://github.com/otya128/winevdm) - 16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows
-- [cy384/ssheven](https://github.com/cy384/ssheven) - A minimal new SSH client for Mac OS 7/8/9
-- [ahrm/sioyek](https://github.com/ahrm/sioyek) - Sioyek is a PDF viewer with a focus on textbooks and research papers
-- [c3lang/c3c](https://github.com/c3lang/c3c) - Compiler for the C3 language
-- [dbohdan/hicolor](https://github.com/dbohdan/hicolor) - 🎨 Convert images to 15/16-bit RGB color with dithering
-- [merbanan/rtl_433](https://github.com/merbanan/rtl_433) - Program to decode radio transmissions from devices on the ISM bands (and other frequencies)
-- [zrythm/zrythm](https://github.com/zrythm/zrythm) - a highly automated and intuitive digital audio workstation - official mirror
-- [TrevorAttema/OTGMessenger](https://github.com/TrevorAttema/OTGMessenger) - Off The Grid Messenger
-- [gueratomik/gloss3d](https://github.com/gueratomik/gloss3d) - Gloss3D - 3D Modeler for Linux and Windows
-- [ec-/Quake3e](https://github.com/ec-/Quake3e) - Improved Quake III Arena engine
-- [microsoft/ebpf-for-windows](https://github.com/microsoft/ebpf-for-windows) - eBPF implementation that runs on top of Windows
-- [NixOS/patchelf](https://github.com/NixOS/patchelf) - A small utility to modify the dynamic linker and RPATH of ELF executables
-- [danoon2/Boxedwine](https://github.com/danoon2/Boxedwine) - 
-- [martanne/dvtm](https://github.com/martanne/dvtm) - dvtm brings the concept of tiling window management, popularized by X11-window managers like dwm to the console. As a console window manager it tries to make it easy to work with multiple console base
-- [DualCoder/vgpu_unlock](https://github.com/DualCoder/vgpu_unlock) - Unlock vGPU functionality for consumer grade GPUs.
-- [mptre/yank](https://github.com/mptre/yank) - Yank terminal output to clipboard
-- [stevenknown/xgen](https://github.com/stevenknown/xgen) - 
-- [zpl-c/zpl](https://github.com/zpl-c/zpl) - 📐 Pushing the boundaries of simplicity
-- [ppelleti/json65](https://github.com/ppelleti/json65) - A JSON parser written in 6502 assembly language.
-- [jbush001/NyuziProcessor](https://github.com/jbush001/NyuziProcessor) - GPGPU microprocessor architecture
-- [microsoft/checkedc](https://github.com/microsoft/checkedc) - Checked C is an extension to C that lets programmers write C code that is guaranteed by the compiler to be type-safe.  The goal is to let people easily make their existing C code type-safe and elimina
-- [lz4/lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
-- [mvp/uhubctl](https://github.com/mvp/uhubctl) - uhubctl - USB hub per-port power control
-- [0x09/resdet](https://github.com/0x09/resdet) - Detect source resolution of upscaled images
-- [aubio/aubio](https://github.com/aubio/aubio) - a library for audio and music analysis
-- [beehive-lab/mambo](https://github.com/beehive-lab/mambo) - A low-overhead dynamic binary instrumentation and modification tool for ARM (both AArch32 and AArch64 support) and RISC-V (RV64GC).
-- [BigEvilCorporation/PCToom](https://github.com/BigEvilCorporation/PCToom) - A stupid experiment for LGR's stupid monitor
-- [dankamongmen/notcurses](https://github.com/dankamongmen/notcurses) - blingful character graphics/TUI library. definitely not curses.
-- [cnlohr/spreadgine](https://github.com/cnlohr/spreadgine) - An OpenGL ES engine with WebGL Output.
-- [ARM-software/optimized-routines](https://github.com/ARM-software/optimized-routines) - Optimized implementations of various library functions for ARM architecture processors
-- [andreiw/rk3399-edk2](https://github.com/andreiw/rk3399-edk2) - Uefi Rockchip Rk3399Pkg
-- [DTolm/VkFFT](https://github.com/DTolm/VkFFT) - Vulkan/CUDA/HIP/OpenCL/Level Zero/Metal Fast Fourier Transform library
-- [FabioRM/dsp3D](https://github.com/FabioRM/dsp3D) - Powerful 3D rendering engine for ARM Cortex-M
-- [hfiref0x/VBoxHardenedLoader](https://github.com/hfiref0x/VBoxHardenedLoader) - VirtualBox VM detection mitigation loader
-- [ibara/8088ify](https://github.com/ibara/8088ify) - The famous Intel 8080 CP/M 2.2 to Intel 8086/8088 MS-DOS assembly language translator.
-- [IvantheDugtrio/veclib](https://github.com/IvantheDugtrio/veclib) - Vector library for porting SSE2 instructions to other architectures
-- [kunpengcompute/AvxToNeon](https://github.com/kunpengcompute/AvxToNeon) - Encapsulate the frequently used AVX instructions as independent modules to reduce repeated development workload.
-- [kunpengcompute/zstd](https://github.com/kunpengcompute/zstd) - A fast real-time compression algorithm
-- [kurthildebrand/hyperspace](https://github.com/kurthildebrand/hyperspace) - Firmware and Software suite for the Hyperspace wireless, location-based mesh network.
-- [LeMaker/linux-actions](https://github.com/LeMaker/linux-actions) - Linux Source Code which can support the LeMaker Guitar
-- [lieff/minimp3](https://github.com/lieff/minimp3) - Minimalistic MP3 decoder single header library
-- [marciopocebon/MG21DOOM](https://github.com/marciopocebon/MG21DOOM) - Doom port to the Ikea Tradfri RGB1923R5 and any device using Silicon labs EFR32MG21 based modules
-- [mdrjr/5422_mali](https://github.com/mdrjr/5422_mali) - Mali Binaries for ODROID Products with Exynos 5422
-- [mediatek-android-development/android_kernel_mediatek_mt6761-62-4.9](https://github.com/mediatek-android-development/android_kernel_mediatek_mt6761-62-4.9) - Mediatek Alps kernel source 4.9 for mt6761 / mt6763 / mt6765
-- [Mellanox/QAT_Engine](https://github.com/Mellanox/QAT_Engine) - 
-- [michalsc/Emu68](https://github.com/michalsc/Emu68) - M68K emulation for AArch64/AArch32
-- [micropython/micropython](https://github.com/micropython/micropython) - MicroPython - a lean and efficient Python implementation for microcontrollers and constrained systems
-- [mintsuki/fvwm95](https://github.com/mintsuki/fvwm95) - fvwm95, ported to work on modern distributions such as Debian, Ubuntu, and Arch.
-- [moonjit/moonjit](https://github.com/moonjit/moonjit) - Just-In-Time Compiler for the Lua Programming language. Fork of LuaJIT to continue development. This project does not have an active maintainer, see https://twitter.com/siddhesh_p/status/1308594269502
-- [nomego/intel_nuc_led](https://github.com/nomego/intel_nuc_led) - Intel NUC8i7HVK (Hades) LED Control for Linux
-- [nuvious/pam-duress](https://github.com/nuvious/pam-duress) - A Pluggable Authentication Module (PAM) which allows the establishment of alternate passwords that can be used to perform actions to clear sensitive data, notify IT/Security staff, close off sensitive
-- [phillbush/xclickroot](https://github.com/phillbush/xclickroot) - click on root window and run a command
-- [pret/agbcc](https://github.com/pret/agbcc) - C compiler
-- [rampageX/firmware-mod-kit](https://github.com/rampageX/firmware-mod-kit) - Automatically exported from code.google.com/p/firmware-mod-kit
-- [gbdev/rgbds](https://github.com/gbdev/rgbds) - Rednex Game Boy Development System - An assembly toolchain for the Nintendo Game Boy & Game Boy Color
-- [rxi/fe](https://github.com/rxi/fe) - A tiny, embeddable language implemented in ANSI C
-- [rxi/microui](https://github.com/rxi/microui) - A tiny immediate-mode UI library
-- [rxi/vec](https://github.com/rxi/vec) - A type-safe dynamic array implementation for C
-- [richgel999/fpng](https://github.com/richgel999/fpng) - Super fast C++ .PNG writer/reader
-- [ssvb/xf86-video-fbturbo](https://github.com/ssvb/xf86-video-fbturbo) - Xorg DDX driver for ARM devices (Allwinner, RPi and others)
-- [simd-everywhere/simde](https://github.com/simd-everywhere/simde) - Implementations of SIMD instruction sets for systems which don't natively support them.
-- [Sysinternals/SysmonForLinux](https://github.com/Sysinternals/SysmonForLinux) - 
-- [superzazu/pac](https://github.com/superzazu/pac) - A Pac-Man emulator written in C99 with the SDL2.
-- [vvaltchev/tilck](https://github.com/vvaltchev/tilck) - A Tiny Linux-Compatible Kernel
-- [VectorChief/UniSIMD-assembler](https://github.com/VectorChief/UniSIMD-assembler) - SIMD macro assembler unified for ARM, MIPS, PPC and x86
-- [Usbac/quich](https://github.com/Usbac/quich) - Just an advanced terminal calculator.
-- [toots/shine](https://github.com/toots/shine) - Super fast fixed-point MP3 encoder with JS/wasm and android native bindings.
-- [tofurky/tegra30_debrick](https://github.com/tofurky/tegra30_debrick) - fusee-gelee payload, supporting files, and guide for debricking Tegra 3 devices (2012 Nexus 7 and Ouya)
-- [Wren6991/PicoDVI](https://github.com/Wren6991/PicoDVI) - Bitbanged DVI on the RP2040 Microcontroller
-- [littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) - A little fail-safe filesystem designed for microcontrollers
-- [xerpi/vita2hos](https://github.com/xerpi/vita2hos) - [WIP] PlayStation Vita to Horizon OS (Nintendo Switch OS) translation layer
-- [debauchee/barrier](https://github.com/debauchee/barrier) - Open-source KVM software
-- [peng-zhihui/HoloCubic](https://github.com/peng-zhihui/HoloCubic) - 带网络功能的伪全息透明显示桌面站
-- [bebbo/amiga-gcc](https://github.com/bebbo/amiga-gcc) - The GNU C-Compiler with Binutils and other useful tools for cross development for Amiga
-- [croemheld/elfboot](https://github.com/croemheld/elfboot) - A multiboot-compliant Executable and Linking Format (ELF) bootloader for the x86 architecture.
-- [DoctorWkt/fbcc](https://github.com/DoctorWkt/fbcc) - Fabrice Bellard's fbcc C Compiler
-- [dougg3/micro-xls-writer](https://github.com/dougg3/micro-xls-writer) - MicroXLSWriter - A simple and small XLS file creation library written in C suitable for use on microcontrollers
-- [jgmenu/jgmenu](https://github.com/jgmenu/jgmenu) - An X11 menu
-- [rswinkle/PortableGL](https://github.com/rswinkle/PortableGL) - An implementation of OpenGL 3.x-ish in clean C
-- [M-HT/SR](https://github.com/M-HT/SR) - A project to statically recompile following games to create Windows or Linux (x86 or arm) versions of the games - Albion, X-Com: UFO Defense (UFO: Enemy Unknown), X-Com: Terror from the Deep, Warcraft
-- [suppertails66/cmpdism](https://github.com/suppertails66/cmpdism) - Multi-architecture comparative disassembler
-- [heliosproj/HeliOS](https://github.com/heliosproj/HeliOS) - A community delivered, open source embedded operating system project.
-- [lhoursquentin/sed-bin](https://github.com/lhoursquentin/sed-bin) - sed to C translator written in sed
-- [zhaojh329/rtty](https://github.com/zhaojh329/rtty) - 🐛 Access your terminal from anywhere via the web.
-- [raspberrypi/tools](https://github.com/raspberrypi/tools) - 
-- [Terraspace/UASM](https://github.com/Terraspace/UASM) - UASM - Macro Assembler
-- [tkchia/gcc-ia16](https://github.com/tkchia/gcc-ia16) - Fork of Lambertsen & Jenner (& al.)'s IA-16 (Intel 16-bit x86) port of GNU compilers ― added far pointers & more • use https://github.com/tkchia/build-ia16 to build • Ubuntu binaries at https://launch
-- [michaelforney/cproc](https://github.com/michaelforney/cproc) - C11 compiler (mirror)
-- [EndlessEden/mali-midgard](https://github.com/EndlessEden/mali-midgard) - ARM Mali kernel drivers used with Midgard GPU's in LibreELEC
-- [LibreELEC/linux_openvfd](https://github.com/LibreELEC/linux_openvfd) - FD628 and similar compatible LED controller driver used in LibreELEC
-- [libhybris/libhybris](https://github.com/libhybris/libhybris) - Hybris is a solution that commits hybris, by allowing us to use bionic-based HW adaptations in glibc systems
-- [yarrick/turbomem](https://github.com/yarrick/turbomem) - Incomplete Linux driver for Intel Turbo Memory Controller ("Robson") PCIe card
-- [NotKit/xf86-video-hwcomposer](https://github.com/NotKit/xf86-video-hwcomposer) - Xorg DDX driver to renderer through HWComposer API on Android devices via libhybris
-- [NotKit/drihybris](https://github.com/NotKit/drihybris) - DRIHYBRIS extension (based on DRI3) for buffer sharing on libhybris-based adaptations
-- [NotKit/glamor-hybris](https://github.com/NotKit/glamor-hybris) - Glamor Xserver 2D acceleration, modified to work with libhybris drivers
-- [samartzidis/WinAppleKey](https://github.com/samartzidis/WinAppleKey) - Apple Magic Keyboard Driver (A1644) for Windows 10
-- [google/android-emulator-hypervisor-driver](https://github.com/google/android-emulator-hypervisor-driver) - 
-- [Googulator/dwusb](https://github.com/Googulator/dwusb) - Windows driver for the DesignWare USB 2.0 HS OTG Controller as used in the Raspberry Pi 3.
-- [xerpi/vita-udcd-uvc](https://github.com/xerpi/vita-udcd-uvc) - PSVita UDCD USB Video Class plugin
-- [milesp20/intel_nuc_led](https://github.com/milesp20/intel_nuc_led) - Intel NUC7i[x]BN and NUC6CAY LED Control for Linux
-- [kimocoder/rtw88-usb](https://github.com/kimocoder/rtw88-usb) - 8723d 8821c 8822bu 8812bu 8822cu 8812cu linux mac80211 driver
-- [dbason/crystalhd](https://github.com/dbason/crystalhd) - Broadcom Crystal HD Hardware Decoder (BCM70012/70015) driver on Ubuntu
-- [Mange/rtl8192eu-linux-driver](https://github.com/Mange/rtl8192eu-linux-driver) - Drivers for the rtl8192eu chipset for wireless adapters (D-Link DWA-131 rev E1 included!)
-- [intel/linux-sgx-driver](https://github.com/intel/linux-sgx-driver) - Intel SGX Linux* Driver
-- [mer-hybris/nfcd-binder-plugin](https://github.com/mer-hybris/nfcd-binder-plugin) - Binder based adaptation for https://git.sailfishos.org/mer-core/nfcd/
-- [arthur-liberman/linux_openvfd](https://github.com/arthur-liberman/linux_openvfd) - FD628 and similar compatible LED controller driver for linux
-- [wget/realtek-r8152-linux](https://github.com/wget/realtek-r8152-linux) - A kernel module for Realtek RTL8152/RTL8153 Based USB Ethernet Adapters - Meant to be used in distributions only - For upstream bugs, please report them to your distribution maintainer or to Realtek.
-- [morrownr/8814au](https://github.com/morrownr/8814au) - Linux Driver for USB WiFi Adapters that are based on the RTL8814AU Chipset
-- [intel/intel-sgx-ssl](https://github.com/intel/intel-sgx-ssl) - Intel® Software Guard Extensions SSL
-- [mtorromeo/r8168](https://github.com/mtorromeo/r8168) - Linux device driver for Realtek Ethernet controllers (unofficial mirror)
-- [benjaminvialle/intel_nuc_led](https://github.com/benjaminvialle/intel_nuc_led) - Intel NUC8i7HVK (Hades) LED Control for Linux
-- [rvp-nl/vs10xx-linux](https://github.com/rvp-nl/vs10xx-linux) - Linux driver for VS1053 and VS1063 audio codecs
-- [brektrou/rtl8821CU](https://github.com/brektrou/rtl8821CU) - Realtek RTL8811CU/RTL8821CU USB Wi-Fi adapter driver for Linux
-- [antoineco/broadcom-wl](https://github.com/antoineco/broadcom-wl) - Broadcom Linux hybrid wireless driver (64-bit)
-- [arter97/exfat-linux](https://github.com/arter97/exfat-linux) - exFAT filesystem module for Linux kernel
-- [airium/Realtek-PCIe-GBE-NIC-Driver](https://github.com/airium/Realtek-PCIe-GBE-NIC-Driver) - Linux driver for Realtek RTL8111/8168/8411 PCIe GBE NIC
-- [intel/QAT_Engine](https://github.com/intel/QAT_Engine) - Intel QuickAssist Technology( QAT) OpenSSL Engine (an OpenSSL Plug-In Engine) which provides cryptographic acceleration for both hardware and optimized software using Intel QuickAssist Technology enab
-- [elFarto/nvidia-vaapi-driver](https://github.com/elFarto/nvidia-vaapi-driver) - A VA-API implemention using NVIDIA's NVDEC
-- [glmark2/glmark2](https://github.com/glmark2/glmark2) - glmark2 is an OpenGL 2.0 and ES 2.0 benchmark
-- [cracyc/msdos-player](https://github.com/cracyc/msdos-player) - 
-- [darkstar/2ine](https://github.com/darkstar/2ine) - git mirror of 2ine (https://hg.icculus.org/icculus/2ine), updated hourly (usually... at least if my VM doesn't crash or something ;-). Don't send pull requests
-- [dmsc/emu2](https://github.com/dmsc/emu2) - Simple x86 and DOS emulator for the Linux terminal.
-- [DoctorWkt/Apout](https://github.com/DoctorWkt/Apout) - A user-mode simulator for various version of PDP-11 Unix
-- [dosemu2/dosemu2](https://github.com/dosemu2/dosemu2) - Run DOS programs under linux:
-- [irixxxx/qemu-irix](https://github.com/irixxxx/qemu-irix) - adding Irix (and, to a lesser extend, Solaris) userland emulation to QEMU
-- [jhallen/cpm](https://github.com/jhallen/cpm) - Run CP/M commands in Linux/Cygwin with this Z80 / BDOS / ADM-3A emulator.
-- [jonasob/jwhois](https://github.com/jonasob/jwhois) - 
-- [MockbaTheBorg/RunCPM](https://github.com/MockbaTheBorg/RunCPM) - RunCPM is a multi-platform, portable, Z80 CP/M 2.2 emulator.
-- [nemuTUI/nemu](https://github.com/nemuTUI/nemu) - Ncurses UI for QEMU
-- [notaz/ginge](https://github.com/notaz/ginge) - GINGE Is Not Gp2x Emulator
-- [notaz/pcsx_rearmed](https://github.com/notaz/pcsx_rearmed) - ARM optimized PCSX fork
-- [n64decomp/qemu-irix](https://github.com/n64decomp/qemu-irix) - adding Irix (and, to a lesser extent, Solaris) userland emulation to QEMU
-- [thp/apkenv](https://github.com/thp/apkenv) - A compatibility layer for applications packaged as .apk. Can run certain Android games on non-Android Linux (glibc and others).
-- [aditya12agd5/cuda_bzip2](https://github.com/aditya12agd5/cuda_bzip2) - GPU Implementation of "Fast Burrows Wheeler Compression Using All-Cores" IPDSW'15
-- [chewi/apascan](https://github.com/chewi/apascan) - PlayStation 2 hard drive partition scanner for Linux
-- [hashcat/hashcat](https://github.com/hashcat/hashcat) - World's fastest and most advanced password recovery utility
-- [lzfse/lzfse](https://github.com/lzfse/lzfse) - LZFSE compression library and command line tool
-- [mikeakohn/amiga_recovery](https://github.com/mikeakohn/amiga_recovery) - View and copy files from Amiga file system images.
-- [mcmilk/7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd) - 7-Zip with support for Brotli, Fast-LZMA2, Lizard, LZ4, LZ5 and Zstandard
-- [skeeto/hastyhex](https://github.com/skeeto/hastyhex) - A blazing fast hex dumper
-- [mozilla/mozjpeg](https://github.com/mozilla/mozjpeg) - Improved JPEG encoder.
-- [wbenny/woftool](https://github.com/wbenny/woftool) - woftool is a proof-of-concept utility for creating WOF-compressed files
-- [openlgtv/epk2extract](https://github.com/openlgtv/epk2extract) - Extraction tool for LG, Hisense, Sharp, Philips/TPV, Thompson and similar TVs/Embedded Devices
-- [libimobiledevice/idevicerestore](https://github.com/libimobiledevice/idevicerestore) - Restore/upgrade firmware of iOS devices
-- [JonathonReinhart/staticx](https://github.com/JonathonReinhart/staticx) - Create static executable from dynamic executable
-- [seemoo-lab/nexmon](https://github.com/seemoo-lab/nexmon) - The C-based Firmware Patching Framework for Broadcom/Cypress WiFi Chips that enables Monitor Mode, Frame Injection and much more
-- [Allwinner-Homlet/H3-BSP4.4-brandy](https://github.com/Allwinner-Homlet/H3-BSP4.4-brandy) - 
-- [embed-3d/BPI-M3-PVR-SGX](https://github.com/embed-3d/BPI-M3-PVR-SGX) - 
-- [DynamoRIO/drmemory](https://github.com/DynamoRIO/drmemory) - Memory Debugger for Windows, Linux, Mac, and Android
-- [robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan) - TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
-- [eddieantonio/imgcat](https://github.com/eddieantonio/imgcat) - It's like cat, but for images.
-- [jart/cosmopolitan](https://github.com/jart/cosmopolitan) - build-once run-anywhere c library
-- [tryone144/compton](https://github.com/tryone144/compton) - A compositor for X11.
-- [saitoha/libsixel](https://github.com/saitoha/libsixel) - A SIXEL encoder/decoder implementation derived from kmiya's sixel (https://github.com/saitoha/sixel).
-- [kunpengcompute/gzip](https://github.com/kunpengcompute/gzip) - GNU Gzip with Kunpeng optimization.
-- [lunixbochs/tinygles](https://github.com/lunixbochs/tinygles) - Software-rendered OpenGL ES
-- [theori-io/nrsc5](https://github.com/theori-io/nrsc5) - NRSC-5 receiver for rtl-sdr
-- [F5OEO/rpitx](https://github.com/F5OEO/rpitx) - RF transmitter for Raspberry Pi
-- [Cloudef/android2gnulinux](https://github.com/Cloudef/android2gnulinux) - AOSP/Bionic compatiblity layer for GLIBC systems
-- [TheTumultuousUnicornOfDarkness/CPU-X](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X) - CPU-X is a Free software that gathers information on CPU, motherboard and more
-- [wishstudio/flinux](https://github.com/wishstudio/flinux) - Foreign LINUX - Run unmodified Linux applications inside Windows.
-- [uobikiemukot/yaft](https://github.com/uobikiemukot/yaft) - yet another framebuffer terminal
-- [stanson-ch/libusb-wine](https://github.com/stanson-ch/libusb-wine) - libusb-win32 DLL for Wine
-- [spieglt/whatfiles](https://github.com/spieglt/whatfiles) - Log what files are accessed by any Linux process
-- [slicer69/doas](https://github.com/slicer69/doas) - A port of OpenBSD's doas which runs on FreeBSD, Linux, NetBSD, and illumos
-- [opuntiaOS-Project/opuntiaOS](https://github.com/opuntiaOS-Project/opuntiaOS) - opuntiaOS - an operating system targeting x86, ARM and RISC-V.
-- [jamulussoftware/jamulus](https://github.com/jamulussoftware/jamulus) - Jamulus enables musicians to perform real-time jam sessions over the internet.
-- [larrikinist/Norton-Core](https://github.com/larrikinist/Norton-Core) - Source code for Norton's Core router.
-- [roberthawdon/dfshow](https://github.com/roberthawdon/dfshow) - An open source implementation of some of the applications from Larry Kroeker's DF-EDIT
-- [MariadeAnton/bcl](https://github.com/MariadeAnton/bcl) - Basic Compression Library in biicode http://bcl.comli.eu/
-- [kspalaiologos/bzip3](https://github.com/kspalaiologos/bzip3) - A better and stronger spiritual successor to BZip2.
-- [ptitSeb/box86](https://github.com/ptitSeb/box86) - Box86 - Linux Userspace x86 Emulator with a twist, targeted at ARM Linux devices
-- [ptitSeb/gl4es](https://github.com/ptitSeb/gl4es) - GL4ES is a OpenGL 2.1/1.5 to GL ES 2.0/1.1 translation library, with support for Pandora, ODroid, OrangePI, CHIP, Raspberry PI, Android, Emscripten and AmigaOS4.
-- [ptitSeb/box64](https://github.com/ptitSeb/box64) - Box64 - Linux Userspace x86_64 Emulator with a twist, targeted at ARM64 Linux devices
-
-## C# # 
-
-- [BleuBleu/FamiStudio](https://github.com/BleuBleu/FamiStudio) - FamiStudio NES Music Editor
-- [TalonZane/mspaintCompanion](https://github.com/TalonZane/mspaintCompanion) - layers for mspaint
-- [tpbeldie/UFLVK-Emu](https://github.com/tpbeldie/UFLVK-Emu) - Universal FL Studio Virtual Keyboard Emulator for all DAWs
-- [jeason1997/GameMaker-Studio-Decompiler](https://github.com/jeason1997/GameMaker-Studio-Decompiler) - 
-- [UnicordDev/Unicord](https://github.com/UnicordDev/Unicord) - A free, open source Discord Client for Windows 10 and Windows Phone 10
-- [jgosar/mine-city-2000](https://github.com/jgosar/mine-city-2000) - A program that converts SimCity 2000 cities into Minecraft worlds
-- [microsoft/Power-Fx](https://github.com/microsoft/Power-Fx) - Power Fx low-code programming language
-- [googlearchive/soundstagevr](https://github.com/googlearchive/soundstagevr) - 
-- [OpenTabletDriver/OpenTabletDriver](https://github.com/OpenTabletDriver/OpenTabletDriver) - Open source, cross-platform, user-mode tablet driver
-- [ps1337/reinschauer](https://github.com/ps1337/reinschauer) - it is very good
-- [monadgroup/FLParser](https://github.com/monadgroup/FLParser) - An FL Studio project file parser for .NET
-- [imagitama/vrc3cvr](https://github.com/imagitama/vrc3cvr) - Convert your VRChat SDK3 avatar to ChilloutVR.
-- [0x7c13/Notepads](https://github.com/0x7c13/Notepads) - A modern, lightweight text editor with a minimalist design.
-- [Lidarr/Lidarr](https://github.com/Lidarr/Lidarr) - Looks and smells like Sonarr but made for music.
-- [canton7/SyncTrayzor](https://github.com/canton7/SyncTrayzor) - Windows tray utility / filesystem watcher / launcher for Syncthing
-- [KoalaBear84/OpenDirectoryDownloader](https://github.com/KoalaBear84/OpenDirectoryDownloader) - Indexes open directories
-- [Relfos/Dither_Machine](https://github.com/Relfos/Dither_Machine) - Pixel dithering tool made with Unity
-- [cadencii/cadencii](https://github.com/cadencii/cadencii) - 
-- [EricZimmerman/LECmd](https://github.com/EricZimmerman/LECmd) - Lnk Explorer Command line edition!!
-- [Gota7/NitroTools](https://github.com/Gota7/NitroTools) - Some tools for Nitro Sound Data (SDAT).
-- [hellzerg/optimizer](https://github.com/hellzerg/optimizer) - The finest Windows Optimizer
-- [KeppySoftware/OmniMIDI](https://github.com/KeppySoftware/OmniMIDI) - A software MIDI synthesizer for professional use.
-- [kkguo/apkshellext](https://github.com/kkguo/apkshellext) - Show app icons in windows explorer
-- [pleonex/tinke](https://github.com/pleonex/tinke) - Viewer and editor for files of NDS games
-- [stefv/GLow](https://github.com/stefv/GLow) - An open source screensaver for Windows using shaders.
-- [Kermalis/VGMusicStudio](https://github.com/Kermalis/VGMusicStudio) - 🎵 A program that lets you listen to the music from popular video game formats. 🎵
-- [libertyernie/brawltools](https://github.com/libertyernie/brawltools) - BrawlBox and BrawlLib
-- [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - PowerShell for every system!
-- [dotnet/roslyn](https://github.com/dotnet/roslyn) - The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.
-- [files-community/Files](https://github.com/files-community/Files) - Building the best file manager experience for Windows
-- [PowerShell/PSReadLine](https://github.com/PowerShell/PSReadLine) - A bash inspired readline implementation for PowerShell
-- [noisecross/noiSNESs_Brr_Finder](https://github.com/noisecross/noiSNESs_Brr_Finder) - SNES roms sound ripper.
-- [samhocevar/wincompose](https://github.com/samhocevar/wincompose) - 🔣 Compose Key for Windows
-- [ShironekoBen/superrt](https://github.com/ShironekoBen/superrt) - A realtime raytracing extension chip for the SNES
-- [bbepis/XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator) - 
-- [arcusmaximus/YTSubConverter](https://github.com/arcusmaximus/YTSubConverter) - A tool for creating styled YouTube subtitles
-- [dremin/RetroBar](https://github.com/dremin/RetroBar) - Classic Windows 95, 98, Me, 2000, XP, Vista taskbar for modern versions of Windows
-- [SonyWWS/ATF](https://github.com/SonyWWS/ATF) - Authoring Tools Framework (ATF) is a set of C#/.NET components for making tools on Windows. ATF has been in continuous development in Sony Computer Entertainment's (SCE) Worldwide Studios central tool
-- [XAYRGA/JaiSeqX](https://github.com/XAYRGA/JaiSeqX) - JAudio Engine Emulator / Gamecube BMS player
-- [SonyWWS/LevelEditor](https://github.com/SonyWWS/LevelEditor) - The ATF LevelEditor is a powerful tool for constructing and assembling game levels. It provides a WYSIWYG interface and allows you to place objects, edit properties, edit terrain, and build game level
-- [bbbradsmith/binxelview](https://github.com/bbbradsmith/binxelview) - Binxelview binary image explorer
-- [Thealexbarney/VGAudio](https://github.com/Thealexbarney/VGAudio) - A library for encoding, decoding, and manipulating audio files from video games.
-- [jbendtsen/SpriteWave](https://github.com/jbendtsen/SpriteWave) - An interactive tool for creating game sprites from ROMs
-- [mxgmn/TextureSynthesis](https://github.com/mxgmn/TextureSynthesis) - Texture synthesis from examples
-- [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) - Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics
-- [SunsetQuest/CudaPAD](https://github.com/SunsetQuest/CudaPAD) - CudaPAD is a PTX/SASS viewer for NVIDIA Cuda kernels and provides an on-the-fly view of the assembly.
-- [microsoft/AttackSurfaceAnalyzer](https://github.com/microsoft/AttackSurfaceAnalyzer) - Attack Surface Analyzer can help you analyze your operating system's security configuration for changes during software installation.
-- [nikescar1/Nintendont-GC-ISO-Renamer](https://github.com/nikescar1/Nintendont-GC-ISO-Renamer) - 
-- [mxgmn/MarkovJunior](https://github.com/mxgmn/MarkovJunior) - Probabilistic language based on pattern matching and constraint propagation, 153 examples
+- [Scheme](#scheme)
+- [Visual Basic](#visual-basic)
+- [Processing](#processing)
+- [Scala](#scala)
+- [Julia](#julia)
+- [Perl](#perl)
+- [Markdown](#markdown)
+- [AutoIt](#autoit)
+- [OCaml](#ocaml)
+- [LLVM](#llvm)
+- [Coq](#coq)
+- [Emacs Lisp](#emacs-lisp)
+- [Reason](#reason)
+- [Common Lisp](#common-lisp)
+- [PLpgSQL](#plpgsql)
+- [Cuda](#cuda)
 
 ## C++ 
 
-- [Alex313031/thorium](https://github.com/Alex313031/thorium) - Chromium fork named after radioactive element No. 90. Windows and MacOS/Raspi/Special builds are in different repositories, links are towards the top of the README.md.
+- [fuzziqersoftware/resource_dasm](https://github.com/fuzziqersoftware/resource_dasm) - Classic Mac OS resource fork and application disassembler, with reverse-engineering tools for specific applications
+- [Tracktion/tracktion_engine](https://github.com/Tracktion/tracktion_engine) - Tracktion Engine module
+- [Davit-G/Hamburger](https://github.com/Davit-G/Hamburger) - Hamburger is a distortion plugin with inbuilt dynamics controls and equalisation that can deliver both subtle tangy harmonics and absolute annilhilation and noise-wall-ification to any sound.
+- [wwwg/wasmdec](https://github.com/wwwg/wasmdec) - WebAssembly to C decompiler
+- [Geonkick-Synthesizer/geonkick](https://github.com/Geonkick-Synthesizer/geonkick) - Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and also unique effect sounds.
+- [evg-zhabotinsky/libspeedhack](https://github.com/evg-zhabotinsky/libspeedhack) - A simple dynamic library to slowdown or speedup games on Linux
+- [Alex313031/thorium-win7](https://github.com/Alex313031/thorium-win7) - Repo for Windows 7/8/8.1 Thorium Builds (32 bit SSE2, 64 bit SSE3, AVX, and AVX2 builds)
+- [jpcima/ysfx](https://github.com/jpcima/ysfx) - Hosting library for JSFX
+- [sammycage/lunasvg](https://github.com/sammycage/lunasvg) - lunasvg is a standalone SVG rendering library in C++
+- [mihirlad55/polybar-dwm-module](https://github.com/mihirlad55/polybar-dwm-module) - A dwm module for polybar
+- [Narasimha1997/smartreply](https://github.com/Narasimha1997/smartreply) - Unofficial port of Google's smart reply runtime (powers gmail and assistant) model to python, allowing developers to leverage intelligent smart reply as an API in Web and embedded systems that support
+- [vitoplantamura/OnnxStream](https://github.com/vitoplantamura/OnnxStream) - Stable Diffusion XL 1.0 Base on a Raspberry Pi Zero 2 (or in 298MB of RAM)
+- [hanickadot/compile-time-regular-expressions](https://github.com/hanickadot/compile-time-regular-expressions) - Compile Time Regular Expression in C++
+- [kosua20/MIDIVisualizer](https://github.com/kosua20/MIDIVisualizer) - A small MIDI visualizer tool, using OpenGL
+- [Eukaryot/sonic3air](https://github.com/Eukaryot/sonic3air) - Source and data to build Sonic 3 A.I.R. (Angel Island Revisited) and the Oxygen Engine
+- [aengelke/rellume](https://github.com/aengelke/rellume) - Lift machine code to performant LLVM IR
+- [staticafi/llvm2c](https://github.com/staticafi/llvm2c) - Decompiler of LLVM bitcode to C
+- [Raais/ImStudio](https://github.com/Raais/ImStudio) - Real-time GUI layout designer for Dear ImGui
+- [introlab/rtabmap](https://github.com/introlab/rtabmap) - RTAB-Map library and standalone application
+- [Maximus5/ConEmu](https://github.com/Maximus5/ConEmu) - Customizable Windows terminal with tabs, splits, quake-style, hotkeys and more
+- [rigaya/NVEnc](https://github.com/rigaya/NVEnc) - NVENCによる高速エンコードの性能実験
+- [adplug/adplug](https://github.com/adplug/adplug) - Hardware-independent AdLib sound player library
+- [DISTRHO/DISTRHO-Ports](https://github.com/DISTRHO/DISTRHO-Ports) - Linux audio plugins and LV2 ports
+- [lvandeve/lodepng](https://github.com/lvandeve/lodepng) - PNG encoder and decoder in C and C++.
+- [link-u/cavif](https://github.com/link-u/cavif) - avif encoder, using libaom directly.
+- [link-u/davif](https://github.com/link-u/davif) - avif decoder, using dav1d directly.
+- [FLIF-hub/FLIF](https://github.com/FLIF-hub/FLIF) - Free Lossless Image Format
+- [google/souper](https://github.com/google/souper) - A superoptimizer for LLVM IR
+- [septag/glslcc](https://github.com/septag/glslcc) - GLSL cross-compiler tool (GLSL-&gt;HLSL, MSL, GLES2, GLES3, GLSLv3), using SPIRV-cross and glslang
+- [aras-p/glsl-optimizer](https://github.com/aras-p/glsl-optimizer) - GLSL optimizer based on Mesa's GLSL compiler. Used to be used in Unity for mobile shader optimization.
+- [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) - Compatibility tool for Steam Play based on Wine and additional components
+- [temisu/ancient](https://github.com/temisu/ancient) - Decompression routines for ancient formats
+- [doitsujin/dxvk](https://github.com/doitsujin/dxvk) - Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
+- [richgel999/rdopng](https://github.com/richgel999/rdopng) - Rate-Distortion Optimized Lossy PNG/QOI Encoding Tool
+- [auriamg/macdylibbundler](https://github.com/auriamg/macdylibbundler) - Utility to ease bundling libraries into executables for OSX
+- [jsummers/tweakpng](https://github.com/jsummers/tweakpng) - A low-level PNG image file manipulation utility for Windows
+- [CaptainSwag101/gba-mus-ripper](https://github.com/CaptainSwag101/gba-mus-ripper) - (Not actively maintained) A fork of Bregalad's "GBA Mus Riper" program
+- [michaelweiser/ld64](https://github.com/michaelweiser/ld64) - Historic and current versions of Apple's ld64 for the purpose of easy comparison and forward-porting of PPC support
+- [Wohlstand/libpxtone](https://github.com/Wohlstand/libpxtone) - Library made from PXTONE, based on the version 220910a
+- [feather-wallet/feather](https://github.com/feather-wallet/feather) - A free and open-source Monero desktop wallet.
+- [tim-janik/anklang](https://github.com/tim-janik/anklang) - MIDI and Audio Synthesizer and Composer
+- [0vercl0k/wtf](https://github.com/0vercl0k/wtf) - wtf is a distributed, code-coverage guided, customizable, cross-platform snapshot-based fuzzer designed for attacking user and / or kernel-mode targets running on Microsoft Windows.
+- [AxioDL/metaforce](https://github.com/AxioDL/metaforce) - Engine re-implementation and data interchange for games by Retro Studios
+- [paynebc/tunefish](https://github.com/paynebc/tunefish) - Tunefish virtual analog synthesizer
+- [TheWaveWarden/odin2](https://github.com/TheWaveWarden/odin2) - Odin 2 Synthesizer Plugin
+- [reales/OB-Xd](https://github.com/reales/OB-Xd) - Virtual Analog Oberheim based synthesizer.
+- [martineastwood/mverb](https://github.com/martineastwood/mverb) - VST Reverb In C++
+- [tesselode/mika-micro](https://github.com/tesselode/mika-micro) - Small, expressive subtractive synthesizer.
+- [lukemcraig/DAFx19-Gamelanizer](https://github.com/lukemcraig/DAFx19-Gamelanizer) - Accompanying material for the paper 'A Real-Time Audio Effect Plug-In Inspired by the Processes of Traditional Indonesian Gamelan Music'
+- [cvde/RoomReverb](https://github.com/cvde/RoomReverb) - Room Reverb is a mono/stereo to stereo algorithmic reverb audio plugin with many presets that lets you add reverberation to your recordings in your DAW.
+- [igorski/regrader](https://github.com/igorski/regrader) - VST delay plugin where the repeats degrade in resolution
+- [mzuther/Squeezer](https://github.com/mzuther/Squeezer) - Flexible general-purpose audio compressor with a touch of citrus
+- [jerryuhoo/Fire](https://github.com/jerryuhoo/Fire) - This is a distortion plugin developed by Wings!
+- [ishitatsuyuki/LatencyFleX](https://github.com/ishitatsuyuki/LatencyFleX) - Vendor agnostic latency reduction middleware. An alternative to NVIDIA Reflex.
+- [Alexays/Waybar](https://github.com/Alexays/Waybar) - Highly customizable Wayland bar for Sway and Wlroots based compositors. :v: :tada:
+- [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) - Hyprland is a highly customizable dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+- [Vaniog/Sqime](https://github.com/Vaniog/Sqime) - Game, made with SFML
+- [reduz/zytrax](https://github.com/reduz/zytrax) - Easy to use, tracker-inspired music sequencer
+- [ZDoom/Raze](https://github.com/ZDoom/Raze) - Build engine port backed by GZDoom tech. Currently supports Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage and Powerslave/Exhumed.
+- [baconpaul/airwin2clap](https://github.com/baconpaul/airwin2clap) - A wrap of airwindows as claps
+- [linuxmao-org/shiru-plugins](https://github.com/linuxmao-org/shiru-plugins) - Plugin collection created by Shiru (unofficial DPF port)
+- [wootguy/bspguy](https://github.com/wootguy/bspguy) - Tool for editing Goldsource maps without decompiling
+- [AidaDSP/AIDA-X](https://github.com/AidaDSP/AIDA-X) - AIDA-X, an Amp Model Player leveraging AI
+- [2bt/nsf-monitor](https://github.com/2bt/nsf-monitor) - Visualize NES melodies and hum along
+- [2bt/sid-monitor](https://github.com/2bt/sid-monitor) - Visualize SID melodies and hum along
+- [aristocratos/btop](https://github.com/aristocratos/btop) - A monitor of resources
+- [DISTRHO/imgui-template-plugin](https://github.com/DISTRHO/imgui-template-plugin) - Template repository for doing audio plugins with DPF and ImGui
+- [prof-spock/SoX-Plugins](https://github.com/prof-spock/SoX-Plugins) - Reimplementation of the SoX Command-Line Audio Processor as DAW Plugins
+- [suarezvictor/litex_imgui_usb_demo](https://github.com/suarezvictor/litex_imgui_usb_demo) - Soft USB for LiteX
+- [OpenEnroth/OpenEnroth](https://github.com/OpenEnroth/OpenEnroth) - Open reimplementation of Might and Magic 6 7 8 game engine
+- [tstack/lnav](https://github.com/tstack/lnav) - Log file navigator
+- [fwsGonzo/libriscv](https://github.com/fwsGonzo/libriscv) - C++20 RISC-V RV32/64/128 userspace emulator library
+- [cloudflare/workerd](https://github.com/cloudflare/workerd) - The JavaScript / Wasm runtime that powers Cloudflare Workers
+- [google-deepmind/s6](https://github.com/google-deepmind/s6) - 
+- [cvmfs/cvmfs](https://github.com/cvmfs/cvmfs) - The CernVM File System
+- [taichi-dev/taichi](https://github.com/taichi-dev/taichi) - Productive & portable high-performance programming in Python.
+- [berthubert/googerteller](https://github.com/berthubert/googerteller) - audible feedback on just how much your browsing feeds into google
+- [mausimus/ShaderGlass](https://github.com/mausimus/ShaderGlass) - Overlay for running GPU shaders on top of Windows desktop
+- [manticoresoftware/manticoresearch](https://github.com/manticoresoftware/manticoresearch) - Easy to use open source fast database for search | Good alternative to Elasticsearch now | Drop-in replacement for E in the ELK soon
+- [powervr-graphics/Native_SDK](https://github.com/powervr-graphics/Native_SDK) - C++ cross-platform 3D graphics SDK. Includes demos & helper code (resource loading etc.) to speed up development of Vulkan, OpenGL ES 2.0 & 3.x applications
+- [tenacityteam/tenacity](https://github.com/tenacityteam/tenacity) - Mirror of https://codeberg.org/tenacityteam/tenacity. Pull requests are IGNORED!
+- [Endermanch/XPKeygen](https://github.com/Endermanch/XPKeygen) - Windows XP Keygen
+- [bdejong/smartelectronix](https://github.com/bdejong/smartelectronix) - Open source versions of all bram @ smartelectronix plugins.
+- [NoiseG8/NoiseG8](https://github.com/NoiseG8/NoiseG8) - NoiseG8, a free and open-source DAW. Created for simplicity and efficiency.
+- [tesselode/cocoa-delay](https://github.com/tesselode/cocoa-delay) - A tasty, cozy delay plugin.
+- [pongasoft/vst-sam-spl-64](https://github.com/pongasoft/vst-sam-spl-64) - A free/open source VST2, VST3 and AudioUnit plugin to easily split a sample in up to 64 slices
+- [free-audio/clap-juce-extensions](https://github.com/free-audio/clap-juce-extensions) - 
+- [olegantonyan/mpz](https://github.com/olegantonyan/mpz) - Music player for big local collections
+- [The-Powder-Toy/The-Powder-Toy](https://github.com/The-Powder-Toy/The-Powder-Toy) - Written in C++ and using SDL, The Powder Toy is a desktop version of the classic 'falling sand' physics sandbox, it simulates air pressure and velocity as well as heat.
+- [Alex313031/thorium](https://github.com/Alex313031/thorium) - Chromium fork named after radioactive element No. 90. Windows and MacOS/Raspi/Android/Special builds are in different repositories, links are towards the top of the README.md.
 - [checkra1n/toolchain](https://github.com/checkra1n/toolchain) - the checkra1n set of tools targeting bare metal, Linux and Windows
 - [xiangfeidexiaohuo/Snapdragon-LLVM](https://github.com/xiangfeidexiaohuo/Snapdragon-LLVM) - 高通Clang
 - [projectchrono/chrono](https://github.com/projectchrono/chrono) - High-performance C++ library for multiphysics and multibody dynamics simulations
@@ -563,13 +183,13 @@
 - [igorski/darvaza](https://github.com/igorski/darvaza) - Darvaza is a multichannel audio gate with a twist : whenever the gate closes on your input signal, you get a perversion of your source spat back at you.
 - [igorski/homecorrupter](https://github.com/igorski/homecorrupter) - VST plugin that reduces sampling rate, bit depth and playback speed on-the-fly
 - [AlbertJean/highlife](https://github.com/AlbertJean/highlife) - VST sampler highlife
-- [nidefawl/bass-studio](https://github.com/nidefawl/bass-studio) - Bass Studio is a Digital Audio Workstation (DAW) written in C++. Windows, MacOS and Linux builds are provided. Both VST2 and CLAP plugin format are supported.
 - [liuanlin-mx/MXTune](https://github.com/liuanlin-mx/MXTune) - pitch correction plugin for VST
+- [dillongoostudios/goo-engine](https://github.com/dillongoostudios/goo-engine) - Custom build of blender with some extra NPR features.
 - [hoffstadt/DearPyGui](https://github.com/hoffstadt/DearPyGui) - Dear PyGui: A fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies
 - [bipolaraudio/FM-BISON](https://github.com/bipolaraudio/FM-BISON) - Hybrid FM synthesis engine for VST & (future) embedded use
-- [hydrogen-music/hydrogen](https://github.com/hydrogen-music/hydrogen) - The git repository of the advanced drum machine
+- [hydrogen-music/hydrogen](https://github.com/hydrogen-music/hydrogen) - The advanced drum machine for Linux, macOS, and Windows
 - [ryukau/VSTPlugins](https://github.com/ryukau/VSTPlugins) - Uhhyou Plugins VST 3 repository.
-- [Daft-Freak/DERP](https://github.com/Daft-Freak/DERP) - 
+- [Daft-Freak/DERP](https://github.com/Daft-Freak/DERP) - RP2040/PicoSystem emulator
 - [chmaha/RCComp](https://github.com/chmaha/RCComp) - A compressor designed for classical music engineers
 - [chmaha/RCverb](https://github.com/chmaha/RCverb) - A reverb suitable for classical music based on zita-rev1
 - [airwindows/airwindows](https://github.com/airwindows/airwindows) - This contains all the Airwindows audio open source code
@@ -614,7 +234,6 @@
 - [muse-sequencer/muse](https://github.com/muse-sequencer/muse) - MusE is a digital audio workstation with support for both Audio and MIDI
 - [intel/intel-extension-for-tensorflow](https://github.com/intel/intel-extension-for-tensorflow) - Intel® Extension for TensorFlow*
 - [cvsandbox/cam2web](https://github.com/cvsandbox/cam2web) - Streaming camera to web as MJPEG stream or individual JPEG snapshots. Providing embedded web UI for watching camera directly from a web browser.
-- [CleasbyCode/pdvzip](https://github.com/CleasbyCode/pdvzip) - Simple C++ tool for embedding a ZIP file (up to ~5MB) within a tweetable and "executable" PNG image.
 - [WilliamKWusik/Wusik-SPX](https://github.com/WilliamKWusik/Wusik-SPX) - File Format Definition. Creator, and Player
 - [foone/3DMMForever](https://github.com/foone/3DMMForever) - A modernized version of the Microsoft 3D Movie Maker release
 - [jpcima/ADLplug](https://github.com/jpcima/ADLplug) - FM Chip Synthesizer — OPL & OPN — VST/LV2/Standalone
@@ -639,7 +258,7 @@
 - [komrad36/CRC](https://github.com/komrad36/CRC) - Fastest CRC32 for x86, Intel and AMD, + comprehensive derivation and discussion of various approaches
 - [RippeR37/libbase](https://github.com/RippeR37/libbase) - Standalone reimplementation of //base module from Chromium
 - [microsoft/llvm-mctoll](https://github.com/microsoft/llvm-mctoll) - llvm-mctoll
-- [mhx/dwarfs](https://github.com/mhx/dwarfs) - A fast high compression read-only file system
+- [mhx/dwarfs](https://github.com/mhx/dwarfs) - A fast high compression read-only file system for Linux and Windows
 - [lifting-bits/remill](https://github.com/lifting-bits/remill) - Library for lifting machine code to LLVM bitcode
 - [sailfishos/buteo-mtp](https://github.com/sailfishos/buteo-mtp) - 
 - [hrydgard/ppsspp](https://github.com/hrydgard/ppsspp) - A PSP emulator for Android, Windows, Mac and Linux, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues. For discussion use the for
@@ -744,8 +363,8 @@
 - [pent0/EKA2L1](https://github.com/pent0/EKA2L1) - A Symbian OS emulator
 - [Vita3K/Vita3K](https://github.com/Vita3K/Vita3K) - Experimental PlayStation Vita emulator
 - [kyotov/kysync](https://github.com/kyotov/kysync) - 
-- [aappleby/MetroBoy](https://github.com/aappleby/MetroBoy) - A repository of gate-level simulators and tools for the original Game Boy.
-- [helio-fm/helio-workstation](https://github.com/helio-fm/helio-workstation) - One music sequencer for all major platforms, desktop and mobile
+- [aappleby/metroboy](https://github.com/aappleby/metroboy) - A repository of gate-level simulators and tools for the original Game Boy.
+- [helio-fm/helio-sequencer](https://github.com/helio-fm/helio-sequencer) - One music sequencer for all major platforms, desktop and mobile
 - [dheera/bokeh-camera](https://github.com/dheera/bokeh-camera) - 
 - [AcademySoftwareFoundation/OpenShadingLanguage](https://github.com/AcademySoftwareFoundation/OpenShadingLanguage) - Advanced shading language for production GI renderers
 - [glinscott/linzip2](https://github.com/glinscott/linzip2) - A minimal modern LZ compressor example
@@ -760,7 +379,6 @@
 - [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) - 🍃 Organic Maps is a free Android & iOS offline maps app for travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by MapsWithMe (MapsMe) founde
 - [typesense/typesense](https://github.com/typesense/typesense) - Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences
 - [c-smile/sciter-sdk](https://github.com/c-smile/sciter-sdk) - Sciter is an embeddable HTML/CSS/scripting engine
-- [alexfru/regal86](https://github.com/alexfru/regal86) - Register Allocator for 8086
 - [lordmulder/DynamicAudioNormalizer](https://github.com/lordmulder/DynamicAudioNormalizer) - Dynamic Audio Normalizer
 - [include-what-you-use/include-what-you-use](https://github.com/include-what-you-use/include-what-you-use) - A tool for use with clang to analyze #includes in C and C++ source files
 - [dougbinks/enkiTS](https://github.com/dougbinks/enkiTS) - A permissively licensed C and C++ Task Scheduler for creating parallel programs. Requires C++11 support.
@@ -773,7 +391,6 @@
 - [dhewm/dhewm3](https://github.com/dhewm/dhewm3) - dhewm 3 main repository
 - [M2Team/NanaZip](https://github.com/M2Team/NanaZip) - The 7-Zip derivative intended for the modern Windows experience
 - [M2TeamArchived/NSudo](https://github.com/M2TeamArchived/NSudo) - [Deprecated, work in progress alternative: https://github.com/M2Team/NanaRun] Series of System Administration Tools
-- [sz3/libcimbar](https://github.com/sz3/libcimbar) - Optimized implementation for color-icon-matrix barcodes
 - [rizinorg/cutter](https://github.com/rizinorg/cutter) - Free and Open Source Reverse Engineering Platform powered by rizin
 - [ggerganov/kbd-audio](https://github.com/ggerganov/kbd-audio) - 🎤⌨️ Acoustic keyboard eavesdropping
 - [BlissRoms-x86/vendor_bliss_priv](https://github.com/BlissRoms-x86/vendor_bliss_priv) - Used to grab proprietary files from ChromeOS without distributing them ourselves. Thanks goes out to @lambdadroid for all the work in this
@@ -783,6 +400,7 @@
 - [CoatiSoftware/Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail) - Sourcetrail - free and open-source interactive source explorer
 - [Ancurio/mkxp](https://github.com/Ancurio/mkxp) - Free Software implementation of the Ruby Game Scripting System (RGSS)
 - [DoubangoTelecom/compv](https://github.com/DoubangoTelecom/compv) - Insanely fast Open Source Computer Vision library for ARM and x86 devices (Up to #50 times faster than OpenCV)
+- [DTolm/VkFFT](https://github.com/DTolm/VkFFT) - Vulkan/CUDA/HIP/OpenCL/Level Zero/Metal Fast Fourier Transform library
 - [empirical-soft/command-interpreter](https://github.com/empirical-soft/command-interpreter) - Add a command interpreter (eg., REPL) to any C++ program
 - [fujitsu/xbyak_aarch64](https://github.com/fujitsu/xbyak_aarch64) - 
 - [GameTechDev/SamplerFeedbackStreaming](https://github.com/GameTechDev/SamplerFeedbackStreaming) - This sample uses D3D12 Sampler Feedback and DirectStorage as part of an asynchronous texture streaming solution.
@@ -793,9 +411,10 @@
 - [mn416/QPULib](https://github.com/mn416/QPULib) - Language and compiler for the Raspberry Pi GPU
 - [ocornut/imgui](https://github.com/ocornut/imgui) - Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies
 - [putara/pngbench](https://github.com/putara/pngbench) - PNG decoder speed test tool
+- [gbdev/rgbds](https://github.com/gbdev/rgbds) - Rednex Game Boy Development System - An assembly toolchain for the Nintendo Game Boy and Game Boy Color
 - [rockchip-linux/rkdeveloptool](https://github.com/rockchip-linux/rkdeveloptool) - 
-- [simdjson/simdjson](https://github.com/simdjson/simdjson) - Parsing gigabytes of JSON per second
-- [stenzek/duckstation](https://github.com/stenzek/duckstation) - Fast PlayStation 1 emulator for x86-64/AArch32/AArch64
+- [simdjson/simdjson](https://github.com/simdjson/simdjson) - Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, WatermelonDB, Apache Doris, Milvus, StarRocks
+- [stenzek/duckstation](https://github.com/stenzek/duckstation) - Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64
 - [ttddee/Cascade](https://github.com/ttddee/Cascade) - Node-based image editor with GPU-acceleration.
 - [weigert/splash](https://github.com/weigert/splash) - Unix Data Splashing Tool
 - [Whirligig231/quaternion](https://github.com/Whirligig231/quaternion) - Quaternion mod for Marble Blast
@@ -821,7 +440,7 @@
 - [tobimensch/aqemu](https://github.com/tobimensch/aqemu) - Official AQEMU repository - a GUI for virtual machines using QEMU as the backend
 - [autc04/executor](https://github.com/autc04/executor) - A modern fork of the classic Mac emulator
 - [EKA2L1/EKA2L1](https://github.com/EKA2L1/EKA2L1) - A Symbian OS/N-Gage emulator
-- [FEX-Emu/FEX](https://github.com/FEX-Emu/FEX) - A fast usermode x86 and x86-64 emulator for Arm64
+- [FEX-Emu/FEX](https://github.com/FEX-Emu/FEX) - A fast usermode x86 and x86-64 emulator for Arm64 Linux
 - [libretro/parallel-n64](https://github.com/libretro/parallel-n64) - Optimized/rewritten Nintendo 64 emulator made specifically for Libretro. Originally based on Mupen64 Plus.
 - [randyrossi/bmc64](https://github.com/randyrossi/bmc64) - A bare metal Commodore 64 emulator for the Raspberry Pi with true 50hz/60hz smooth scrolling, low input latency and better audio/video sync.
 - [michaeljclark/rv8](https://github.com/michaeljclark/rv8) - RISC-V simulator for x86-64
@@ -847,7 +466,6 @@
 - [lifting-bits/mcsema](https://github.com/lifting-bits/mcsema) - Framework for lifting x86, amd64, aarch64, sparc32, and sparc64 program binaries to LLVM bitcode
 - [horsicq/XPEViewer](https://github.com/horsicq/XPEViewer) - PE file viewer/editor for Windows, Linux and MacOS.
 - [cojocar/bin2llvm](https://github.com/cojocar/bin2llvm) - A binary to LLVM translator
-- [evg-zhabotinsky/libspeedhack](https://github.com/evg-zhabotinsky/libspeedhack) - A simple dynamic library to slowdown or speedup games on Linux
 - [Ruunyox/bklk](https://github.com/Ruunyox/bklk) - Ncurses Binary Clock
 - [SerenityOS/serenity](https://github.com/SerenityOS/serenity) - The Serenity Operating System 🐞
 - [OpenHD/OpenHD](https://github.com/OpenHD/OpenHD) - OpenHD
@@ -863,498 +481,804 @@
 - [RobertBeckebans/RBDOOM-3-BFG](https://github.com/RobertBeckebans/RBDOOM-3-BFG) - Doom 3 BFG Edition source port with updated DX12 / Vulkan renderer and modern game engine features
 - [MengRao/tscns](https://github.com/MengRao/tscns) - A low overhead nanosecond clock based on x86 TSC
 - [bkaradzic/bgfx](https://github.com/bkaradzic/bgfx) - Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
-- [pfusik/cito](https://github.com/pfusik/cito) - Ć programming language. Transpiling to C, C++, C#, D, Java, JavaScript, Python, Swift, TypeScript and OpenCL C.
+- [fusionlanguage/fut](https://github.com/fusionlanguage/fut) - Fusion programming language. Transpiling to C, C++, C#, D, Java, JavaScript, Python, Swift, TypeScript and OpenCL C.
 - [rexdex/recompiler](https://github.com/rexdex/recompiler) - Xbox360 -&gt; Windows executable converter
 
-## CMake 
+## TypeScript 
 
-- [python-cmake-buildsystem/python-cmake-buildsystem](https://github.com/python-cmake-buildsystem/python-cmake-buildsystem) - A cmake buildsystem for compiling Python
-- [microsoft/vcpkg](https://github.com/microsoft/vcpkg) - C++ Library Manager for Windows, Linux, and MacOS
-
-## CSS 
-
-- [Marda33/SkeuoCord](https://github.com/Marda33/SkeuoCord) - A skeuomorphic overhaul for Discord.
-- [Bowserinator/hellomouse-youtube-style](https://github.com/Bowserinator/hellomouse-youtube-style) - Undo that bad youtube UI update
-- [simeydotme/pokemon-cards-css](https://github.com/simeydotme/pokemon-cards-css) - A collection of advanced CSS styles to create realistic-looking effects for the faces of Pokemon cards.
-- [Wamphyre/BSD-XFCE](https://github.com/Wamphyre/BSD-XFCE) - Turn your FreeBSD system in a complete and reliable workstation and creative studio with no hassle in minutes! Feel the daemon inside!
-- [ZorinOS/zorin-desktop-themes](https://github.com/ZorinOS/zorin-desktop-themes) - 
-- [nxll/dotfiles](https://github.com/nxll/dotfiles) - BACKUP ALL THE DOTS!!!
-- [mehedirm6244/My_XFCE_dotties](https://github.com/mehedirm6244/My_XFCE_dotties) - My shitty dotfiles for Xfce
-- [owl4ce/dotfiles](https://github.com/owl4ce/dotfiles) - :cherry_blossom: Aesthetic OpenboxWM Environment
-- [vinceliuice/Orchis-theme](https://github.com/vinceliuice/Orchis-theme) - Orchis is a [Material Design](https://material.io) theme for GNOME/GTK based desktop environments.
-- [VijayLalwani/SeaOwl](https://github.com/VijayLalwani/SeaOwl) - dotfiles for my post.
-- [manilarome/thunderblurred](https://github.com/manilarome/thunderblurred) - A theme for Thunderbird
-- [addy-dclxvi/xfwm4-theme-collections](https://github.com/addy-dclxvi/xfwm4-theme-collections) - My Xfwm/Xfce Theme Collections
-- [haryirfantri/idOS](https://github.com/haryirfantri/idOS) - 
-- [EliverLara/Sweet](https://github.com/EliverLara/Sweet) - Light and dark colorful Gtk3.20+ theme
-- [nekonako/dotfiles](https://github.com/nekonako/dotfiles) - 🏡 Comfy home for linux user
-- [elenapan/dotfiles](https://github.com/elenapan/dotfiles) - There is no place like ~/
-- [xexpanderx/cinnamon-themes](https://github.com/xexpanderx/cinnamon-themes) - 
-- [marssantoso/dotfiles](https://github.com/marssantoso/dotfiles) - archlinux configuration files
-- [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css) - The minimal amount of CSS to replicate the GitHub Markdown style
-
-## Clojure 
-
-- [tonsky/FiraCode](https://github.com/tonsky/FiraCode) - Free monospaced font with programming ligatures
-- [penpot/penpot](https://github.com/penpot/penpot) - Penpot - The Open-Source design & prototyping platform
-- [logseq/logseq](https://github.com/logseq/logseq) - A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: http://trello.com/b/8txSM12G/roadmap
-
-## Common Lisp 
-
-- [atlas-engineer/nyxt](https://github.com/atlas-engineer/nyxt) - Nyxt - the hacker's browser.
-
-## Coq 
-
-- [AbsInt/CompCert](https://github.com/AbsInt/CompCert) - The CompCert formally-verified C compiler
-
-## Cuda 
-
-- [dingwentao/GPU-lossless-compression](https://github.com/dingwentao/GPU-lossless-compression) - GPU-Accelerated Lossless Data Compressors Survey
-
-## D 
-
-- [klknn/kdr](https://github.com/klknn/kdr) - klknn dplug repository
-- [dd86k/ddcpuid](https://github.com/dd86k/ddcpuid) - 🔬 dd's x86 CPU Identification tool
-- [dd86k/ddx86](https://github.com/dd86k/ddx86) - ** WIP ** x86 soft emulator, MS-DOS layer, rewrite of dd86
-- [dd86k/dd86](https://github.com/dd86k/dd86) - No longer maintained. See URL.
-- [dlang/dmd](https://github.com/dlang/dmd) - dmd D Programming Language compiler
-- [CyberShadow/btdu](https://github.com/CyberShadow/btdu) - sampling disk usage profiler for btrfs
-
-## Dart 
-
-- [flutter/flutter](https://github.com/flutter/flutter) - Flutter makes it easy and fast to build beautiful apps for mobile and beyond
-
-## Dockerfile 
-
-- [PowerUser64/radium-build](https://github.com/PowerUser64/radium-build) - Easily compile the Radium Tracker/DAW
-
-## Emacs Lisp 
-
-- [a-schaefers/systemE](https://github.com/a-schaefers/systemE) - 🤣 A lightweight systemd replacement written in Emacs lisp 🤣
-
-## GDScript 
-
-- [RodZill4/material-maker](https://github.com/RodZill4/material-maker) - A procedural textures authoring and 3D model painting tool based on the Godot game engine
-- [Orama-Interactive/Pixelorama](https://github.com/Orama-Interactive/Pixelorama) - A free & open-source 2D sprite editor, made with the Godot Engine! Available on Windows, Linux, macOS and the Web!
-- [mbrlabs/Lorien](https://github.com/mbrlabs/Lorien) - Infinite canvas drawing/whiteboarding app for Windows, Linux and macOS. Made with Godot.
-- [heroiclabs/fishgame-godot](https://github.com/heroiclabs/fishgame-godot) - "Fish Game" for Godot is a 2-4 player online multiplayer game created as a demo of Nakama; an open-source scalable game server, using the Godot game engine.
-
-## GLSL 
-
-- [rsn8887/Sharp-Bilinear-Shaders](https://github.com/rsn8887/Sharp-Bilinear-Shaders) - sharp bilinear shaders for RetroPie, Recalbox and Libretro for sharp pixels without pixel wobble and minimal blurring
-
-## Go 
-
-- [tidwall/jj](https://github.com/tidwall/jj) - JSON Stream Editor (command line utility)
-- [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
-- [jangler/faunatone](https://github.com/jangler/faunatone) - Tracker-style microtonal MIDI sequencer
-- [ssleert/zfxtop](https://github.com/ssleert/zfxtop) - [WIP] fetch top for gen Z with X written by bubbletea enjoyer
-- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - Your CLI home video recorder 📼
-- [stashapp/stash](https://github.com/stashapp/stash) - An organizer for your porn, written in Go.  Documentation:  https://docs.stashapp.cc
-- [psanford/tpm-fido](https://github.com/psanford/tpm-fido) - A WebAuthn/U2F token protected by a TPM (Go/Linux)
-- [kgretzky/evilginx2](https://github.com/kgretzky/evilginx2) - Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication
-- [inkeliz/karmem](https://github.com/inkeliz/karmem) - Karmem is a fast binary serialization format, faster than Google Flatbuffers and optimized for TinyGo and WASM.
-- [charmbracelet/gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀
-- [joaoofreitas/challenge-generator](https://github.com/joaoofreitas/challenge-generator) - A program that generates a folder structure with challenges and projects for mastering a programming language.
-- [redcode-labs/Sammler](https://github.com/redcode-labs/Sammler) - A tool to extract useful data from documents
-- [AnalogJ/scrutiny](https://github.com/AnalogJ/scrutiny) - Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds
-- [schollz/miti](https://github.com/schollz/miti) - miti is a musical instrument textual interface. Basically, its MIDI, but with human-readable text. :musical_note:
-- [MauriceGit/compiler](https://github.com/MauriceGit/compiler) - Compiler for a small language into x86-64 Assembly
-- [ikemen-engine/Ikemen-GO](https://github.com/ikemen-engine/Ikemen-GO) - An open-source fighting game engine that supports MUGEN resources.
-- [gnojus/wedl](https://github.com/gnojus/wedl) - Small command line utility to download from https://wetransfer.com
-- [schollz/hostyoself](https://github.com/schollz/hostyoself) - Host yo' self from your browser, your phone, your toaster.
-- [cruise-automation/fwanalyzer](https://github.com/cruise-automation/fwanalyzer) - a tool to analyze filesystem images for security
-- [mholt/timeliner](https://github.com/mholt/timeliner) - All your digital life on a single timeline, stored locally
-- [cheat/cheat](https://github.com/cheat/cheat) - cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not fre
-- [fd0/machma](https://github.com/fd0/machma) - Easy parallel execution of commands with live feedback
-- [heppu/gkill](https://github.com/heppu/gkill) - Interactice process killer for Linux and macOS
-- [justjanne/powerline-go](https://github.com/justjanne/powerline-go) - A beautiful and useful low-latency prompt for your shell, written in go
-- [gcla/termshark](https://github.com/gcla/termshark) - A terminal UI for tshark, inspired by Wireshark
-- [geremarchive/przm](https://github.com/geremarchive/przm) - 🎨 A simple, yet feature rich color picker and manipulator
-- [BharatKalluri/moviescore](https://github.com/BharatKalluri/moviescore) - A cli tool to get movie ratings and reviews directly to your terminal!
-- [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) - Find and verify credentials
-- [free5gc/free5gc](https://github.com/free5gc/free5gc) - Open source 5G core network base on 3GPP R15
-- [benhoyt/goawk](https://github.com/benhoyt/goawk) - A POSIX-compliant AWK interpreter written in Go, with CSV support
-- [arp242/uni](https://github.com/arp242/uni) - Query the Unicode database from the commandline, with good support for emojis
-- [elliotchance/c2go](https://github.com/elliotchance/c2go) - ⚖️ A tool for transpiling C to Go.
-- [olivia-ai/olivia](https://github.com/olivia-ai/olivia) - 💁‍♀️Your new best friend powered by an artificial neural network
-- [orhun/pkgtop](https://github.com/orhun/pkgtop) - Interactive package manager and resource monitor designed for the GNU/Linux.
-- [rootVIII/pdfinverter](https://github.com/rootVIII/pdfinverter) - darken (or lighten) a PDF
-- [lunixbochs/usercorn](https://github.com/lunixbochs/usercorn) - dynamic binary analysis via platform emulation
-- [catatsuy/lls](https://github.com/catatsuy/lls) - you can get a list of files in a directory that contains a large number of files
-- [WithGJR/regit-go](https://github.com/WithGJR/regit-go) - ReGit: A Tiny Git-Compatible Git Implementation
-- [lima-vm/lima](https://github.com/lima-vm/lima) - Linux virtual machines, typically on macOS, for running containerd
-- [berty/berty](https://github.com/berty/berty) - Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
-- [johnkerl/miller](https://github.com/johnkerl/miller) - Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON
-- [liamg/scout](https://github.com/liamg/scout) - 🔭 Lightweight URL fuzzer and spider: Discover a web server's undisclosed files, directories and VHOSTs
-- [profclems/glab](https://github.com/profclems/glab) - The GitLab CLI tool. Archived: now officially adopted by GitLab as the official CLI tool and maintained at https://gitlab.com/gitlab-org/cli. See https://github.com/profclems/glab/issues/983
-- [rsc/c2go](https://github.com/rsc/c2go) - C to Go translation tool supporting Go toolchain migration
-- [wader/fq](https://github.com/wader/fq) - jq for binary formats - tool, language and decoders for working with binary and text formats
-- [benjojo/userspace-vga2usb](https://github.com/benjojo/userspace-vga2usb) - A userspace driver implementation of the Epiphan VGA2USB LR
-- [antonmedv/fx](https://github.com/antonmedv/fx) - Terminal JSON viewer
-- [schollz/croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another :crocodile: :package:
-- [dundee/gdu](https://github.com/dundee/gdu) - Fast disk usage analyzer with console interface written in Go
-- [mathaou/termdbms](https://github.com/mathaou/termdbms) - A TUI for viewing and editing database files.
-- [souvikinator/lsx](https://github.com/souvikinator/lsx) - ls Xtended : A command line utility that lets you navigate through terminal like a pro 😎.
-- [Bios-Marcel/cordless](https://github.com/Bios-Marcel/cordless) - The Discord terminal client you never knew you wanted.
-- [rgburke/grv](https://github.com/rgburke/grv) - GRV is a terminal interface for viewing git repositories
-- [JamieCrisman/desamber](https://github.com/JamieCrisman/desamber) - time to desamber date in golang
-- [nakabonne/pbgopy](https://github.com/nakabonne/pbgopy) - Copy and paste between devices
-- [redcode-labs/neurax](https://github.com/redcode-labs/neurax) - A framework for constructing self-spreading binaries
-- [zincsearch/zincsearch](https://github.com/zincsearch/zincsearch) - ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
-- [akavel/up](https://github.com/akavel/up) - Ultimate Plumber is a tool for writing Linux pipes with instant live preview
-
-## HLSL 
-
-- [Matsilagi/RSRetroArch](https://github.com/Matsilagi/RSRetroArch) - (Curated) Repository of RetroArch and related ports for ReShade
-
-## HTML 
-
-- [dy/wavefont](https://github.com/dy/wavefont) - Typeface for rendering waveform/data
-- [Hans5958/Domino-English-Translation](https://github.com/Hans5958/Domino-English-Translation) - :earth_asia: Let's translate Domino, a Japanese MIDI editor!
-- [howl-editor/howl](https://github.com/howl-editor/howl) - The Howl Editor
-- [woanware/woanware.github.io](https://github.com/woanware/woanware.github.io) - 
-- [airbnb/lottie](https://github.com/airbnb/lottie) - Lottie documentation for http://airbnb.io/lottie
-- [ligurio/awesome-ttygames](https://github.com/ligurio/awesome-ttygames) - Unix ASCII games
-- [kevquirk/512kb.club](https://github.com/kevquirk/512kb.club) - Website for the 512 KB Club
-- [oidoid/mem](https://github.com/oidoid/mem) - 🤖 Proportional and monospaced sans light pixel font family.
-- [ianhan/BitmapFonts](https://github.com/ianhan/BitmapFonts) - My collection of bitmap fonts pulled from various demoscene archives over the years
-- [larsbrinkhoff/awesome-cpus](https://github.com/larsbrinkhoff/awesome-cpus) - All CPU and MCU documentation in one place
-- [retrohun/blog](https://github.com/retrohun/blog) - retrohunblog
-- [grassmunk/Chicago95](https://github.com/grassmunk/Chicago95) - A rendition of everyone's favorite 1995 Microsoft operating system for Linux.
-- [KuroLabs/Airshare](https://github.com/KuroLabs/Airshare) - Cross-platform content sharing in a local network
-- [alufers/mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger) - Automagically reverse-engineer REST APIs via capturing traffic
-
-## Haskell 
-
-- [koalaman/shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck, a static analysis tool for shell scripts
-
-## Haxe 
-
-- [deepnight/ldtk](https://github.com/deepnight/ldtk) - Modern, lightweight and efficient 2D level editor
-
-## HolyC 
-
-- [Zeal-Operating-System/ZealOS](https://github.com/Zeal-Operating-System/ZealOS) - The Zeal Operating System is a modernized fork of the 64-bit Temple Operating System, TempleOS.
-
-## Java 
-
-- [ViaVersion/ViaFabricPlus](https://github.com/ViaVersion/ViaFabricPlus) - Fabric mod to connect to EVERY Minecraft server version (Release, Beta, Alpha, Classic, Snapshots, Bedrock) with QoL fixes to the gameplay
-- [bitwig/dawproject](https://github.com/bitwig/dawproject) - Open exchange format for DAWs
-- [QuiltMC/quiltflower](https://github.com/QuiltMC/quiltflower) - Modern Java decompiler aiming to be as accurate as possible, with an emphasis on output quality. Fork of the Fernflower decompiler.
-- [ViaVersion/ViaProxy](https://github.com/ViaVersion/ViaProxy) - Standalone proxy which allows players to join EVERY Minecraft server version (Classic, Alpha, Beta, Release, Bedrock)
-- [DC37/Super-Mario-Paint](https://github.com/DC37/Super-Mario-Paint) - Super Mario Paint - A remake of the music composer in Mario Paint (1992)
-- [cguz/java-to-rust](https://github.com/cguz/java-to-rust) - A command line Java to rust converter
-- [arnetheduck/j2c](https://github.com/arnetheduck/j2c) - Java to C++ translator
-- [patri9ck/a2ln-app](https://github.com/patri9ck/a2ln-app) - A way to display Android phone notifications on Linux (App)
-- [supertokens/supertokens-core](https://github.com/supertokens/supertokens-core) - Open source alternative to Auth0 / Firebase Auth / AWS Cognito
-- [JacksonHoggard/voodoo2d](https://github.com/JacksonHoggard/voodoo2d) - 👹 2D Java Game Engine built in OpenGL
-- [dragonwell-project/dragonwell8](https://github.com/dragonwell-project/dragonwell8) - Alibaba Dragonwell8 JDK
-- [iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool) - A tool for reverse engineering Android apk files
-- [ibilux/MobyDroid](https://github.com/ibilux/MobyDroid) - Android Device Manager with a Graphic User Interface (GUI) – Manage Android on Linux, Windows and MacOS.
-- [jindrapetrik/jpexs-decompiler](https://github.com/jindrapetrik/jpexs-decompiler) - JPEXS Free Flash Decompiler
-- [jtransc/jtransc](https://github.com/jtransc/jtransc) - Bytecode to source converting Java & Kotlin code into JavaScript, C++, D, C#, PHP, AS3, Dart and Haxe and run it everywhere. Also use JVM code in your favourite language as a library.
-- [queer/utt](https://github.com/queer/utt) - utt is the universal text transformer
-- [DJayalath/ImSter](https://github.com/DJayalath/ImSter) - Hide and view encrypted text inside images
-- [Genymobile/gnirehtet](https://github.com/Genymobile/gnirehtet) - Gnirehtet provides reverse tethering for Android
-- [rom1v/sndcpy](https://github.com/rom1v/sndcpy) - Android audio forwarding (scrcpy, but for audio)
-- [onthegomap/planetiler](https://github.com/onthegomap/planetiler) - Flexible tool to build planet-scale vector tilesets from OpenStreetMap data fast
-- [thesimj/jBaseZ85](https://github.com/thesimj/jBaseZ85) - Java implementation of ZeroMQ Base-85 encoding. Base85 is a binary-to-text encoding library.
-- [akhilkedia/AllTrans](https://github.com/akhilkedia/AllTrans) - Completely Translate Android apps in-place aka Google translate in Chrome
-- [CellularPrivacy/Android-IMSI-Catcher-Detector](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector) - AIMSICD • Fight IMSI-Catcher, StingRay and silent SMS!
-- [exadel-inc/CompreFace](https://github.com/exadel-inc/CompreFace) - Leading free and open-source face recognition system
-- [ringosham/TranslateMod](https://github.com/ringosham/TranslateMod) - A chat translation mod for Minecraft
-- [Treer/Amidst-for-Minetest](https://github.com/Treer/Amidst-for-Minetest) - the Amidst project converted to support Minetest (aka Amidstest)
-- [hex007/freej2me](https://github.com/hex007/freej2me) - A free J2ME emulator with libretro, awt and sdl2 frontends.
-- [AsamK/signal-cli](https://github.com/AsamK/signal-cli) - signal-cli provides an unofficial commandline, dbus and JSON-RPC interface for the Signal messenger.
-- [pxb1988/dex2jar](https://github.com/pxb1988/dex2jar) - Tools to work with android .dex and java .class files
-- [JesusFreke/smali](https://github.com/JesusFreke/smali) - smali/baksmali
-
-## JavaScript 
-
-- [marko-js/marko](https://github.com/marko-js/marko) - A declarative, HTML-based language that makes building web apps fun
-- [ashduino101/OnlineSequencer-FFT](https://github.com/ashduino101/OnlineSequencer-FFT) - Online Sequencer FFT script collection
-- [ilirbajri/ORCHESTOOLS-GENESYN-2](https://github.com/ilirbajri/ORCHESTOOLS-GENESYN-2) - ORCHESTOOLS | GENESYN 2
-- [PurpleBored/Hummus-Desktop-App](https://github.com/PurpleBored/Hummus-Desktop-App) - A simple Hummus Desktop app Build using electron :))))
-- [wseagar/eight-dollars](https://github.com/wseagar/eight-dollars) - A browser extension that shows twitter blue vs real verified users
-- [dice2o/BingGPT](https://github.com/dice2o/BingGPT) - Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux)
-- [SoniKast/Edge2003](https://github.com/SoniKast/Edge2003) - A Firefox CSS based on MondySpartan's Microsoft Edge in 2003 mockup.
-- [pulsar-edit/pulsar](https://github.com/pulsar-edit/pulsar) - A Community-led Hyper-Hackable Text Editor
-- [andrewstephens75/as-dithered-image](https://github.com/andrewstephens75/as-dithered-image) - HTML custom element to correctly dither an image giving pixel-perfect crisp results on all displays
-- [koyuspace/gemproxy](https://github.com/koyuspace/gemproxy) - Gemini web proxy
-- [KanHarI/gpt-commit-summarizer](https://github.com/KanHarI/gpt-commit-summarizer) - 
-- [PiotrDabkowski/Js2Py](https://github.com/PiotrDabkowski/Js2Py) - JavaScript to Python Translator & JavaScript interpreter written in 100% pure Python🚀 Try it online:
-- [opengaming/osgameclones](https://github.com/opengaming/osgameclones) - Open Source Clones of Popular Games
-- [rugk/mastodon-simplified-federation](https://github.com/rugk/mastodon-simplified-federation) - Simplifies following and interacting with remote users on other Mastodon instances.
-- [mantzaris/Tagasaurus](https://github.com/mantzaris/Tagasaurus) - Tagasuarus, the gateway to your semantic multiverse "Tag your Planet!"
-- [parvardegr/sharing](https://github.com/parvardegr/sharing) - Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app
-- [TiBeN/shortcutd](https://github.com/TiBeN/shortcutd) - Launch commands when pressing keyboard keys combinations. No graph. env needed. Support keyboard hotplug
-- [t-mart/kill-sticky](https://github.com/t-mart/kill-sticky) - Bookmarklet to remove sticky elements and restore scrolling to web pages!
-- [mifi/lossless-cut](https://github.com/mifi/lossless-cut) - The swiss army knife of lossless video/audio editing
-- [vaneenige/offline-gallery](https://github.com/vaneenige/offline-gallery) - 🎈 A 16kb Preact & Redux based Progressive Web App that offers an offline gallery experience of external images.
-- [dhanishgajjar/vscode-icons](https://github.com/dhanishgajjar/vscode-icons) - Custom Visual Studio Code Icons
-- [1egoman/debundle](https://github.com/1egoman/debundle) - :card_file_box: A javascript debundler. Takes a Browserify or Webpack bundle and recreates the initial, pre-bundled source.
-- [d3ward/b2ntp](https://github.com/d3ward/b2ntp) - Kanban style New Tab Page extension with your bookmarks and powerful search
-- [Wicklets/wick-editor](https://github.com/Wicklets/wick-editor) - A free and open-source tool for creating games, animations and everything in-between!
-- [ehmorris/High-Resolution-Downloader-For-Instagram](https://github.com/ehmorris/High-Resolution-Downloader-For-Instagram) - A Chrome extension for easily downloading high resolution copies of any Instagram photo, video, or story.
-- [Azgaar/Fantasy-Map-Generator](https://github.com/Azgaar/Fantasy-Map-Generator) - Web application generating interactive and highly customizable maps
-- [dufferzafar/Userscripts](https://github.com/dufferzafar/Userscripts) - A collection of scripts that make spending time on the web easy.
-- [BoostIO/BoostNote-Legacy](https://github.com/BoostIO/BoostNote-Legacy) - This repository is outdated and new Boost Note app is available! We've launched a new Boost Note app which supports real-time collaborative writing. https://github.com/BoostIO/BoostNote-App
-- [wekan/wekan](https://github.com/wekan/wekan) - The Open Source kanban (built with Meteor). Keep variable/table/field names camelCase. For translations, only add Pull Request changes to wekan/i18n/en.i18n.json , other translations are done at https
-- [720kb/ndm](https://github.com/720kb/ndm) - :computer: npm desktop manager https://720kb.github.io/ndm
-- [fabiocolacio/Marker](https://github.com/fabiocolacio/Marker) - 🖊 A gtk3 markdown editor
-- [aksakalli/gtop](https://github.com/aksakalli/gtop) - System monitoring dashboard for terminal
-- [djadmin/medium-cli](https://github.com/djadmin/medium-cli) - Medium for Hackers - :computer: A CLI for Medium Stories.
-- [feross/spoof](https://github.com/feross/spoof) - Easily spoof your MAC address in macOS, Windows, & Linux!
-- [GNOME/gnome-maps](https://github.com/GNOME/gnome-maps) - Read-only mirror of https://gitlab.gnome.org/GNOME/gnome-maps
-- [IonicaBizau/cli-github](https://github.com/IonicaBizau/cli-github) - :smile_cat: A fancy GitHub client for command line.
-- [riyadhalnur/weather-cli](https://github.com/riyadhalnur/weather-cli) - Check the weather for your city from your terminal
-- [scholtzm/punk](https://github.com/scholtzm/punk) - ⚡ Alternative cross-platform Steam client for desktop
-- [sindresorhus/empty-trash-cli](https://github.com/sindresorhus/empty-trash-cli) - Empty the trash
-- [sindresorhus/is-up-cli](https://github.com/sindresorhus/is-up-cli) - Check whether a website is up or down
-- [sindresorhus/open-shortcut-cli](https://github.com/sindresorhus/open-shortcut-cli) - Open the URL from a web shortcut file in the browser
-- [sindresorhus/trash-cli](https://github.com/sindresorhus/trash-cli) - Move files and folders to the trash
-- [tonton-pixel/unicopedia-plus](https://github.com/tonton-pixel/unicopedia-plus) - Developer-oriented set of Unicode, Unihan & emoji utilities wrapped into one single app, built with Electron.
-- [xxczaki/bitly-cli-client](https://github.com/xxczaki/bitly-cli-client) - 🔪 Shorten links with Bitly in your terminal!
-- [xtyrrell/undollar](https://github.com/xtyrrell/undollar) - undollar eats the dollar sign in the command you just pasted into your terminal
-- [terkelg/ramme](https://github.com/terkelg/ramme) - Unofficial Instagram Desktop App.
-- [thecoder75/liveme-pro-tools](https://github.com/thecoder75/liveme-pro-tools) - LiveMe Pro Tools
-- [Toinane/colorpicker](https://github.com/Toinane/colorpicker) - A mininal but complete colorpicker desktop app
-- [igdmapps/igdm](https://github.com/igdmapps/igdm) - Desktop application for Instagram DMs
-- [mikebell/tweetdeck-desktop](https://github.com/mikebell/tweetdeck-desktop) - An unofficial tweetdeck desktop app.
-- [kashav/identicon](https://github.com/kashav/identicon) - Little tool to explore reverse-engineering GitHub's identicon algorithm
-- [MrRio/vtop](https://github.com/MrRio/vtop) - Wow such top. So stats. More better than regular top.
-- [DusteDdk/dstream](https://github.com/DusteDdk/dstream) - bespoke music player for web
-- [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) - A cross-platform GUI for youtube-dl made in Electron and node.js
-- [lllyasviel/style2paints](https://github.com/lllyasviel/style2paints) - sketch + style = paints :art: (TOG2018/SIGGRAPH2018ASIA)
-- [rastapasta/mapscii](https://github.com/rastapasta/mapscii) - 🗺  MapSCII is a Braille & ASCII world map renderer for your console - enter =&gt; telnet mapscii.me &lt;= on Mac (brew install telnet) and Linux, connect with PuTTY on Windows
-- [nikolaeu/numi](https://github.com/nikolaeu/numi) - Beautiful calculator app for macOS
-- [comby-tools/comby-reducer](https://github.com/comby-tools/comby-reducer) - A simple program reducer for any language.
-- [osnr/TabFS](https://github.com/osnr/TabFS) - 🗄 Mount your browser tabs as a filesystem.
-- [danthedaniel/js-shaders](https://github.com/danthedaniel/js-shaders) - CPU rendered ASCII art shader writing tool with hot reloading.
-- [fanfare/googleimagesrestored](https://github.com/fanfare/googleimagesrestored) - This extension attempts to make Google Images look and feel like it did before they changed everything on August 6th, 2019.
-- [graphitemaster/breaking_the_physical_limits_of_fonts](https://github.com/graphitemaster/breaking_the_physical_limits_of_fonts) - Breaking the physical limits of fonts
-- [otringal/MB-userscripts](https://github.com/otringal/MB-userscripts) - 
-- [iaddis/metalnes](https://github.com/iaddis/metalnes) - Transistor level NES simulation
-- [marktext/marktext](https://github.com/marktext/marktext) - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
-- [google/zx](https://github.com/google/zx) - A tool for writing better scripts
-- [xxczaki/odc](https://github.com/xxczaki/odc) - 📦 Update npm dependencies easily!
-- [vladocar/screenshoteer](https://github.com/vladocar/screenshoteer) - Make website screenshots and mobile emulations from the command line.
-- [prey/prey-node-client](https://github.com/prey/prey-node-client) - Node.js client for the Prey anti-theft software.
-- [cecekpawon/Bandcamp-Yo-Ben](https://github.com/cecekpawon/Bandcamp-Yo-Ben) - Bandcamp.com 128 download helper #userscripts
-- [horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) - Program for determining types of files for Windows, Linux and MacOS.
-- [SadeghHayeri/GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) - GreenTunnel is an anti-censorship utility designed to bypass the DPI system that is put in place by various ISPs to block access to certain websites.
-- [m4heshd/offlinebay](https://github.com/m4heshd/offlinebay) - Official repository of the project OfflineBay
-- [lutzroeder/netron](https://github.com/lutzroeder/netron) - Visualizer for neural network, deep learning, and machine learning models
-- [hpennington/kanception](https://github.com/hpennington/kanception) - 
-- [Thomasorus/Kaku](https://github.com/Thomasorus/Kaku) - Kaku - 書く - A markup language I did for myself
-- [model-zoo/shift-ctrl-f](https://github.com/model-zoo/shift-ctrl-f) - 🔎 Search the information available on a webpage using natural language instead of an exact string match.
-- [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome) - Bypass Paywalls web browser extension for Chrome and Firefox.
-- [stackgl/shader-school](https://github.com/stackgl/shader-school) - :mortar_board: A workshopper for GLSL shaders and graphics programming
-
-## Julia 
-
-- [JuliaLang/julia](https://github.com/JuliaLang/julia) - The Julia Programming Language
-
-## Jupyter Notebook 
-
-- [suno-ai/bark](https://github.com/suno-ai/bark) - 🔊 Text-Prompted Generative Audio Model
-- [oyvindln/vhs-decode](https://github.com/oyvindln/vhs-decode) - Software defined VHS decoder - Fork (maybe temporary) of the ld-decode Laserdisc rf decoder
-- [MubertAI/Mubert-Text-to-Music](https://github.com/MubertAI/Mubert-Text-to-Music) - A simple notebook demonstrating prompt-based music generation via Mubert API
-- [carefree0910/carefree-creator](https://github.com/carefree0910/carefree-creator) - AI magics meet Infinite draw board.
-- [williamyang1991/VToonify](https://github.com/williamyang1991/VToonify) - [SIGGRAPH Asia 2022] VToonify: Controllable High-Resolution Portrait Video Style Transfer
-- [tasercake/lowpolypy](https://github.com/tasercake/lowpolypy) - Robust Low-Poly Image Generator
-- [sedthh/pyxelate](https://github.com/sedthh/pyxelate) - Python class that generates pixel art from images
-- [mozilla/TTS](https://github.com/mozilla/TTS) - :robot: :speech_balloon: Deep learning for Text to Speech  (Discussion forum: https://discourse.mozilla.org/c/tts)
-- [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2) - Tacotron 2 - PyTorch implementation with faster-than-realtime inference
-- [vijishmadhavan/SkinDeep](https://github.com/vijishmadhavan/SkinDeep) - Get Deinked!!
-- [snakers4/silero-models](https://github.com/snakers4/silero-models) - Silero Models: pre-trained speech-to-text, text-to-speech and text-enhancement models made embarrassingly simple
-
-## Kotlin 
-
-- [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language.
-- [basti564/Oculess](https://github.com/basti564/Oculess) - Removes account requirements and telemetry from Oculus Quest devices
-- [TwidereProject/Twidere-Android](https://github.com/TwidereProject/Twidere-Android) - 
-
-## LLVM 
-
-- [lifting-bits/anvill](https://github.com/lifting-bits/anvill) - anvill forges beautiful LLVM bitcode out of raw machine code
-- [hughperkins/coriander](https://github.com/hughperkins/coriander) - Build NVIDIA® CUDA™ code for OpenCL™ 1.2 devices
-
-## Lua 
-
-- [davidgiven/wordgrinder](https://github.com/davidgiven/wordgrinder) - A word processor which gets the hell out of your way and lets you get some work done.
-- [rxyhn/yoru](https://github.com/rxyhn/yoru) - 夜 - Yoru | Aesthetic and Beautiful Awesome  Environment :first_quarter_moon:
-- [jazz-g/shining-plum](https://github.com/jazz-g/shining-plum) - Dotfiles for r/unixporn
-- [manilarome/the-glorious-dotfiles](https://github.com/manilarome/the-glorious-dotfiles) - A glorified personal dot files
-- [dcao/dotfiles](https://github.com/dcao/dotfiles) - my config, nixified
-- [aravindps/dotfiles](https://github.com/aravindps/dotfiles) - 
-- [szorfein/dotfiles](https://github.com/szorfein/dotfiles) - Dotfiles for unix, managed by GNU stow.
-- [kluete/recover_itunes](https://github.com/kluete/recover_itunes) - rip meta-tags from iTunes database
-- [rxi/lite](https://github.com/rxi/lite) - A lightweight text editor written in Lua
-- [lite-xl/lite-xl](https://github.com/lite-xl/lite-xl) - A lightweight text editor written in Lua
-- [edubart/nelua-lang](https://github.com/edubart/nelua-lang) - Minimal, efficient, statically-typed and meta-programmable systems programming language heavily inspired by Lua, which compiles to C and native code.
-
-## Makefile 
-
-- [ad-si/awesome-music-production](https://github.com/ad-si/awesome-music-production) - A curated list of software, services and resources to create and distribute music.
-- [publicsamples/Oi-Grandad](https://github.com/publicsamples/Oi-Grandad) - 4 Voice Granular Synth
-- [GModal/ChaffVerb](https://github.com/GModal/ChaffVerb) - An audio plugin utilizing pitch shifting, echo and reverb, for creating sounds from shimmers to whale songs. In LV2, VST, VST3 and CLAP formats.
-- [zynaddsubfx/zyn-fusion-build](https://github.com/zynaddsubfx/zyn-fusion-build) - Build Scripts For Zyn-Fusion
-- [eerimoq/monolinux](https://github.com/eerimoq/monolinux) - Create embedded Linux systems with a single statically linked executable.
-
-## Markdown 
-
-- [tldr-pages/tldr](https://github.com/tldr-pages/tldr) - 📚 Collaborative cheatsheets for console commands
-
-## Nim 
-
-- [ansiwave/ansiwave](https://github.com/ansiwave/ansiwave) - A modern BBS
-- [def-/nim-small-coreutils](https://github.com/def-/nim-small-coreutils) - Coreutils that compile into tiny binaries
-
-## OCaml 
-
-- [facebook/infer](https://github.com/facebook/infer) - A static analyzer for Java, C, C++, and Objective-C
-- [BinaryAnalysisPlatform/bap](https://github.com/BinaryAnalysisPlatform/bap) - Binary Analysis Platform
-
-## Objective-C 
-
-- [darlinghq/darling](https://github.com/darlinghq/darling) - Darwin/macOS emulation layer for Linux
-- [TomHarte/CP-M-for-OS-X](https://github.com/TomHarte/CP-M-for-OS-X) - A z80 emulator + CP/M-80 reimplementation that intends to allow original CP/M software to be used under OS X.
-- [HexFiend/HexFiend](https://github.com/HexFiend/HexFiend) - A fast and clever hex editor for macOS
-
-## OpenSCAD 
-
-- [dosdude1/zif-ide-ssd](https://github.com/dosdude1/zif-ide-ssd) - A custom-designed IDE SSD for use in any machine that utilizies a 1.8" ZIF IDE hard disk.
-- [tenderlove/analog-terminal-bell](https://github.com/tenderlove/analog-terminal-bell) - A bell for your terminal that is analog
-
-## Others 
-
-- [btw-so/open-source-alternatives](https://github.com/btw-so/open-source-alternatives) - List of open-source alternatives to everyday SaaS products.
-- [csteinmetz1/ai-audio-startups](https://github.com/csteinmetz1/ai-audio-startups) - Community list of startups working with AI in audio and music technology
-- [tuneflow/audioldm-plugin](https://github.com/tuneflow/audioldm-plugin) - 
-- [Fausto-Korpsvart/Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme) - A GTK theme based on the Gruvbox colour palette.
-- [extracell/exchanger](https://github.com/extracell/exchanger) - a plugin that exchanges sine partials for different waveforms. download under "releases"
-- [jubbon/my-awesome-stars](https://github.com/jubbon/my-awesome-stars) - 
-- [m040601/my-awesome-stars](https://github.com/m040601/my-awesome-stars) - A curated list of my GitHub stars!
-- [dracula/dracula-theme](https://github.com/dracula/dracula-theme) - 🧛🏻‍♂️ One theme. All platforms.
-- [worproject/RPi-Windows-Drivers](https://github.com/worproject/RPi-Windows-Drivers) - Windows on ARM device drivers for the Raspberry Pi single-board computer.
-- [Scyne/stadiaRawBtFw](https://github.com/Scyne/stadiaRawBtFw) - A dump of the Raw Stadia controller BT Firmware
-- [darktohka/clean-flash-builds](https://github.com/darktohka/clean-flash-builds) - Repository of clean Flash Player builds.
-- [New-Club-Penguin/NewCP-App-Build](https://github.com/New-Club-Penguin/NewCP-App-Build) - 
-- [arthur-liberman/vfd-configurations](https://github.com/arthur-liberman/vfd-configurations) - vfd.config - A collection of configuration files for linux devices with a front facing display.
-- [gmrandazzo/TOO](https://github.com/gmrandazzo/TOO) - TOO - Tensorflow On Odroid
-- [bratpeki/tools](https://github.com/bratpeki/tools) - A master list of (preferably libre) CLI and GUI tools
-- [gbdev/awesome-gbdev](https://github.com/gbdev/awesome-gbdev) - A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.
-- [ItsHoul/blobicons](https://github.com/ItsHoul/blobicons) - Unfunny icon pack with every icon being a blob cat
-- [CathyKMeow/rosetta-linux-asahi](https://github.com/CathyKMeow/rosetta-linux-asahi) - Hacked RosettaLinux that runs on Asahi Linux
-- [MiCode/Xiaomi_Kernel_OpenSource](https://github.com/MiCode/Xiaomi_Kernel_OpenSource) - Xiaomi Mobile Phone Kernel OpenSource
-- [adgsenpai/LinuxSoundUpgrade](https://github.com/adgsenpai/LinuxSoundUpgrade) - a guide to tell you how to upgrade sound on any Linux distribution
-- [OpenStick/OpenStick](https://github.com/OpenStick/OpenStick) - reverse engineering on msm8916 based 4G modem.
-- [mer-hybris/libhybris](https://github.com/mer-hybris/libhybris) - libhybris
-- [skerkour/bloom](https://github.com/skerkour/bloom) - 
-- [zimlit/colorscheme](https://github.com/zimlit/colorscheme) - 
-- [TobleMiner/HPE-FlexibleLOM-adapter](https://github.com/TobleMiner/HPE-FlexibleLOM-adapter) - Adapter for using HPE FlexibleLOM cards in full height PCIe slots
-- [pornganizer/PGV5](https://github.com/pornganizer/PGV5) - Pornganizer V5
-- [wzykubek/FOSS_Stuff](https://github.com/wzykubek/FOSS_Stuff) - In this repo you can find some free, open source and privacy applications and services to stop use proprietary spyware.
-- [bigasdev/Twitter-Gif-Maker](https://github.com/bigasdev/Twitter-Gif-Maker) - My application to help with encoding and converting videos to gif to use on twitter with ffmpeg
-- [5bentz/linux-asus-t100](https://github.com/5bentz/linux-asus-t100) - Getting Linux (Esp. Ubuntu) up and running well on the Asus Transformer T100
-- [andirueckel/undefined-medium](https://github.com/andirueckel/undefined-medium) - undefined medium — a free and open-source monospace typeface with 400+ characters
-- [osxfuse/osxfuse](https://github.com/osxfuse/osxfuse) - FUSE extends macOS by adding support for user space file systems
-- [GRAnimated/SMMGuide](https://github.com/GRAnimated/SMMGuide) - A full guide on how to mod Super Mario Maker.
-- [seebye/ueberzug](https://github.com/seebye/ueberzug) - 
-- [slacka/WoeUSB](https://github.com/slacka/WoeUSB) - WoeUSB is a simple tool that enable you to create your own usb stick windows installer from an iso image or a real DVD. It is a fork of Congelli501's WinUSB.
-- [rmottola/Arctic-Fox](https://github.com/rmottola/Arctic-Fox) - Web Browser for Mac OS X 10.6+, Linux (PowerPC, x86, amd64, ARM, MIPS), NetBSD, OpenBSD, and Windows XP.
-- [amarioguy/AppleWOAProject](https://github.com/amarioguy/AppleWOAProject) - AppleWOA project website. Head https://github.com/AppleWOA (@AppleWOA) to see the actual progress of project repositories!
-- [adrianlarion/useful-sed](https://github.com/adrianlarion/useful-sed) - Useful sed scripts & patterns.
-- [llvm-mos/llvm-mos](https://github.com/llvm-mos/llvm-mos) - Port of LLVM to the MOS 6502 and related processors
-- [olilarkin/awesome-musicdsp](https://github.com/olilarkin/awesome-musicdsp) - A curated list of my favourite music DSP and audio programming resources
-- [BlackOtton/RedStar-Media](https://github.com/BlackOtton/RedStar-Media) - Extracted media files from North Korean OS, Red Star 3.0
-- [leereilly/games](https://github.com/leereilly/games) - :video_game: A list of popular/awesome video games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.
-- [fujitsu/A64FX](https://github.com/fujitsu/A64FX) - 
-- [ganny26/awesome-audioqr](https://github.com/ganny26/awesome-audioqr) - A curated list of Audio QR / NSDT libraries
-- [gilescope/cyberpunkfonts](https://github.com/gilescope/cyberpunkfonts) - Cyberpunk inspired fonts for coding
-- [HankiDesign/awesome-dear-imgui](https://github.com/HankiDesign/awesome-dear-imgui) - A collection of awesome dear imgui bindings, extensions and resources
-- [openrisc/or1k-gcc](https://github.com/openrisc/or1k-gcc) - GCC port for OpenRISC 1000
-- [redecentralize/alternative-internet](https://github.com/redecentralize/alternative-internet) - A collection of interesting new networks and tech aiming at decentralisation (in some form).
-- [reHackable/awesome-reMarkable](https://github.com/reHackable/awesome-reMarkable) - A curated list of projects related to the reMarkable tablet
-- [sahibjotsaggu/Google-Sans-Fonts](https://github.com/sahibjotsaggu/Google-Sans-Fonts) - 
-- [sailfishos/gst-omx](https://github.com/sailfishos/gst-omx) - OpenMAX IL wrapper plugin for GStreamer that uses Android hardware codecs through libhybris
-- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps
-- [TheLastZombie/sshpm](https://github.com/TheLastZombie/sshpm) - The SSH profile manager.
-- [turbo/openftp4](https://github.com/turbo/openftp4) - A list of all FTP servers in IPv4 that allow anonymous logins.
+- [Nostalgia-09/wlm-09-discord](https://github.com/Nostalgia-09/wlm-09-discord) - 
+- [rejetto/hfs](https://github.com/rejetto/hfs) - HFS is a web file server to run on your computer. Share folders or even a single file thanks to the virtual file system.
+- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.
+- [fill3d/fill](https://github.com/fill3d/fill) - Generative fill in 3D.
+- [Open-DAW/open-daw](https://github.com/Open-DAW/open-daw) - Open-DAW  - online and open source (Digital Audio Workstation)
+- [ryohey/signal](https://github.com/ryohey/signal) - Online MIDI Editor: signal
+- [exit-path/game](https://github.com/exit-path/game) - 
+- [catppuccin/catppuccin](https://github.com/catppuccin/catppuccin) - 😸 Soothing pastel theme for the high-spirited!
+- [Raicuparta/lemmy-go](https://github.com/Raicuparta/lemmy-go) - Browser extension that adds a new search keyword for more easily navigating to Lemmy communities.
+- [DimensionDev/Twidere-Website](https://github.com/DimensionDev/Twidere-Website) - Website of Twidere.
+- [Nutlope/roomGPT](https://github.com/Nutlope/roomGPT) - Upload a photo of your room to generate your dream room with AI.
+- [illacloud/illa-builder](https://github.com/illacloud/illa-builder) - 🚀 Retool open-source alternative, with low-code UI components and support for multiple data resources.
+- [ospfranco/sol](https://github.com/ospfranco/sol) - MacOS launcher & command palette
+- [najadojo/gltf-import-export](https://github.com/najadojo/gltf-import-export) - Convert between GLB and GLTF files.
+- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - A dynamically generated activity graph to show your GitHub activities of last 31 days.
+- [pmndrs/detect-gpu](https://github.com/pmndrs/detect-gpu) - Classifies GPUs based on their 3D rendering benchmark score allowing the developer to provide sensible default settings for graphically intensive applications.
+- [ci7lus/tweet2image](https://github.com/ci7lus/tweet2image) - Convert tweets to images
+- [vercel/satori](https://github.com/vercel/satori) - Enlightened library to convert HTML and CSS to SVG
+- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ Generates a snake game from a github user contributions graph and output a screen capture as animated svg or gif
+- [discord/react-dnd-accessible-backend](https://github.com/discord/react-dnd-accessible-backend) - An add-on backend for `react-dnd` that provides support for keyboards and screenreaders by default.
+- [upscayl/upscayl](https://github.com/upscayl/upscayl) - 🆙 Upscayl - Free and Open Source AI Image Upscaler for Linux, MacOS and Windows built with Linux-First philosophy.
+- [sneljo1/auryo](https://github.com/sneljo1/auryo) - [Discontinued] Auryo - Unofficial Soundcloud Desktop App
+- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - Watch streaming media with friends.
+- [vladimiry/ElectronMail](https://github.com/vladimiry/ElectronMail) - Unofficial ProtonMail Desktop App
+- [Musish/Musish](https://github.com/Musish/Musish) - Apple Music...ish
+- [iongion/podman-desktop-companion](https://github.com/iongion/podman-desktop-companion) - Podman desktop companion
+- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Note is a document driven project management tool that maximizes remote DevOps team velocity.
+- [cs01/termpair](https://github.com/cs01/termpair) - View and control terminals from your browser with end-to-end encryption 🔒
+- [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) - MapLibre GL JS - Interactive vector tile maps in WebGL2
 - [webprofusion/OpenAudio](https://github.com/webprofusion/OpenAudio) - A list of open source VST/audio plugin projects. Please contribute more links or open source your own plugins.
-- [xexpanderx/Fluxbox-themes](https://github.com/xexpanderx/Fluxbox-themes) - Fluxbox theme collections
-- [abbodi1406/vcredist](https://github.com/abbodi1406/vcredist) - AIO Repack for latest Microsoft Visual C++ Redistributable Runtimes
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch.
-- [ansilove/BlockZone](https://github.com/ansilove/BlockZone) - A faithful recreation of the original DOS font.
-- [SpaceExplorationTechnologies/starlink-wifi](https://github.com/SpaceExplorationTechnologies/starlink-wifi) - 
-- [hexdump0815/linux-mainline-and-mali-on-odroid-u3](https://github.com/hexdump0815/linux-mainline-and-mali-on-odroid-u3) - tools and patches to run linux mainline with mali gles and opengl on an odroid U2, U3, U3+, X and X2
-- [uzkbwza/viii](https://github.com/uzkbwza/viii) - a small bitmap font for coding
-- [chitralekha18/AutoLyrixAlign](https://github.com/chitralekha18/AutoLyrixAlign) - Pre-trained model and script to automatically align lyrics to polyphonic audio
-- [morrownr/88x2bu](https://github.com/morrownr/88x2bu) - Linux Driver for USB WiFi Adapters that are based on the RTL8812BU and RTL8822BU Chipsets
-- [morrownr/8812au](https://github.com/morrownr/8812au) - Linux Driver for USB WiFi Adapters that are based on the RTL8812AU Chipset
-- [morrownr/8821au](https://github.com/morrownr/8821au) - Linux Driver for USB WiFi Adapters that are based on the RTL8811AU and RTL8821AU Chipsets
-- [morrownr/8821cu](https://github.com/morrownr/8821cu) - Linux Driver for USB WiFi Adapters that are based on the RTL8811CU, RTL8821CU and RTL8731AU Chipsets
-- [aieater/rocm_pytorch_informations](https://github.com/aieater/rocm_pytorch_informations) - The official page of ROCm/PyTorch will contain information that is always confusing. On this page we will endeavor to describe accurate information based on the knowledge gained by GPUEater infrastruc
-- [SGNight/Arm-NativeBridge](https://github.com/SGNight/Arm-NativeBridge) - ARM translation layer for Android x86
-- [iNPUTmice/Conversations](https://github.com/iNPUTmice/Conversations) - Conversations is an open source XMPP/Jabber client for Android
-- [pftf/RPi3](https://github.com/pftf/RPi3) - Raspberry Pi 3 UEFI Firmware Images
-- [natethinks/jog](https://github.com/natethinks/jog) - Simple script to print the last 10 commands you ran in the current directory
-- [davidenunes/tensorflow-wheels](https://github.com/davidenunes/tensorflow-wheels) - Tensorflow Wheels
-- [hakavlad/le9-patch](https://github.com/hakavlad/le9-patch) - [PATCH] mm: Protect the working set under memory pressure to prevent thrashing, avoid high latency and prevent livelock in near-OOM conditions
-- [hexdump0815/linux-mainline-on-arm-chromebooks](https://github.com/hexdump0815/linux-mainline-on-arm-chromebooks) - running linux mainline on arm chromebooks - for example: samsung xe303c12 and xe503c12 (snow and peach), acer c100, c101 and c201 (veyron speedy, minnie etc. and gru bob and kevin), medion s2013 and s
-- [Syndrizzle/hotfiles](https://github.com/Syndrizzle/hotfiles) - 🏠 A collection of personal configuration files for various rices I have made.
+- [Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) - A Native GOG, Amazon and Epic Games Launcher for Linux, Windows and Mac.
+- [sindresorhus/caprine](https://github.com/sindresorhus/caprine) - Elegant Facebook Messenger desktop app
+- [Unleash/unleash](https://github.com/Unleash/unleash) - Open-source feature management solution built for developers.
 
-## PHP 
+## Rust 
 
-- [DirectoryLister/DirectoryLister](https://github.com/DirectoryLister/DirectoryLister) - 📂 Directory Lister is the easiest way to expose the contents of any web-accessible folder for browsing and sharing.
-- [bwdutton/gallery3](https://github.com/bwdutton/gallery3) - The simplest, most intuitive way to host your photos on your website.
+- [monomadic/ni-file](https://github.com/monomadic/ni-file) - Reverse-engineered kontakt / native instruments file formats.
+- [BrokenSource/Ardmin](https://github.com/BrokenSource/Ardmin) - ❤️‍🔥 Ardour Session Minimizer, a blazing fast small CLI tool to simplify (in size) music sessions folders by deleting unused sources (WAV, MIDI), old plugin states and _somewhat_ non important files.
+- [subalterngames/cacophony](https://github.com/subalterngames/cacophony) - Minimalist MIDI Sequencer
+- [eza-community/eza](https://github.com/eza-community/eza) - A modern, maintained replacement for ls
+- [Storyyeller/Krakatau](https://github.com/Storyyeller/Krakatau) - Java decompiler, assembler, and disassembler
+- [Treeki/mpw-emu](https://github.com/Treeki/mpw-emu) - tries to emulate the command-line tools from MPW for classic PowerPC Macs
+- [B0ney/xmodits-cli](https://github.com/B0ney/xmodits-cli) - Command line version of xmodits - A tool to rip samples from tracker modules.
+- [azur1s/penare](https://github.com/azur1s/penare) - (VST3/CLAP) A wonky distortion plugin :3
+- [Niedzwiedzw/reaper-save-rs](https://github.com/Niedzwiedzw/reaper-save-rs) - serializer and deserializer for reaper save data format
+- [LaineZ/PhotoConsequences](https://github.com/LaineZ/PhotoConsequences) - 🎵🎹→🖼️ Use your audio VST plugins on IMAGES!
+- [Razican/fel-cli](https://github.com/Razican/fel-cli) - CLI tools for dealing with Allwinner devices in FEL mode, in pure Rust.
+- [kvark/vange-rs](https://github.com/kvark/vange-rs) - Rusty Vangers clone
+- [jkfran/killport](https://github.com/jkfran/killport) - A command-line tool to easily kill processes running on a specified port.
+- [google/forma](https://github.com/google/forma) - An efficient vector-graphics renderer
+- [sandydoo/flux](https://github.com/sandydoo/flux) - An open-source tribute to the macOS Drift screensaver
+- [openobserve/openobserve](https://github.com/openobserve/openobserve) - 🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces, RUM, Error tracking, Session replay).
+- [luamfb/tempest-lcd](https://github.com/luamfb/tempest-lcd) - Play music from your LCD monitor with a radio
+- [everydayanchovies/eink-vnc](https://github.com/everydayanchovies/eink-vnc) - 
+- [doukutsu-rs/doukutsu-rs](https://github.com/doukutsu-rs/doukutsu-rs) - A faithful and open-source remake of Cave Story engine written in Rust
+- [derivator/tafkars](https://github.com/derivator/tafkars) - 
+- [kpreid/all-is-cubes](https://github.com/kpreid/all-is-cubes) - Yet another block/voxel game; in this one the blocks are made out of blocks. Runs in browsers on WebGL+WebAssembly.
+- [a2aaron/nyasynth](https://github.com/a2aaron/nyasynth) - 
+- [crablang/crab](https://github.com/crablang/crab) - A community fork of a language named after a plant fungus. All of the memory-safe features you love, now with 100% less bureaucracy!
+- [greatest-ape/OctaSine](https://github.com/greatest-ape/OctaSine) - Frequency modulation synthesizer plugin (VST2, CLAP). Runs on macOS, Windows and Linux.
+- [qhdwight/bevy_fps_controller](https://github.com/qhdwight/bevy_fps_controller) - Source engine inspired Bevy FPS controller plugin
+- [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
+- [B0ney/xmodits-py](https://github.com/B0ney/xmodits-py) - xmodits python library
+- [immunant/c2rust](https://github.com/immunant/c2rust) - Migrate C code to Rust
+- [astonbitecode/j4rs](https://github.com/astonbitecode/j4rs) - Java for Rust
+- [queer/boxxy](https://github.com/queer/boxxy) - boxxy puts bad Linux applications in a box with only their files.
+- [OpenGMK/OpenGMK](https://github.com/OpenGMK/OpenGMK) - A rewrite of the GameMaker Classic engine runners with additional tooling
+- [hikari-no-yume/touchHLE](https://github.com/hikari-no-yume/touchHLE) - High-level emulator for iPhone OS apps. This repo is used for issues, releases and CI. Submit patches at: https://review.gerrithub.io/q/project:hikari-no-yume/touchHLE+status:open
+- [Spotifyd/spotifyd](https://github.com/Spotifyd/spotifyd) - A spotify daemon
+- [rdrpenguin04/rmms](https://github.com/rdrpenguin04/rmms) - LMMS successor candidate, written in Rust
+- [evmar/retrowin32](https://github.com/evmar/retrowin32) - windows emulator
+- [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
+- [stalwartlabs/jmap-server](https://github.com/stalwartlabs/jmap-server) - Stalwart JMAP server
+- [michaelgiba/iq](https://github.com/michaelgiba/iq) - jq for images - experimental
+- [feather-rs/feather](https://github.com/feather-rs/feather) - A Minecraft server implementation in Rust
+- [kaplanelad/shellfirm](https://github.com/kaplanelad/shellfirm) - Intercept any risky patterns (default or defined by you) and prompt you a small challenge for double verification
+- [rapiz1/catp](https://github.com/rapiz1/catp) - Print the output of a running process
+- [elkowar/eww](https://github.com/elkowar/eww) - ElKowars wacky widgets
+- [jrnxf/fsrx](https://github.com/jrnxf/fsrx) - 📚 flow state reading in the terminal
+- [JojiiOfficial/LiveBudsCli](https://github.com/JojiiOfficial/LiveBudsCli) - A tool to control your Galaxy buds+, live and pro (beta) from linux
+- [imsnif/diskonaut](https://github.com/imsnif/diskonaut) - Terminal disk space navigator 🔭
+- [B0ney/xmodits](https://github.com/B0ney/xmodits) - A tool to rip samples from tracker modules. Supports IT, XM, S3M, MOD, UMX and MPTM formats.
+- [SoptikHa2/desed](https://github.com/SoptikHa2/desed) - Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal.
+- [rnd-ash/razer-laptop-control](https://github.com/rnd-ash/razer-laptop-control) - Project to create driver/software to control performance of razer laptops
+- [osa1/tiny](https://github.com/osa1/tiny) - A terminal IRC client
+- [mgunyho/tere](https://github.com/mgunyho/tere) - Terminal file explorer
+- [nerdypepper/taizen](https://github.com/nerdypepper/taizen) - curses based mediawiki browser
+- [sharkdp/bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
+- [timvisee/ffsend](https://github.com/timvisee/ffsend) - :mailbox_with_mail: Easily and securely share files from the command line. A fully featured Firefox Send client.
+- [harababurel/gcsf](https://github.com/harababurel/gcsf) - a FUSE file system based on Google Drive
+- [shssoichiro/oxipng](https://github.com/shssoichiro/oxipng) - Multithreaded PNG optimizer written in Rust
+- [MarginResearch/cannoli](https://github.com/MarginResearch/cannoli) - High-performance QEMU memory and instruction tracing
+- [sharkdp/fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'
+- [SeaDve/Mousai](https://github.com/SeaDve/Mousai) - Identify songs in seconds
+- [hannobraun/fornjot](https://github.com/hannobraun/fornjot) - Early-stage b-rep CAD kernel, written in the Rust programming language.
+- [evmar/n2](https://github.com/evmar/n2) - n2 ("into"), a ninja compatible build system
+- [PolyMeilex/Neothesia](https://github.com/PolyMeilex/Neothesia) - Flashy Synthesia Like Software For Linux,Windows and MacOs
+- [PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless) - jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data.
+- [haimgel/display-switch](https://github.com/haimgel/display-switch) - Turn a $30 USB switch into a full-featured multi-monitor KVM switch
+- [alacritty/alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator.
+- [elfshaker/elfshaker](https://github.com/elfshaker/elfshaker) - elfshaker stores binary objects efficiently
+- [gfx-rs/naga](https://github.com/gfx-rs/naga) - Universal shader translation in Rust
+- [google/pix-image-viewer](https://github.com/google/pix-image-viewer) - Desktop image viewer. View thousands of images in a zoomable, pannable grid.
+- [jamesmcm/vopono](https://github.com/jamesmcm/vopono) - Run applications through VPN tunnels with temporary network namespaces
+- [intgr/ego](https://github.com/intgr/ego) - Alter Ego: run Linux desktop applications under a different local user
+- [imsnif/bandwhich](https://github.com/imsnif/bandwhich) - Terminal bandwidth utilization tool
+- [mmstick/fontfinder](https://github.com/mmstick/fontfinder) - GTK application for browsing and installing fonts from Google's font archive
+- [nushell/nushell](https://github.com/nushell/nushell) - A new type of shell
+- [orhun/kmon](https://github.com/orhun/kmon) - Linux Kernel Manager and Activity Monitor 🐧💻
+- [phiresky/ripgrep-all](https://github.com/phiresky/ripgrep-all) - rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.
+- [wookietreiber/strace-analyzer](https://github.com/wookietreiber/strace-analyzer) - analyzes strace output
+- [zoeyfyi/Boop-GTK](https://github.com/zoeyfyi/Boop-GTK) - Port of @IvanMathy's Boop to GTK, a scriptable scratchpad for developers.
+- [timvisee/lazymc](https://github.com/timvisee/lazymc) - 💤 Put your Minecraft server to rest when idle.
+- [0x192/universal-android-debloater](https://github.com/0x192/universal-android-debloater) - Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.
+- [nuta/nsh](https://github.com/nuta/nsh) - A command-line shell like fish, but POSIX compatible.
+- [alexhallam/tv](https://github.com/alexhallam/tv) - 📺(tv) Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment.
+- [mgdm/htmlq](https://github.com/mgdm/htmlq) - Like jq, but for HTML.
+- [landaire/unfuck](https://github.com/landaire/unfuck) - Python 2.7 bytecode d̶e̶o̶b̶f̶u̶s̶c̶a̶t̶o̶r unfucker
+- [rcoh/angle-grinder](https://github.com/rcoh/angle-grinder) - Slice and dice logs on the command line
+- [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - a structural diff that understands syntax 🟥🟩
+- [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) - Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
+- [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
+- [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
+- [slp/krunvm](https://github.com/slp/krunvm) - Create microVMs from OCI images
+- [ComunidadAylas/PackSquash](https://github.com/ComunidadAylas/PackSquash) - 📦 Minecraft: Java Edition resource and data pack optimizer which aims to achieve the best possible compression, performance and protection, improving pack distribution, storage and in-game load times.
+- [dbrgn/tealdeer](https://github.com/dbrgn/tealdeer) - A very fast implementation of tldr in Rust.
+- [iceiix/stevenarella](https://github.com/iceiix/stevenarella) - Multi-protocol Minecraft-compatible client written in Rust
+- [wfxr/csview](https://github.com/wfxr/csview) - 📠 Pretty and fast csv viewer for cli with cjk/emoji support.
+- [mygnu/rcue](https://github.com/mygnu/rcue) - Corsair H150i PRO, usb userspace driver
+- [ezrosent/frawk](https://github.com/ezrosent/frawk) - an efficient awk-like language
+- [nachoparker/dutree](https://github.com/nachoparker/dutree) - a tool to analyze file system usage written in Rust
+- [qarmin/czkawka](https://github.com/qarmin/czkawka) - Multi functional app to find duplicates, empty folders, similar images etc.
+- [sayanarijit/xplr](https://github.com/sayanarijit/xplr) - A hackable, minimal, fast TUI file explorer
+- [ogham/dog](https://github.com/ogham/dog) - A command-line DNS client.
+- [NilsIrl/MozWire](https://github.com/NilsIrl/MozWire) - MozWire is an unofficial configuration manager giving Linux, macOS users (among others), access to MozillaVPN.
+- [jpochyla/psst](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI
+- [Canop/dysk](https://github.com/Canop/dysk) - A linux utility to get information on filesystems, like df but better
+- [wez/wezterm](https://github.com/wez/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust
+- [watchexec/watchexec](https://github.com/watchexec/watchexec) - Executes commands in response to file modifications
 
-## PLpgSQL 
+## C# # 
 
-- [turbo/pg-shortkey](https://github.com/turbo/pg-shortkey) - YouTube-like Short IDs as Postgres Primary Keys
+- [tpbeldie/FL-KeyForward](https://github.com/tpbeldie/FL-KeyForward) - Bridge that recieves global keyboard inputs and forwards them to FL Studio, bypassing third party plugin focusing lock off typing keyboard.
+- [stakira/OpenUtau](https://github.com/stakira/OpenUtau) - Open singing synthesis platform / Open source UTAU successor
+- [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) - Everything integration for the Windows taskbar.
+- [Abdelrhman-AK/WinPaletter](https://github.com/Abdelrhman-AK/WinPaletter) - Advanced Windows Appearance Editor
+- [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) - Lightweight utility for organizing the taskbar through groups
+- [isadorasophia/murder](https://github.com/isadorasophia/murder) - Murder is a pixel art ECS game engine.
+- [darktohka/FlashPatch](https://github.com/darktohka/FlashPatch) - FlashPatch! Play Adobe Flash Player games in the browser after January 12th, 2021.
+- [OxyDSP/MIIDIToLFO](https://github.com/OxyDSP/MIIDIToLFO) - Convert MIDI files to Serum and Vital LFOs.
+- [Metabolix/HackBGRT](https://github.com/Metabolix/HackBGRT) - Windows boot logo changer for UEFI systems
+- [ppy/osu](https://github.com/ppy/osu) - rhythm is just a *click* away!
+- [ValdemarOrn/CloudSeed](https://github.com/ValdemarOrn/CloudSeed) - Algorithmic Reverb VST Plugin
+- [unoplatform/uno](https://github.com/unoplatform/uno) - Build Mobile, Desktop and WebAssembly apps with C# and XAML. Today. Open source and professionally supported.
+- [BleuBleu/FamiStudio](https://github.com/BleuBleu/FamiStudio) - FamiStudio NES Music Editor
+- [TalonZane/mspaintCompanion](https://github.com/TalonZane/mspaintCompanion) - layers for mspaint
+- [tpbeldie/UFLVK-Emu](https://github.com/tpbeldie/UFLVK-Emu) - Universal FL Studio Virtual Keyboard Emulator for all DAWs
+- [jeason1997/GameMaker-Studio-Decompiler](https://github.com/jeason1997/GameMaker-Studio-Decompiler) - 
+- [UnicordDev/Unicord](https://github.com/UnicordDev/Unicord) - A free, open source Discord Client for Windows 10 and Windows Phone 10
+- [jgosar/mine-city-2000](https://github.com/jgosar/mine-city-2000) - A program that converts SimCity 2000 cities into Minecraft worlds
+- [microsoft/Power-Fx](https://github.com/microsoft/Power-Fx) - Power Fx low-code programming language
+- [googlearchive/soundstagevr](https://github.com/googlearchive/soundstagevr) - 
+- [OpenTabletDriver/OpenTabletDriver](https://github.com/OpenTabletDriver/OpenTabletDriver) - Open source, cross-platform, user-mode tablet driver
+- [ps1337/reinschauer](https://github.com/ps1337/reinschauer) - it is very good
+- [monadgroup/FLParser](https://github.com/monadgroup/FLParser) - An FL Studio project file parser for .NET
+- [imagitama/vrc3cvr](https://github.com/imagitama/vrc3cvr) - Convert your VRChat SDK3 avatar to ChilloutVR.
+- [0x7c13/Notepads](https://github.com/0x7c13/Notepads) - A modern, lightweight text editor with a minimalist design.
+- [Lidarr/Lidarr](https://github.com/Lidarr/Lidarr) - Looks and smells like Sonarr but made for music.
+- [canton7/SyncTrayzor](https://github.com/canton7/SyncTrayzor) - Windows tray utility / filesystem watcher / launcher for Syncthing
+- [KoalaBear84/OpenDirectoryDownloader](https://github.com/KoalaBear84/OpenDirectoryDownloader) - Indexes open directories
+- [Relfos/Dither_Machine](https://github.com/Relfos/Dither_Machine) - Pixel dithering tool made with Unity
+- [cadencii/cadencii](https://github.com/cadencii/cadencii) - 
+- [EricZimmerman/LECmd](https://github.com/EricZimmerman/LECmd) - Lnk Explorer Command line edition!!
+- [Gota7/NitroTools](https://github.com/Gota7/NitroTools) - Some tools for Nitro Sound Data (SDAT).
+- [hellzerg/optimizer](https://github.com/hellzerg/optimizer) - The finest Windows Optimizer
+- [kkguo/apkshellext](https://github.com/kkguo/apkshellext) - Show app icons in windows explorer
+- [pleonex/tinke](https://github.com/pleonex/tinke) - Viewer and editor for files of NDS games
+- [stefv/GLow](https://github.com/stefv/GLow) - An open source screensaver for Windows using shaders.
+- [Kermalis/VGMusicStudio](https://github.com/Kermalis/VGMusicStudio) - 🎵 A program that lets you listen to the music from popular video game formats. 🎵
+- [libertyernie/brawltools](https://github.com/libertyernie/brawltools) - BrawlBox and BrawlLib
+- [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - PowerShell for every system!
+- [dotnet/roslyn](https://github.com/dotnet/roslyn) - The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.
+- [files-community/Files](https://github.com/files-community/Files) - Building the best file manager for Windows
+- [PowerShell/PSReadLine](https://github.com/PowerShell/PSReadLine) - A bash inspired readline implementation for PowerShell
+- [noisecross/noiSNESs_Brr_Finder](https://github.com/noisecross/noiSNESs_Brr_Finder) - SNES roms sound ripper.
+- [samhocevar/wincompose](https://github.com/samhocevar/wincompose) - 🔣 Compose Key for Windows
+- [ShironekoBen/superrt](https://github.com/ShironekoBen/superrt) - A realtime raytracing extension chip for the SNES
+- [bbepis/XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator) - 
+- [arcusmaximus/YTSubConverter](https://github.com/arcusmaximus/YTSubConverter) - A tool for creating styled YouTube subtitles
+- [dremin/RetroBar](https://github.com/dremin/RetroBar) - Classic Windows 95, 98, Me, 2000, XP, Vista taskbar for modern versions of Windows
+- [SonyWWS/ATF](https://github.com/SonyWWS/ATF) - Authoring Tools Framework (ATF) is a set of C#/.NET components for making tools on Windows. ATF has been in continuous development in Sony Computer Entertainment's (SCE) Worldwide Studios central tool
+- [XAYRGA/JaiSeqX](https://github.com/XAYRGA/JaiSeqX) - JAudio Engine Emulator / Gamecube BMS player
+- [SonyWWS/LevelEditor](https://github.com/SonyWWS/LevelEditor) - The ATF LevelEditor is a powerful tool for constructing and assembling game levels. It provides a WYSIWYG interface and allows you to place objects, edit properties, edit terrain, and build game level
+- [bbbradsmith/binxelview](https://github.com/bbbradsmith/binxelview) - Binxelview binary image explorer
+- [Thealexbarney/VGAudio](https://github.com/Thealexbarney/VGAudio) - A library for encoding, decoding, and manipulating audio files from video games.
+- [jbendtsen/SpriteWave](https://github.com/jbendtsen/SpriteWave) - An interactive tool for creating game sprites from ROMs
+- [mxgmn/TextureSynthesis](https://github.com/mxgmn/TextureSynthesis) - Texture synthesis from examples
+- [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) - Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics
+- [SunsetQuest/CudaPAD](https://github.com/SunsetQuest/CudaPAD) - CudaPAD is a PTX/SASS viewer for NVIDIA Cuda kernels and provides an on-the-fly view of the assembly.
+- [microsoft/AttackSurfaceAnalyzer](https://github.com/microsoft/AttackSurfaceAnalyzer) - Attack Surface Analyzer can help you analyze your operating system's security configuration for changes during software installation.
+- [nikescar1/Nintendont-GC-ISO-Renamer](https://github.com/nikescar1/Nintendont-GC-ISO-Renamer) - 
+- [mxgmn/MarkovJunior](https://github.com/mxgmn/MarkovJunior) - Probabilistic language based on pattern matching and constraint propagation, 153 examples
 
-## POV-Ray SDL 
+## C 
 
-- [zamaudio/zam-plugins](https://github.com/zamaudio/zam-plugins) - Collection of LADSPA/LV2/VST/JACK audio plugins for high-quality processing
-
-## Pascal 
-
-- [asiekierka/almost-of-zzt](https://github.com/asiekierka/almost-of-zzt) - (Almost) development backup of ZZT's original source code.
-- [asiekierka/reconstruction-of-zzt](https://github.com/asiekierka/reconstruction-of-zzt) - The Reconstruction of ZZT
-- [robhagemans/hoard-of-bitfonts](https://github.com/robhagemans/hoard-of-bitfonts) - turns out I like bitmap fonts
-- [ZXDunny/SpecBAS](https://github.com/ZXDunny/SpecBAS) - An enhanced Sinclair  BASIC interpreter for modern PCs
-
-## Perl 
-
-- [smxi/inxi](https://github.com/smxi/inxi) - inxi is a full featured CLI system information tool. It is available in most Linux distribution repositories, and does its best to support the BSDs.
-- [dave-theunsub/clamtk](https://github.com/dave-theunsub/clamtk) - An easy to use, light-weight, on-demand virus scanner for Linux systems
-- [FFmpeg/gas-preprocessor](https://github.com/FFmpeg/gas-preprocessor) - Perl script that implements a subset of the GNU as preprocessor that Apple's as doesn't
-- [oysttyer/oysttyer](https://github.com/oysttyer/oysttyer) - An interactive console text-based command-line Twitter client written in Perl
-
-## PowerShell 
-
-- [jamesstringerparsec/Easy-GPU-PV](https://github.com/jamesstringerparsec/Easy-GPU-PV) - A Project dedicated to making GPU Partitioning on Windows easier!
-
-## Processing 
-
-- [AdrianMargel/procedural-ink](https://github.com/AdrianMargel/procedural-ink) - 
+- [arc80/FlapHero](https://github.com/arc80/FlapHero) - A small C++ game built using Plywood
+- [SdtElectronics/FEX2DTS](https://github.com/SdtElectronics/FEX2DTS) - Ahead of time fex to device tree translator
+- [checkpoint-restore/criu](https://github.com/checkpoint-restore/criu) - Checkpoint/Restore tool
+- [Manawyrm/nvme-int13h-optionrom](https://github.com/Manawyrm/nvme-int13h-optionrom) - Option ROM to boot x86 PCs from NVMe drives (legacy BIOS, INT 13h)
+- [fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs/perfect_dark) - work in progress port of n64decomp/perfect_dark to modern platforms
+- [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
+- [turbolent/w2c2](https://github.com/turbolent/w2c2) - Translates WebAssembly modules to portable C
+- [zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng) - zlib replacement with optimizations for "next generation" systems.
+- [schismtracker/schismtracker](https://github.com/schismtracker/schismtracker) - An oldschool sample-based music composition tool.
+- [elk-audio/mda-vst3](https://github.com/elk-audio/mda-vst3) - MDA plugins in VST 3 format, adapted from Steinberg's VST 3 SDK examples
+- [linux-sunxi/u-boot-sunxi](https://github.com/linux-sunxi/u-boot-sunxi) - Allwinner A1x native u-boot support
+- [open-ribbon/open-ribbon](https://github.com/open-ribbon/open-ribbon) - vib-ribbon decompilation (PAL version)
+- [Endermanch/XPConfirmationIDKeygen](https://github.com/Endermanch/XPConfirmationIDKeygen) - Windows XP Confirmation ID Keygen
+- [perk11/runwhenidle](https://github.com/perk11/runwhenidle) - Linux utility that can be used to run a computationally or IO-intensive program when user is not in front of the computer.
+- [harrinp/WalledIn](https://github.com/harrinp/WalledIn) - Small command-line game of not touching the walls
+- [13-CF/afetch](https://github.com/13-CF/afetch) - Simple system info written in C
+- [ibhagwan/picom](https://github.com/ibhagwan/picom) - A lightweight compositor for X11 (previously a compton fork)
+- [gnotclub/xst](https://github.com/gnotclub/xst) - st fork that uses Xresources and some pretty good patches
+- [mihirlad55/dwm-ipc](https://github.com/mihirlad55/dwm-ipc) - A DWM patch that allows IPC communication through a UNIX socket
+- [juacq97/dwm](https://github.com/juacq97/dwm) - 
+- [sdhand/picom](https://github.com/sdhand/picom) - A compositor for X11, active fork.
+- [resloved/i3](https://github.com/resloved/i3) - 🔲 — Rounded i3-gaps
+- [FeralInteractive/gamemode](https://github.com/FeralInteractive/gamemode) - Optimise Linux system performance on demand
+- [skynettx/dosraptor](https://github.com/skynettx/dosraptor) - Original Raptor Call Of The Shadows version 1.2 DOS source code
+- [JHRobotics/softgpu](https://github.com/JHRobotics/softgpu) - SW and HW accelerated GPU driver for Windows 9x Virtual Machines
+- [nrootconauto/HolyCC2](https://github.com/nrootconauto/HolyCC2) - A HolyC compiler
+- [tbsdtv/linux_media](https://github.com/tbsdtv/linux_media) - TBS linux open source drivers
+- [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) - This project aims to enhance the working environment on Windows
+- [MrChromebox/coreboot](https://github.com/MrChromebox/coreboot) - 
+- [chrultrabook/coreboot](https://github.com/chrultrabook/coreboot) - MrChromebox's coreboot tree, used for testing patches
+- [opencodewin/libmidi](https://github.com/opencodewin/libmidi) - midi player base on timidity and imgui
+- [PKHackers/ebmused](https://github.com/PKHackers/ebmused) - EarthBound Music Editor
+- [rcanut/nhwcodec](https://github.com/rcanut/nhwcodec) - NHW : A Next-Generation Image Compression Codec
+- [orangeduck/tgc](https://github.com/orangeduck/tgc) - A Tiny Garbage Collector for C
+- [jamriska/ebsynth](https://github.com/jamriska/ebsynth) - Fast Example-based Image Synthesis and Style Transfer
+- [zserge/tray](https://github.com/zserge/tray) - Cross-platform, super tiny C99 implementation of a system tray icon with a popup menu.
+- [drh/lcc](https://github.com/drh/lcc) - The lcc retargetable ANSI C compiler
+- [quixdb/squash](https://github.com/quixdb/squash) - Compression abstraction library and utilities
+- [AlexCeleste/C99-Lambda](https://github.com/AlexCeleste/C99-Lambda) - Purely evil preprocessor macros adding anonymous functions and closures to ISO C99
+- [philpem/freebee](https://github.com/philpem/freebee) - FreeBee - AT&T 3B1 / 7300 UNIX PC emulator
+- [recp/cglm](https://github.com/recp/cglm) - 📽 Highly Optimized Graphics Math (glm) for C
+- [mattiasgustavsson/libs](https://github.com/mattiasgustavsson/libs) - Single-file public domain libraries for C/C++
+- [jarikomppa/soloud](https://github.com/jarikomppa/soloud) - Free, easy, portable audio engine for games
+- [endrazine/wcc](https://github.com/endrazine/wcc) - The Witchcraft Compiler Collection
+- [mackron/c89atomic](https://github.com/mackron/c89atomic) - C89 compatible atomics.
+- [catid/Zpng](https://github.com/catid/Zpng) - Better lossless compression than PNG with a simpler algorithm
+- [tpoechtrager/cctools-port](https://github.com/tpoechtrager/cctools-port) - Apple cctools port for Linux and *BSD
+- [WonderfulToolchain/psxavenc](https://github.com/WonderfulToolchain/psxavenc) - PS1 audio/video encoding tool
+- [garungorp/MouseInjectorDolphinDuck](https://github.com/garungorp/MouseInjectorDolphinDuck) - External Mouse Injector App for Multiple Emulators (Windows)
+- [kcning/crystalhd-dkms](https://github.com/kcning/crystalhd-dkms) - Broadcom Crystal HD Decoder Driver patched for Linux kernel 6.5
+- [Render96/ModelPack](https://github.com/Render96/ModelPack) - Dynos model swap
+- [jaredmcneill/userland](https://github.com/jaredmcneill/userland) - Source code for ARM side libraries for interfacing to Raspberry Pi GPU.
+- [brunodev85/winlator](https://github.com/brunodev85/winlator) - Android application for running Windows applications with Wine and Box86/Box64
+- [ptitSeb/fakemodex](https://github.com/ptitSeb/fakemodex) - A simple wrapper to allow playing games that use FMODex with FMOD
+- [hkrn/nanoem](https://github.com/hkrn/nanoem) - nanoem is an MMD (MikuMikuDance) compatible implementation and its like cross-platform application mainly built for macOS.
+- [moddevices/mda-lv2](https://github.com/moddevices/mda-lv2) - forked from http://svn.drobilla.net/lad/trunk/plugins/mda.lv2
+- [SrainApp/srain](https://github.com/SrainApp/srain) - Modern IRC client written in GTK
+- [tmux/tmux](https://github.com/tmux/tmux) - tmux source code
+- [cmus/cmus](https://github.com/cmus/cmus) - Small, fast and powerful console music player for Unix-like operating systems.
+- [FT-Labs/picom](https://github.com/FT-Labs/picom) - More than 10 unique animation supported picom fork (open window, tag change, fading ...)
+- [bartobri/no-more-secrets](https://github.com/bartobri/no-more-secrets) - A command line tool that recreates the famous data decryption effect seen in the 1992 movie Sneakers.
+- [elishacloud/dxwrapper](https://github.com/elishacloud/dxwrapper) - Fixes compatibility issues with older games running on Windows 10 by wrapping DirectX dlls.  Also allows loading custom libraries with the file extension .asi into game processes.
+- [coderofsalvation/MilkyTrackerX](https://github.com/coderofsalvation/MilkyTrackerX) - MilkyTracker (X), A crossplatform SAMPLE-tracker DAW which exports to .wav & XM-module (=open format). A tool for serious samplists who want to store their musical ideas in an open format.
+- [myfreeer/chrome-pak-customizer](https://github.com/myfreeer/chrome-pak-customizer) - a simple command-line tool to pack and unpack pak files in chrome or chromium-based browser
+- [devos50/qemu-ios](https://github.com/devos50/qemu-ios) - A QEMU emulator for legacy Apple devices
+- [yarrick/iodine](https://github.com/yarrick/iodine) - Official git repo for iodine dns tunnel
+- [CoretechR/OMOTE](https://github.com/CoretechR/OMOTE) - Open Source Remote Using ESP32 and LVGL
+- [varhub/rts5139](https://github.com/varhub/rts5139) - Realtek Semiconductor Corp. RTS5139 Card Reader Controller | Fedora 18 manual install
+- [vitorafsr/i8kutils](https://github.com/vitorafsr/i8kutils) - Fan control for some Dell laptops
+- [zserge/jsmn](https://github.com/zserge/jsmn) - Jsmn is a world fastest JSON parser/tokenizer. This is the official repo replacing the old one at Bitbucket
+- [veracrypt/VeraCrypt](https://github.com/veracrypt/VeraCrypt) - Disk encryption with strong security based on TrueCrypt
+- [victorvde/jpeg2png](https://github.com/victorvde/jpeg2png) - silky smooth JPEG decoding
+- [jbruchon/jdupes](https://github.com/jbruchon/jdupes) - A powerful duplicate file finder and an enhanced fork of 'fdupes'.
+- [Konstantin8105/c4go](https://github.com/Konstantin8105/c4go) - Transpiling C code to Go code
+- [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) - Port of Facebook's LLaMA model in C/C++
+- [scandum/blitsort](https://github.com/scandum/blitsort) - Blitsort is an in-place stable adaptive rotate mergesort / quicksort.
+- [cnlohr/mini-rv32ima](https://github.com/cnlohr/mini-rv32ima) - A tiny C header-only risc-v emulator.
+- [picolibc/picolibc](https://github.com/picolibc/picolibc) - picolibc - a C library designed for embedded 32- and 64- bit systems.
+- [madler/pigz](https://github.com/madler/pigz) - A parallel implementation of gzip for modern multi-processor, multi-core machines.
+- [jo-m/linux-wifi-ota-crash](https://github.com/jo-m/linux-wifi-ota-crash) - Send arbitrary IEEE 802.11 frames with Espressif's ESP32
+- [nepx/halfix](https://github.com/nepx/halfix) - x86 PC emulator that runs both natively and in the browser, via WebAssembly
+- [ImVexed/muon](https://github.com/ImVexed/muon) - GPU based Electron on a diet
+- [adsr/mle](https://github.com/adsr/mle) - flexible terminal-based text editor (C)
+- [arendst/Tasmota](https://github.com/arendst/Tasmota) - Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, S
+- [fanf2/hg64](https://github.com/fanf2/hg64) - a 64-bit histogram / quantile sketch
+- [s-d-adams/muxfs](https://github.com/s-d-adams/muxfs) - A mirroring, checksumming, and self-healing filesystem layer for OpenBSD.
+- [DeutscheKI/tevr-asr-tool](https://github.com/DeutscheKI/tevr-asr-tool) - State-of-the-art (ranked #1 Aug 2022) German Speech Recognition in 284 lines of C++. This is a 100% private 100% offline 100% free CLI tool.
+- [annacrombie/muon](https://github.com/annacrombie/muon) - An implementation of the meson build system in c99
+- [skarnet/execline](https://github.com/skarnet/execline) - The execline scripting language
+- [hashlookup/fleur](https://github.com/hashlookup/fleur) - Fleur implements a Bloom Filter library in C that is fully compatible with DCSO's Go and python implementations.
+- [ASDAlexander77/TypeScript2Cxx](https://github.com/ASDAlexander77/TypeScript2Cxx) - TypeScript to C++
+- [Croquetx/thecolony](https://github.com/Croquetx/thecolony) - First realtime 3D adventure/shooter
+- [winfsp/winfsp](https://github.com/winfsp/winfsp) - Windows File System Proxy - FUSE for Windows
+- [adoakley/efi-boot-to-fw-ui](https://github.com/adoakley/efi-boot-to-fw-ui) - Utility to open EFI firmware UI on next boot
+- [namjaejeon/linux-exfat-oot](https://github.com/namjaejeon/linux-exfat-oot) - exFAT for Linux (Backport for low kernel version support)
+- [snesrev/smw](https://github.com/snesrev/smw) - Smw
+- [zebproj/xm2sco](https://github.com/zebproj/xm2sco) - Convert Milkytracker XM files to Csound Score files
+- [mnurzia/rv](https://github.com/mnurzia/rv) - 32-bit RISC-V CPU in ~600 lines of C89
+- [rizinorg/rizin](https://github.com/rizinorg/rizin) - UNIX-like reverse engineering framework and command-line toolset.
+- [morrownr/88x2bu-20210702](https://github.com/morrownr/88x2bu-20210702) - Linux Driver for USB WiFi Adapters that are based on the RTL8812BU and RTL8822BU Chipsets - v5.13.1
+- [Dn-Programming-Core-Management/Dn-FamiTracker](https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker) - modifications and improvements for 0CC-FamiTracker (based on j0CC-FamiTracker 0.6.3)
+- [audacity/audacity](https://github.com/audacity/audacity) - Audio Editor
+- [enjoy-digital/litex](https://github.com/enjoy-digital/litex) - Build your hardware, easily!
+- [arata-nvm/mitnal](https://github.com/arata-nvm/mitnal) - Twitter client for UEFI
+- [shroom00/libopenmpt_py](https://github.com/shroom00/libopenmpt_py) - Python bindings for libopenmpt.
+- [andrewshadura/tnat64](https://github.com/andrewshadura/tnat64) - IPv4 to IPv6 interceptor
+- [oxesoft/oxefmsynth](https://github.com/oxesoft/oxefmsynth) - Oxe FM Synth official repository
+- [jorio/OttoMatic](https://github.com/jorio/OttoMatic) - Pangea Software’s Otto Matic 🤖
+- [gch1p/voidnsrun](https://github.com/gch1p/voidnsrun) - Run glibc binaries in musl libc Void Linux environment
+- [pelya/android-shmem](https://github.com/pelya/android-shmem) - System V shared memory emulation on Android, using ashmem. That includes shmget, shmat, shmdt and shmctl functions.
+- [little-brother/sqlite-gui](https://github.com/little-brother/sqlite-gui) - Lightweight SQLite editor for Windows
+- [manatails/uefiseven](https://github.com/manatails/uefiseven) - An EFI loader that emulates int10h interrupts needed for booting Windows 7 under UEFI Class 3 systems.
+- [Smu1zel/rufus-7](https://github.com/Smu1zel/rufus-7) - Unofficial continued support for Rufus on Windows 7
+- [pbatard/rufus](https://github.com/pbatard/rufus) - The Reliable USB Formatting Utility
+- [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) - GNU toolchain for RISC-V, including GCC
+- [aligrudi/fbpdf](https://github.com/aligrudi/fbpdf) - A small framebuffer pdf, djvu, epub, xps, and cbz viewer
+- [slavaGanzin/await](https://github.com/slavaGanzin/await) - 28Kb, small memory footprint, single binary that run list of commands in parallel and waits for their termination
+- [protodomemusic/super-wavexe](https://github.com/protodomemusic/super-wavexe) - A little wavetable synthesizer optimized to make tiny executable music files.
+- [bernhardstrobl/Pico3D](https://github.com/bernhardstrobl/Pico3D) - Open World 3D Game Engine for the PicoSystem & RP2040 Microcontroller
+- [rxseger/rx_tools](https://github.com/rxseger/rx_tools) - rx_fm, rx_power, and rx_sdr tools for receiving data from SDRs, based on rtl_fm, rtl_power, and rtl_sdr from librtlsdr, but using the SoapySDR vendor-neutral SDR support library instead, intended to s
+- [TheRealOrange/icer_compression](https://github.com/TheRealOrange/icer_compression) - Progressive, error tolerant, wavelet-based image compression algorithm
+- [shuffle2/nx2elf](https://github.com/shuffle2/nx2elf) - Convert Nintendo Switch executable files to ELFs
+- [falkTX/non](https://github.com/falkTX/non) - Non reinvents the DAW.  Powerful enough to form a complete studio, fast and light enough to run on low-end hardware like the eeePC or Raspberry Pi, and so reliable that it can be used live, the Non DA
+- [wallace-aph/tiles-and-such](https://github.com/wallace-aph/tiles-and-such) - Archives of tilelable images/wallpapers
+- [aligrudi/neatlibc](https://github.com/aligrudi/neatlibc) - A small arm/x86(-64) libc
+- [ValleyBell/MidiConverters](https://github.com/ValleyBell/MidiConverters) - various tools that convert game data into MIDI files
+- [phoboslab/qoa](https://github.com/phoboslab/qoa) - The “Quite OK Audio Format” for fast, lossy audio compression
+- [snesrev/zelda3](https://github.com/snesrev/zelda3) - 
+- [landley/toybox](https://github.com/landley/toybox) - toybox
+- [oerg866/win98-quickinstall](https://github.com/oerg866/win98-quickinstall) - A framework + installer to (very) quickly install Windows 98 on anything from a 486 up to a modern system
+- [dsp56300/gearmulator](https://github.com/dsp56300/gearmulator) - Emulation of classic VA synths of the late 90s/2000s that featured the Motorola 56300 family DSP
+- [BodbDearg/PlayStation1Vsts](https://github.com/BodbDearg/PlayStation1Vsts) - A fork of the iPlug2 Framework (https://github.com/iplug2/iplug2) to host 2 VST instruments: a PlayStation 1 SPU instrument (ADPCM based sampler) and a PlayStation 1 SPU reverb module.
+- [Immediate-Mode-UI/Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) - A single-header ANSI C immediate mode cross-platform GUI library
+- [LMP88959/NTSC-CRT](https://github.com/LMP88959/NTSC-CRT) - NTSC encoding/decoding in C89 using only integers and fixed point math. Supports NES decoding. Can be used as an image filter for games or real-time applications.
+- [json-c/json-c](https://github.com/json-c/json-c) - https://github.com/json-c/json-c is the official code repository for json-c.  See the wiki for release tarballs for download.  API docs at http://json-c.github.io/json-c/
+- [TCRF/vgmid](https://github.com/TCRF/vgmid) - C64 and SNES/SFC playroutine identity scanner
+- [mcritchlow/farbfeld](https://github.com/mcritchlow/farbfeld) - The Suckless farbfeld tool https://tools.suckless.org/farbfeld/
+- [IvorySQL/IvorySQL](https://github.com/IvorySQL/IvorySQL) - Open Source Oracle Compatible PostgreSQL.
+- [emilk/wfc](https://github.com/emilk/wfc) - A C++ port of Wave Function Collapse Tiling
+- [psi29a/unsf](https://github.com/psi29a/unsf) - Converts SoundFont .sf2 files into GUS-type instrument patches.
+- [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) - Port of OpenAI's Whisper model in C/C++
+- [x42/lv2vst](https://github.com/x42/lv2vst) - experimental LV2 to VST2.x wrapper
+- [9fans/plan9port](https://github.com/9fans/plan9port) - Plan 9 from User Space
+- [pietroborrello/CustomProcessingUnit](https://github.com/pietroborrello/CustomProcessingUnit) - The first analysis framework for CPU microcode
+- [libav/c99-to-c89](https://github.com/libav/c99-to-c89) - Tool to convert C99 code to MSVC-compatible C89
+- [jart/blink](https://github.com/jart/blink) - tiniest x86-64-linux emulator
+- [AltraMayor/f3](https://github.com/AltraMayor/f3) - F3 - Fight Flash Fraud
+- [rui314/chibicc](https://github.com/rui314/chibicc) - A small C compiler
+- [uyjulian/spc2it](https://github.com/uyjulian/spc2it) - Convert SPC files to IT (Impulse Tracker) files
+- [notaz/picodrive](https://github.com/notaz/picodrive) - Fast MegaDrive/MegaCD/32X emulator
+- [morrownr/8821au-20210708](https://github.com/morrownr/8821au-20210708) - Linux Driver for USB WiFi Adapters that are based on the RTL8811AU and RTL8821AU Chipsets - v5.12.5.2
+- [pfalcon/uzlib](https://github.com/pfalcon/uzlib) - Radically unbloated DEFLATE/zlib/gzip compression/decompression library. Can decompress any gzip/zlib data, and offers simplified compressor which produces gzip-compatible output, while requiring much
+- [nsxiv/nsxiv](https://github.com/nsxiv/nsxiv) - Read-only mirror of Neo Simple X Image Viewer
+- [woltapp/blurhash](https://github.com/woltapp/blurhash) - A very compact representation of a placeholder for an image.
+- [rxi/microtar](https://github.com/rxi/microtar) - A lightweight tar library written in ANSI C
+- [intel/qatlib](https://github.com/intel/qatlib) - 
+- [georghe-crihan/imgact_linux](https://github.com/georghe-crihan/imgact_linux) - OSX KEXT to allow seamless running of Linux binary executables (through Noah ABI) aka binfmt-misc for OSX
+- [LuisRusso/PamUUID](https://github.com/LuisRusso/PamUUID) - A PAM authentication for Linux and FreeBSD using USB Flash Drives.
+- [sjmulder/trickle](https://github.com/sjmulder/trickle) - 600 baud pipe and terminal.
+- [spkr-beep/beep](https://github.com/spkr-beep/beep) - beep is a command line tool for linux that beeps the PC speaker
+- [AndrewFromMelbourne/fb2png](https://github.com/AndrewFromMelbourne/fb2png) - Save Linux frambuffer (/dev/fb0) to a PNG image file.
+- [taviso/123elf](https://github.com/taviso/123elf) - A native port of Lotus 1-2-3 to Linux.
+- [raysan5/raylib](https://github.com/raysan5/raylib) - A simple and easy-to-use library to enjoy videogames programming
+- [raysan5/raygui](https://github.com/raysan5/raygui) - A simple and easy-to-use immediate-mode gui library
+- [dcantrell/bsdutils](https://github.com/dcantrell/bsdutils) - Alternative to GNU coreutils using software from FreeBSD
+- [vnteles/cellowm](https://github.com/vnteles/cellowm) - A floating window manager smooth as a cello
+- [sebknzl/krawall](https://github.com/sebknzl/krawall) - XM/S3M-Player for the Gameboy Advance (GBA)
+- [shadow-1/yi-hack-v3](https://github.com/shadow-1/yi-hack-v3) - Alternative Firmware for Xiaomi Cameras based on Hi3518e Chipset
+- [esxgx/sc9800-epos-sdlx](https://github.com/esxgx/sc9800-epos-sdlx) - A Simple DirectMedia Layer porting for sc9800 epos
+- [abakh/nbsdgames](https://github.com/abakh/nbsdgames) - A package of 18 text-based modern games
+- [maharmstone/quibble](https://github.com/maharmstone/quibble) - Quibble - the custom Windows bootloader
+- [jarcode-foss/glava](https://github.com/jarcode-foss/glava) - GLava - OpenGL audio spectrum visualizer
+- [AidoP/Skypaper](https://github.com/AidoP/Skypaper) - Live glsl wallpaper for Linux
+- [OpenE2K/qemu-e2k](https://github.com/OpenE2K/qemu-e2k) - QEMU with Elbrus emulation
+- [wieslawsoltes/rewavi](https://github.com/wieslawsoltes/rewavi) - rewitten/modified WAVI
+- [mirh/opemu-linux](https://github.com/mirh/opemu-linux) - Linux kernel module for emulating SSE instructions
+- [Skulltrail192/One-Core-Api](https://github.com/Skulltrail192/One-Core-Api) - A complete layer to get compatibility on XP/2003 for newer applications
+- [bulwarkid/virtual-fido](https://github.com/bulwarkid/virtual-fido) - A Virtual FIDO2 USB Device
+- [grandseiken/byacc](https://github.com/grandseiken/byacc) - Berkeley YACC (git mirror)
+- [michaelforney/sbase](https://github.com/michaelforney/sbase) - Portable UNIX tools (mirror)
+- [corsix/amx](https://github.com/corsix/amx) - Apple AMX Instruction Set
+- [dougallj/zlib-dougallj](https://github.com/dougallj/zlib-dougallj) - Experimental fork of zlib with performance improvements
+- [kentjhall/horizon-linux](https://github.com/kentjhall/horizon-linux) - arm64 Linux patched to run programs for the Nintendo Switch’s Horizon OS
+- [michaelforney/velox](https://github.com/michaelforney/velox) - velox window manager
+- [michaelforney/samurai](https://github.com/michaelforney/samurai) - ninja-compatible build tool written in C
+- [Allwinner-Homlet/H3-BSP4.4-linux](https://github.com/Allwinner-Homlet/H3-BSP4.4-linux) - 
+- [Allwinner-Homlet/H3-BSP4.4-bootloader](https://github.com/Allwinner-Homlet/H3-BSP4.4-bootloader) - 
+- [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
+- [sailfishos/gst-droid](https://github.com/sailfishos/gst-droid) - 
+- [mer-hybris/libgbinder](https://github.com/mer-hybris/libgbinder) - GLib-style interface to binder
+- [mer-hybris/pulseaudio-modules-droid-jb2q](https://github.com/mer-hybris/pulseaudio-modules-droid-jb2q) - 
+- [mer-hybris/pulseaudio-modules-droid](https://github.com/mer-hybris/pulseaudio-modules-droid) - multimedia-pulseaudio-modules-droid
+- [SapionAps/ParaTos](https://github.com/SapionAps/ParaTos) - Userspace Tos (and MiNT) emulator for Linux.
+- [frokk/goxel2](https://github.com/frokk/goxel2) - [ :warning: Not Maintained :warning: ] a cross-platform 3D voxel art editor
+- [vittorioromeo/SSVOpenHexagon](https://github.com/vittorioromeo/SSVOpenHexagon) - C++20 FOSS clone of "Super Hexagon". Depends on SSVStart, SSVEntitySystem, SSVLuaWrapper, SSVMenuSystem, JSONcpp, SFML2.0. Features JSON/LUA customizable game files, a soundtrack by BOSSFIGHT, pseudo-
+- [matanui159/ReplaySorcery](https://github.com/matanui159/ReplaySorcery) - An open-source, instant-replay solution for Linux
+- [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm) - Intel Wi-Fi Drivers for macOS
+- [xlucn/xdg-xmenu](https://github.com/xlucn/xdg-xmenu) - Minimal app menu with xmenu
+- [eerimoq/monolinux-jiffy](https://github.com/eerimoq/monolinux-jiffy) - A Monolinux distro for the Jiffy board!
+- [phillbush/pmenu](https://github.com/phillbush/pmenu) - A pie-menu in xlib and imlib2.
+- [saitoha/sixel](https://github.com/saitoha/sixel) - Mirror of "sixel" original version (kmiya's sixel). The origin of libsixel.
+- [ali1234/raspi-teletext](https://github.com/ali1234/raspi-teletext) - Generate teletext with a Raspberry Pi
+- [jaredmcneill/quartz64_uefi](https://github.com/jaredmcneill/quartz64_uefi) - A port of Tianocore EDK II to Rockchip RK356x based SBCs.
+- [cdown/psi-notify](https://github.com/cdown/psi-notify) - Alert when your machine is becoming oversaturated, *before* it slows to a crawl
+- [jafarlihi/connmap](https://github.com/jafarlihi/connmap) - connmap is an X11 desktop widget that shows location of your current network peers on a world map
+- [Kharacternyk/pacwall](https://github.com/Kharacternyk/pacwall) - A live wallpaper that shows the dependency graph and status of installed packages.
+- [LibreELEC/mali-midgard](https://github.com/LibreELEC/mali-midgard) - ARM Mali kernel drivers used with Midgard GPU's in LibreELEC
+- [ilyakurdyukov/jpeg-quantsmooth](https://github.com/ilyakurdyukov/jpeg-quantsmooth) - JPEG artifacts removal based on quantization coefficients.
+- [superzazu/8080](https://github.com/superzazu/8080) - A complete emulation of the Intel 8080 processor written in C99.
+- [jarun/nnn](https://github.com/jarun/nnn) - n³ The unorthodox terminal file manager
+- [kiedtl/chmap](https://github.com/kiedtl/chmap) - A CLI utility to get info for Unicode characters
+- [yshui/picom](https://github.com/yshui/picom) - A lightweight compositor for X11
+- [fairyglade/ly](https://github.com/fairyglade/ly) - display manager with console UI
+- [davatorium/rofi](https://github.com/davatorium/rofi) - Rofi: A window switcher, application launcher and dmenu replacement
+- [fangfufu/httpdirfs](https://github.com/fangfufu/httpdirfs) - A filesystem which allows you to mount HTTP directory listings, with a permanent cache. Now with Airsonic / Subsonic support!
+- [libsdl-org/sdl12-compat](https://github.com/libsdl-org/sdl12-compat) - An SDL-1.2 compatibility layer that uses SDL 2.0 behind the scenes.
+- [buffet/filet](https://github.com/buffet/filet) - A fucking fucking fast file fucker
+- [adrianlopezroche/fdupes](https://github.com/adrianlopezroche/fdupes) - FDUPES is a program for identifying or deleting duplicate files residing within specified directories.
+- [davidgiven/ack](https://github.com/davidgiven/ack) - The Amsterdam Compiler Kit
+- [Syniurge/ShieldControllerWinDriver](https://github.com/Syniurge/ShieldControllerWinDriver) - HIDUSB lower filter driver for NVIDIA Shield Controller
+- [sloretz/rtl8811au](https://github.com/sloretz/rtl8811au) - Driver for usb wifi devices using rtl8811au chip
+- [openzfsonwindows/ZFSin](https://github.com/openzfsonwindows/ZFSin) - OpenZFS on Windows port
+- [maharmstone/btrfs](https://github.com/maharmstone/btrfs) - WinBtrfs - an open-source btrfs driver for Windows
+- [lowprofile100/xfsd](https://github.com/lowprofile100/xfsd) - XFS readonly driver for Windows
+- [dokan-dev/dokany](https://github.com/dokan-dev/dokany) - User mode file system library for windows with FUSE Wrapper
+- [a-nikolaev/curseofwar](https://github.com/a-nikolaev/curseofwar) - A Real Time Strategy game for Linux.
+- [alunux/usbip-service-discovery](https://github.com/alunux/usbip-service-discovery) - USB/IP Service Discovery - Provide GUI and some enhancement for USB/IP userspace
+- [gordboy/rtl8812au](https://github.com/gordboy/rtl8812au) - Realtek 8812AU driver version 5.2.20.2
+- [hfiref0x/WinObjEx64](https://github.com/hfiref0x/WinObjEx64) - Windows Object Explorer 64-bit
+- [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x) - DOSBox-X fork of the DOSBox project
+- [KeppySoftware/OmniMIDI](https://github.com/KeppySoftware/OmniMIDI) - A software MIDI synthesizer for professional use.
+- [Keruspe/GPaste](https://github.com/Keruspe/GPaste) - Clipboard management system
+- [ksherlock/mpw](https://github.com/ksherlock/mpw) - Macintosh Programmer's Workshop (mpw) compatibility layer
+- [meepingsnesroms/prc-tools-remix](https://github.com/meepingsnesroms/prc-tools-remix) - prc-tools 2.3 ported to modern Linux / Mac OS X
+- [ihuguet/picotts](https://github.com/ihuguet/picotts) - Pico TTS: text to speech voice sinthesizer from SVox, included in Android AOSP
+- [NDISulator/ndisulator](https://github.com/NDISulator/ndisulator) - NDIS miniport driver wrapper for FreeBSD
+- [nelhage/reptyr](https://github.com/nelhage/reptyr) - Reparent a running program to a new terminal
+- [PromyLOPh/pianobar](https://github.com/PromyLOPh/pianobar) - Console-based pandora.com player
+- [pr8x/ShadertoyWallpaper](https://github.com/pr8x/ShadertoyWallpaper) - Live wallpaper directly from https://shadertoy.com
+- [tenox7/cmdmax](https://github.com/tenox7/cmdmax) - maximize cmd.exe console window from command line
+- [tenox7/snoopy](https://github.com/tenox7/snoopy) - Portable Command Line Packet Sniffer for Windows
+- [tjko/jpegoptim](https://github.com/tjko/jpegoptim) - jpegoptim - utility to optimize/compress JPEG files
+- [tomaspinho/rtl8821ce](https://github.com/tomaspinho/rtl8821ce) - 
+- [vinszent/gnome-twitch](https://github.com/vinszent/gnome-twitch) - Enjoy Twitch on your GNU/Linux desktop
+- [bradleybauer/music_visualizer](https://github.com/bradleybauer/music_visualizer) - Shader viewer / music visualizer for Windows and Linux
+- [mate-desktop/engrampa](https://github.com/mate-desktop/engrampa) - A file archiver for MATE
+- [mborgerson/fatx](https://github.com/mborgerson/fatx) - Original Xbox FATX Filesystem Library, Python bindings, FUSE driver, and GUI explorer
+- [dorimanx/exfat-nofuse](https://github.com/dorimanx/exfat-nofuse) - Android ARM Linux non-fuse read/write kernel driver for exFat and VFat Android file systems
+- [relan/exfat](https://github.com/relan/exfat) - Free exFAT file system implementation
+- [ctm/executor](https://github.com/ctm/executor) - old-school Macintosh Emulator
+- [ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) - GoodbyeDPI — Deep Packet Inspection circumvention utility (for Windows)
+- [e8johan/tosemu](https://github.com/e8johan/tosemu) - An emulator environment for TOS applications (highly experimental)
+- [tenox7/aclock](https://github.com/tenox7/aclock) - ascii analog clock for text console displays and terminals and terminal emulators
+- [tizonia/tizonia-openmax-il](https://github.com/tizonia/tizonia-openmax-il) - Command-line cloud music player for Linux with support for Spotify, Google Play Music, YouTube, SoundCloud, TuneIn, iHeartRadio, Plex servers and Chromecast devices.
+- [ps2homebrew/pfsshell](https://github.com/ps2homebrew/pfsshell) - Browse and edit PFS filesystems on APA-formatted hard drive
+- [vhelin/wla-dx](https://github.com/vhelin/wla-dx) - WLA DX - Yet Another GB-Z80/Z80/Z80N/6502/65C02/65CE02/65816/68000/6800/6801/6809/8008/8080/HUC6280/SPC-700/SuperFX Multi Platform Cross Assembler Package
+- [Xfennec/progress](https://github.com/Xfennec/progress) - Linux tool to show progress for cp, mv, dd, ... (formerly known as cv)
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
+- [hcs64/vgm_ripping](https://github.com/hcs64/vgm_ripping) - Sources for game music ripping tools
+- [JayXon/Leanify](https://github.com/JayXon/Leanify) - lightweight lossless file minifier/optimizer
+- [linux-sunxi/sunxi-tools](https://github.com/linux-sunxi/sunxi-tools) - A collection of command line tools for ARM devices with Allwinner SoCs.
+- [NationalSecurityAgency/DCP](https://github.com/NationalSecurityAgency/DCP) - Digest, stat, and copy files from one location to another in the same read pass
+- [Aorimn/dislocker](https://github.com/Aorimn/dislocker) - FUSE driver to read/write Windows' BitLocker-ed volumes under Linux / Mac OSX
+- [AppImageCommunity/NCSA-Mosaic-AppImage](https://github.com/AppImageCommunity/NCSA-Mosaic-AppImage) - NCSA Mosaic 2.7 as an AppImage for most Linux distributions
+- [bol-van/zapret](https://github.com/bol-van/zapret) - Обход DPI в linux
+- [facebook/zstd](https://github.com/facebook/zstd) - Zstandard - Fast real-time compression algorithm
+- [fhanau/Efficient-Compression-Tool](https://github.com/fhanau/Efficient-Compression-Tool) - Fast and effective C++ file optimizer
+- [amadvance/advancecomp](https://github.com/amadvance/advancecomp) - A collection of recompression utilities for your .ZIP archives, .PNG snapshots, .MNG video clips and .GZ files
+- [inikep/lizard](https://github.com/inikep/lizard) - Lizard (formerly LZ5) is an efficient compressor with very fast decompression. It achieves compression ratio that is comparable to zip/zlib and zstd/brotli (at low and medium compression levels) at de
+- [icculus/2ine](https://github.com/icculus/2ine) - An OS/2 "emulator" for Linux.
+- [deadw00d/AROS](https://github.com/deadw00d/AROS) - 
+- [cozis/xHTTP](https://github.com/cozis/xHTTP) - A lightweight HTTP server as a library.
+- [premake/premake-core](https://github.com/premake/premake-core) - Premake
+- [cl91/NeptuneOS](https://github.com/cl91/NeptuneOS) - Neptune OS: A Windows NT personality for the seL4 microkernel
+- [TrungNguyen1909/qemu-t8030](https://github.com/TrungNguyen1909/qemu-t8030) - iPhone 11 emulated on QEMU
+- [orangeduck/Cello](https://github.com/orangeduck/Cello) - Higher level programming in C
+- [FWGS/xash3d-fwgs](https://github.com/FWGS/xash3d-fwgs) - Xash3D FWGS engine.
+- [TheScienceElf/TI-84-CE-Raytracing](https://github.com/TheScienceElf/TI-84-CE-Raytracing) - A ray tracing engine for the Ti84 CE written in C++ and ez80 assembly.
+- [kernc/xsuspender](https://github.com/kernc/xsuspender) - :eyes: :computer: :zzz: :battery: Save battery by auto-suspending unfocused X11 applications.
+- [krychu/wfc](https://github.com/krychu/wfc) - Wave Function Collapse library in C, plus a command-line tool
+- [nokia/awkcc](https://github.com/nokia/awkcc) - 
+- [janmojzis/tinyssh](https://github.com/janmojzis/tinyssh) - TinySSH is small server (less than 100000 words of code)
+- [phoboslab/qoi](https://github.com/phoboslab/qoi) - The “Quite OK Image Format” for fast, lossless image compression
+- [0x09/dspfun](https://github.com/0x09/dspfun) - Set of *nix utilities for experimentation and learning about spectral analysis of images
+- [atomicobject/heatshrink](https://github.com/atomicobject/heatshrink) - data compression library for embedded/real-time systems
+- [been-jamming/Visterm](https://github.com/been-jamming/Visterm) - A terminal application which adds an audio visualizer to the terminal!
+- [daddesio/utkencode](https://github.com/daddesio/utkencode) - Encoder for EA MicroTalk, a speech codec based on multi-pulse linear prediction used in various EA games. This encoder uses least squares on the excitation signal and does not yet take into account ps
+- [fcambus/bdf2sfd](https://github.com/fcambus/bdf2sfd) - BDF to SFD converter, allowing to vectorize bitmap fonts
+- [FD-/usb_charge](https://github.com/FD-/usb_charge) - Charge USB devices (primarily iOS devices) connected to Linux
+- [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) - Virtual cables between any audio source and any speaker in your home
+- [karlstav/cava](https://github.com/karlstav/cava) - Cross-platform Audio Visualizer
+- [haampie/libtree](https://github.com/haampie/libtree) - ldd as a tree
+- [GPUOpen-Effects/FidelityFX-CLI](https://github.com/GPUOpen-Effects/FidelityFX-CLI) - FidelityFX CLI
+- [MycroftAI/mimic1](https://github.com/MycroftAI/mimic1) - Mycroft's TTS engine, based on CMU's Flite (Festival Lite)
+- [pcercuei/lightrec](https://github.com/pcercuei/lightrec) - MIPS-to-everything dynamic recompiler for PSX emulators
+- [rsps/emul_fb](https://github.com/rsps/emul_fb) - A Linux userspace framebuffer emulator
+- [s-macke/SAM](https://github.com/s-macke/SAM) - Software Automatic Mouth - Tiny Speech Synthesizer
+- [Syllo/nvtop](https://github.com/Syllo/nvtop) - GPUs process monitoring for AMD, Intel and NVIDIA
+- [Titor8115/mandown](https://github.com/Titor8115/mandown) - man-page inspired Markdown viewer
+- [zigalenarcic/mangl](https://github.com/zigalenarcic/mangl) - An enhanced man page viewer for linux and BSD systems based on OpenGL and mandoc libraries
+- [Ildaron/ironbci](https://github.com/Ildaron/ironbci) - Open-Source Brain-Computer Interface, ADS1299 and STM32
+- [radareorg/radare2](https://github.com/radareorg/radare2) - UNIX-like reverse engineering framework and command-line toolset
+- [haileys/doslinux](https://github.com/haileys/doslinux) - Run Linux programs on DOS
+- [mattiasgustavsson/dos-like](https://github.com/mattiasgustavsson/dos-like) - Engine for making things with a MS-DOS feel, but for modern platforms
+- [aquynh/unidos](https://github.com/aquynh/unidos) - MSDOS emulator built on top of Unicorn engine
+- [unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn) - Unicorn CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, PowerPC, RiscV, S390x, TriCore, X86)
+- [pmq20/ruby-packer](https://github.com/pmq20/ruby-packer) - Packing your Ruby application into a single executable.
+- [otya128/winevdm](https://github.com/otya128/winevdm) - 16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows
+- [cy384/ssheven](https://github.com/cy384/ssheven) - A minimal new SSH client for Mac OS 7/8/9
+- [ahrm/sioyek](https://github.com/ahrm/sioyek) - Sioyek is a PDF viewer with a focus on textbooks and research papers
+- [c3lang/c3c](https://github.com/c3lang/c3c) - Compiler for the C3 language
+- [dbohdan/hicolor](https://github.com/dbohdan/hicolor) - 🎨 Convert images to 15/16-bit RGB color with dithering
+- [merbanan/rtl_433](https://github.com/merbanan/rtl_433) - Program to decode radio transmissions from devices on the ISM bands (and other frequencies)
+- [zrythm/zrythm](https://github.com/zrythm/zrythm) - a highly automated and intuitive digital audio workstation - official mirror
+- [TrevorAttema/OTGMessenger](https://github.com/TrevorAttema/OTGMessenger) - Off The Grid Messenger
+- [gueratomik/gloss3d](https://github.com/gueratomik/gloss3d) - Gloss3D - 3D Modeler for Linux and Windows
+- [ec-/Quake3e](https://github.com/ec-/Quake3e) - Improved Quake III Arena engine
+- [microsoft/ebpf-for-windows](https://github.com/microsoft/ebpf-for-windows) - eBPF implementation that runs on top of Windows
+- [NixOS/patchelf](https://github.com/NixOS/patchelf) - A small utility to modify the dynamic linker and RPATH of ELF executables
+- [danoon2/Boxedwine](https://github.com/danoon2/Boxedwine) - 
+- [martanne/dvtm](https://github.com/martanne/dvtm) - dvtm brings the concept of tiling window management, popularized by X11-window managers like dwm to the console. As a console window manager it tries to make it easy to work with multiple console base
+- [DualCoder/vgpu_unlock](https://github.com/DualCoder/vgpu_unlock) - Unlock vGPU functionality for consumer grade GPUs.
+- [mptre/yank](https://github.com/mptre/yank) - Yank terminal output to clipboard
+- [stevenknown/xgen](https://github.com/stevenknown/xgen) - 
+- [zpl-c/zpl](https://github.com/zpl-c/zpl) - 📐 Pushing the boundaries of simplicity
+- [ppelleti/json65](https://github.com/ppelleti/json65) - A JSON parser written in 6502 assembly language.
+- [jbush001/NyuziProcessor](https://github.com/jbush001/NyuziProcessor) - GPGPU microprocessor architecture
+- [microsoft/checkedc](https://github.com/microsoft/checkedc) - Checked C is an extension to C that lets programmers write C code that is guaranteed by the compiler to be type-safe.  The goal is to let people easily make their existing C code type-safe and elimina
+- [lz4/lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
+- [sz3/libcimbar](https://github.com/sz3/libcimbar) - Optimized implementation for color-icon-matrix barcodes
+- [mvp/uhubctl](https://github.com/mvp/uhubctl) - uhubctl - USB hub per-port power control
+- [0x09/resdet](https://github.com/0x09/resdet) - Detect source resolution of upscaled images
+- [aubio/aubio](https://github.com/aubio/aubio) - a library for audio and music analysis
+- [beehive-lab/mambo](https://github.com/beehive-lab/mambo) - A low-overhead dynamic binary instrumentation and modification tool for ARM (both AArch32 and AArch64 support) and RISC-V (RV64GC).
+- [BigEvilCorporation/PCToom](https://github.com/BigEvilCorporation/PCToom) - A stupid experiment for LGR's stupid monitor
+- [dankamongmen/notcurses](https://github.com/dankamongmen/notcurses) - blingful character graphics/TUI library. definitely not curses.
+- [cnlohr/spreadgine](https://github.com/cnlohr/spreadgine) - An OpenGL ES engine with WebGL Output.
+- [ARM-software/optimized-routines](https://github.com/ARM-software/optimized-routines) - Optimized implementations of various library functions for ARM architecture processors
+- [andreiw/rk3399-edk2](https://github.com/andreiw/rk3399-edk2) - Uefi Rockchip Rk3399Pkg
+- [FabioRM/dsp3D](https://github.com/FabioRM/dsp3D) - Powerful 3D rendering engine for ARM Cortex-M
+- [hfiref0x/VBoxHardenedLoader](https://github.com/hfiref0x/VBoxHardenedLoader) - VirtualBox VM detection mitigation loader
+- [ibara/8088ify](https://github.com/ibara/8088ify) - The famous Intel 8080 CP/M 2.2 to Intel 8086/8088 MS-DOS assembly language translator.
+- [IvantheDugtrio/veclib](https://github.com/IvantheDugtrio/veclib) - Vector library for porting SSE2 instructions to other architectures
+- [kunpengcompute/AvxToNeon](https://github.com/kunpengcompute/AvxToNeon) - Encapsulate the frequently used AVX instructions as independent modules to reduce repeated development workload.
+- [kunpengcompute/zstd](https://github.com/kunpengcompute/zstd) - A fast real-time compression algorithm
+- [kurthildebrand/hyperspace](https://github.com/kurthildebrand/hyperspace) - Firmware and Software suite for the Hyperspace wireless, location-based mesh network.
+- [LeMaker/linux-actions](https://github.com/LeMaker/linux-actions) - Linux Source Code which can support the LeMaker Guitar
+- [lieff/minimp3](https://github.com/lieff/minimp3) - Minimalistic MP3 decoder single header library
+- [marciopocebon/MG21DOOM](https://github.com/marciopocebon/MG21DOOM) - Doom port to the Ikea Tradfri RGB1923R5 and any device using Silicon labs EFR32MG21 based modules
+- [mdrjr/5422_mali](https://github.com/mdrjr/5422_mali) - Mali Binaries for ODROID Products with Exynos 5422
+- [mediatek-android-development/android_kernel_mediatek_mt6761-62-4.9](https://github.com/mediatek-android-development/android_kernel_mediatek_mt6761-62-4.9) - Mediatek Alps kernel source 4.9 for mt6761 / mt6763 / mt6765
+- [Mellanox/QAT_Engine](https://github.com/Mellanox/QAT_Engine) - 
+- [michalsc/Emu68](https://github.com/michalsc/Emu68) - M68K emulation for AArch64/AArch32
+- [micropython/micropython](https://github.com/micropython/micropython) - MicroPython - a lean and efficient Python implementation for microcontrollers and constrained systems
+- [mintsuki/fvwm95](https://github.com/mintsuki/fvwm95) - fvwm95, ported to work on modern distributions such as Debian, Ubuntu, and Arch.
+- [moonjit/moonjit](https://github.com/moonjit/moonjit) - Just-In-Time Compiler for the Lua Programming language. Fork of LuaJIT to continue development. This project does not have an active maintainer, see https://twitter.com/siddhesh_p/status/1308594269502
+- [nomego/intel_nuc_led](https://github.com/nomego/intel_nuc_led) - Intel NUC8i7HVK (Hades) LED Control for Linux
+- [nuvious/pam-duress](https://github.com/nuvious/pam-duress) - A Pluggable Authentication Module (PAM) which allows the establishment of alternate passwords that can be used to perform actions to clear sensitive data, notify IT/Security staff, close off sensitive
+- [phillbush/xclickroot](https://github.com/phillbush/xclickroot) - click on root window and run a command
+- [pret/agbcc](https://github.com/pret/agbcc) - C compiler
+- [rampageX/firmware-mod-kit](https://github.com/rampageX/firmware-mod-kit) - Automatically exported from code.google.com/p/firmware-mod-kit
+- [rxi/fe](https://github.com/rxi/fe) - A tiny, embeddable language implemented in ANSI C
+- [rxi/microui](https://github.com/rxi/microui) - A tiny immediate-mode UI library
+- [rxi/vec](https://github.com/rxi/vec) - A type-safe dynamic array implementation for C
+- [richgel999/fpng](https://github.com/richgel999/fpng) - Super fast C++ .PNG writer/reader
+- [ssvb/xf86-video-fbturbo](https://github.com/ssvb/xf86-video-fbturbo) - Xorg DDX driver for ARM devices (Allwinner, RPi and others)
+- [simd-everywhere/simde](https://github.com/simd-everywhere/simde) - Implementations of SIMD instruction sets for systems which don't natively support them.
+- [Sysinternals/SysmonForLinux](https://github.com/Sysinternals/SysmonForLinux) - 
+- [superzazu/pac](https://github.com/superzazu/pac) - A Pac-Man emulator written in C99 with the SDL2.
+- [vvaltchev/tilck](https://github.com/vvaltchev/tilck) - A Tiny Linux-Compatible Kernel
+- [VectorChief/UniSIMD-assembler](https://github.com/VectorChief/UniSIMD-assembler) - SIMD macro assembler unified for ARM, MIPS, PPC and x86
+- [Usbac/quich](https://github.com/Usbac/quich) - Just an advanced terminal calculator.
+- [toots/shine](https://github.com/toots/shine) - Super fast fixed-point MP3 encoder with JS/wasm and android native bindings.
+- [tofurky/tegra30_debrick](https://github.com/tofurky/tegra30_debrick) - fusee-gelee payload, supporting files, and guide for debricking Tegra 3 devices (2012 Nexus 7 and Ouya)
+- [Wren6991/PicoDVI](https://github.com/Wren6991/PicoDVI) - Bitbanged DVI on the RP2040 Microcontroller
+- [littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) - A little fail-safe filesystem designed for microcontrollers
+- [xerpi/vita2hos](https://github.com/xerpi/vita2hos) - [WIP] PlayStation Vita to Horizon OS (Nintendo Switch OS) translation layer
+- [debauchee/barrier](https://github.com/debauchee/barrier) - Open-source KVM software
+- [peng-zhihui/HoloCubic](https://github.com/peng-zhihui/HoloCubic) - 带网络功能的伪全息透明显示桌面站
+- [bebbo/amiga-gcc](https://github.com/bebbo/amiga-gcc) - The GNU C-Compiler with Binutils and other useful tools for cross development for Amiga
+- [croemheld/elfboot](https://github.com/croemheld/elfboot) - A multiboot-compliant Executable and Linking Format (ELF) bootloader for the x86 architecture.
+- [DoctorWkt/fbcc](https://github.com/DoctorWkt/fbcc) - Fabrice Bellard's fbcc C Compiler
+- [dougg3/micro-xls-writer](https://github.com/dougg3/micro-xls-writer) - MicroXLSWriter - A simple and small XLS file creation library written in C suitable for use on microcontrollers
+- [jgmenu/jgmenu](https://github.com/jgmenu/jgmenu) - An X11 menu
+- [rswinkle/PortableGL](https://github.com/rswinkle/PortableGL) - An implementation of OpenGL 3.x-ish in clean C
+- [M-HT/SR](https://github.com/M-HT/SR) - A project to statically recompile following games to create Windows or Linux (x86 or arm) versions of the games - Albion, X-Com: UFO Defense (UFO: Enemy Unknown), X-Com: Terror from the Deep, Warcraft
+- [suppertails66/cmpdism](https://github.com/suppertails66/cmpdism) - Multi-architecture comparative disassembler
+- [heliosproj/HeliOS](https://github.com/heliosproj/HeliOS) - A community delivered, open source embedded operating system project.
+- [lhoursquentin/sed-bin](https://github.com/lhoursquentin/sed-bin) - sed to C translator written in sed
+- [zhaojh329/rtty](https://github.com/zhaojh329/rtty) - 🐛 Access your terminal from anywhere via the web.
+- [raspberrypi/tools](https://github.com/raspberrypi/tools) - 
+- [Terraspace/UASM](https://github.com/Terraspace/UASM) - UASM - Macro Assembler
+- [tkchia/gcc-ia16](https://github.com/tkchia/gcc-ia16) - Fork of Lambertsen & Jenner (& al.)'s IA-16 (Intel 16-bit x86) port of GNU compilers ― added far pointers & more • use https://github.com/tkchia/build-ia16 to build • Ubuntu binaries at https://launch
+- [michaelforney/cproc](https://github.com/michaelforney/cproc) - C11 compiler (mirror)
+- [EndlessEden/mali-midgard](https://github.com/EndlessEden/mali-midgard) - ARM Mali kernel drivers used with Midgard GPU's in LibreELEC
+- [LibreELEC/linux_openvfd](https://github.com/LibreELEC/linux_openvfd) - FD628 and similar compatible LED controller driver used in LibreELEC
+- [libhybris/libhybris](https://github.com/libhybris/libhybris) - Hybris is a solution that commits hybris, by allowing us to use bionic-based HW adaptations in glibc systems
+- [yarrick/turbomem](https://github.com/yarrick/turbomem) - Incomplete Linux driver for Intel Turbo Memory Controller ("Robson") PCIe card
+- [NotKit/xf86-video-hwcomposer](https://github.com/NotKit/xf86-video-hwcomposer) - Xorg DDX driver to renderer through HWComposer API on Android devices via libhybris
+- [NotKit/drihybris](https://github.com/NotKit/drihybris) - DRIHYBRIS extension (based on DRI3) for buffer sharing on libhybris-based adaptations
+- [NotKit/glamor-hybris](https://github.com/NotKit/glamor-hybris) - Glamor Xserver 2D acceleration, modified to work with libhybris drivers
+- [samartzidis/WinAppleKey](https://github.com/samartzidis/WinAppleKey) - Apple Magic Keyboard Driver (A1644) for Windows 10
+- [google/android-emulator-hypervisor-driver](https://github.com/google/android-emulator-hypervisor-driver) - 
+- [Googulator/dwusb](https://github.com/Googulator/dwusb) - Windows driver for the DesignWare USB 2.0 HS OTG Controller as used in the Raspberry Pi 3.
+- [xerpi/vita-udcd-uvc](https://github.com/xerpi/vita-udcd-uvc) - PSVita UDCD USB Video Class plugin
+- [milesp20/intel_nuc_led](https://github.com/milesp20/intel_nuc_led) - Intel NUC7i[x]BN and NUC6CAY LED Control for Linux
+- [kimocoder/rtw88-usb](https://github.com/kimocoder/rtw88-usb) - 8723d 8821c 8822bu 8812bu 8822cu 8812cu linux mac80211 driver
+- [dbason/crystalhd](https://github.com/dbason/crystalhd) - Broadcom Crystal HD Hardware Decoder (BCM70012/70015) driver on Ubuntu
+- [Mange/rtl8192eu-linux-driver](https://github.com/Mange/rtl8192eu-linux-driver) - Drivers for the rtl8192eu chipset for wireless adapters (D-Link DWA-131 rev E1 included!)
+- [intel/linux-sgx-driver](https://github.com/intel/linux-sgx-driver) - Intel SGX Linux* Driver
+- [mer-hybris/nfcd-binder-plugin](https://github.com/mer-hybris/nfcd-binder-plugin) - Binder based adaptation for https://git.sailfishos.org/mer-core/nfcd/
+- [arthur-liberman/linux_openvfd](https://github.com/arthur-liberman/linux_openvfd) - FD628 and similar compatible LED controller driver for linux
+- [wget/realtek-r8152-linux](https://github.com/wget/realtek-r8152-linux) - A kernel module for Realtek RTL8152/RTL8153 Based USB Ethernet Adapters - Meant to be used in distributions only - For upstream bugs, please report them to your distribution maintainer or to Realtek.
+- [morrownr/8814au](https://github.com/morrownr/8814au) - Linux Driver for USB WiFi Adapters that are based on the RTL8814AU Chipset
+- [mtorromeo/r8168](https://github.com/mtorromeo/r8168) - Linux device driver for Realtek Ethernet controllers (unofficial mirror)
+- [benjaminvialle/intel_nuc_led](https://github.com/benjaminvialle/intel_nuc_led) - Intel NUC8i7HVK (Hades) LED Control for Linux
+- [rvp-nl/vs10xx-linux](https://github.com/rvp-nl/vs10xx-linux) - Linux driver for VS1053 and VS1063 audio codecs
+- [brektrou/rtl8821CU](https://github.com/brektrou/rtl8821CU) - Realtek RTL8811CU/RTL8821CU USB Wi-Fi adapter driver for Linux
+- [antoineco/broadcom-wl](https://github.com/antoineco/broadcom-wl) - Broadcom Linux hybrid wireless driver (64-bit)
+- [arter97/exfat-linux](https://github.com/arter97/exfat-linux) - exFAT filesystem module for Linux kernel
+- [airium/Realtek-PCIe-GBE-NIC-Driver](https://github.com/airium/Realtek-PCIe-GBE-NIC-Driver) - Linux driver for Realtek RTL8111/8168/8411 PCIe GBE NIC
+- [intel/QAT_Engine](https://github.com/intel/QAT_Engine) - Intel QuickAssist Technology( QAT) OpenSSL Engine (an OpenSSL Plug-In Engine) which provides cryptographic acceleration for both hardware and optimized software using Intel QuickAssist Technology enab
+- [elFarto/nvidia-vaapi-driver](https://github.com/elFarto/nvidia-vaapi-driver) - A VA-API implemention using NVIDIA's NVDEC
+- [glmark2/glmark2](https://github.com/glmark2/glmark2) - glmark2 is an OpenGL 2.0 and ES 2.0 benchmark
+- [cracyc/msdos-player](https://github.com/cracyc/msdos-player) - 
+- [darkstar/2ine](https://github.com/darkstar/2ine) - git mirror of 2ine (https://hg.icculus.org/icculus/2ine), updated hourly (usually... at least if my VM doesn't crash or something ;-). Don't send pull requests
+- [dmsc/emu2](https://github.com/dmsc/emu2) - Simple x86 and DOS emulator for the Linux terminal.
+- [DoctorWkt/Apout](https://github.com/DoctorWkt/Apout) - A user-mode simulator for various version of PDP-11 Unix
+- [dosemu2/dosemu2](https://github.com/dosemu2/dosemu2) - Run DOS programs under linux:
+- [irixxxx/qemu-irix](https://github.com/irixxxx/qemu-irix) - adding Irix (and, to a lesser extend, Solaris) userland emulation to QEMU
+- [jhallen/cpm](https://github.com/jhallen/cpm) - Run CP/M commands in Linux/Cygwin with this Z80 / BDOS / ADM-3A emulator.
+- [jonasob/jwhois](https://github.com/jonasob/jwhois) - 
+- [MockbaTheBorg/RunCPM](https://github.com/MockbaTheBorg/RunCPM) - RunCPM is a multi-platform, portable, Z80 CP/M 2.2 emulator.
+- [nemuTUI/nemu](https://github.com/nemuTUI/nemu) - Ncurses UI for QEMU
+- [notaz/ginge](https://github.com/notaz/ginge) - GINGE Is Not Gp2x Emulator
+- [notaz/pcsx_rearmed](https://github.com/notaz/pcsx_rearmed) - ARM optimized PCSX fork
+- [n64decomp/qemu-irix](https://github.com/n64decomp/qemu-irix) - adding Irix (and, to a lesser extent, Solaris) userland emulation to QEMU
+- [thp/apkenv](https://github.com/thp/apkenv) - A compatibility layer for applications packaged as .apk. Can run certain Android games on non-Android Linux (glibc and others).
+- [aditya12agd5/cuda_bzip2](https://github.com/aditya12agd5/cuda_bzip2) - GPU Implementation of "Fast Burrows Wheeler Compression Using All-Cores" IPDSW'15
+- [chewi/apascan](https://github.com/chewi/apascan) - PlayStation 2 hard drive partition scanner for Linux
+- [hashcat/hashcat](https://github.com/hashcat/hashcat) - World's fastest and most advanced password recovery utility
+- [lzfse/lzfse](https://github.com/lzfse/lzfse) - LZFSE compression library and command line tool
+- [mikeakohn/amiga_recovery](https://github.com/mikeakohn/amiga_recovery) - View and copy files from Amiga file system images.
+- [mcmilk/7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd) - 7-Zip with support for Brotli, Fast-LZMA2, Lizard, LZ4, LZ5 and Zstandard
+- [skeeto/hastyhex](https://github.com/skeeto/hastyhex) - A blazing fast hex dumper
+- [mozilla/mozjpeg](https://github.com/mozilla/mozjpeg) - Improved JPEG encoder.
+- [wbenny/woftool](https://github.com/wbenny/woftool) - woftool is a proof-of-concept utility for creating WOF-compressed files
+- [openlgtv/epk2extract](https://github.com/openlgtv/epk2extract) - Extraction tool for LG, Hisense, Sharp, Philips/TPV, Thompson and similar TVs/Embedded Devices
+- [libimobiledevice/idevicerestore](https://github.com/libimobiledevice/idevicerestore) - Restore/upgrade firmware of iOS devices
+- [JonathonReinhart/staticx](https://github.com/JonathonReinhart/staticx) - Create static executable from dynamic executable
+- [seemoo-lab/nexmon](https://github.com/seemoo-lab/nexmon) - The C-based Firmware Patching Framework for Broadcom/Cypress WiFi Chips that enables Monitor Mode, Frame Injection and much more
+- [Allwinner-Homlet/H3-BSP4.4-brandy](https://github.com/Allwinner-Homlet/H3-BSP4.4-brandy) - 
+- [embed-3d/BPI-M3-PVR-SGX](https://github.com/embed-3d/BPI-M3-PVR-SGX) - 
+- [DynamoRIO/drmemory](https://github.com/DynamoRIO/drmemory) - Memory Debugger for Windows, Linux, Mac, and Android
+- [robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan) - TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
+- [eddieantonio/imgcat](https://github.com/eddieantonio/imgcat) - It's like cat, but for images.
+- [jart/cosmopolitan](https://github.com/jart/cosmopolitan) - build-once run-anywhere c library
+- [tryone144/compton](https://github.com/tryone144/compton) - A compositor for X11.
+- [saitoha/libsixel](https://github.com/saitoha/libsixel) - A SIXEL encoder/decoder implementation derived from kmiya's sixel (https://github.com/saitoha/sixel).
+- [kunpengcompute/gzip](https://github.com/kunpengcompute/gzip) - GNU Gzip with Kunpeng optimization.
+- [lunixbochs/tinygles](https://github.com/lunixbochs/tinygles) - Software-rendered OpenGL ES
+- [theori-io/nrsc5](https://github.com/theori-io/nrsc5) - NRSC-5 receiver for rtl-sdr
+- [F5OEO/rpitx](https://github.com/F5OEO/rpitx) - RF transmitter for Raspberry Pi
+- [Cloudef/android2gnulinux](https://github.com/Cloudef/android2gnulinux) - AOSP/Bionic compatiblity layer for GLIBC systems
+- [TheTumultuousUnicornOfDarkness/CPU-X](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X) - CPU-X is a Free software that gathers information on CPU, motherboard and more
+- [wishstudio/flinux](https://github.com/wishstudio/flinux) - Foreign LINUX - Run unmodified Linux applications inside Windows.
+- [uobikiemukot/yaft](https://github.com/uobikiemukot/yaft) - yet another framebuffer terminal
+- [stanson-ch/libusb-wine](https://github.com/stanson-ch/libusb-wine) - libusb-win32 DLL for Wine
+- [spieglt/whatfiles](https://github.com/spieglt/whatfiles) - Log what files are accessed by any Linux process
+- [slicer69/doas](https://github.com/slicer69/doas) - A port of OpenBSD's doas which runs on FreeBSD, Linux, NetBSD, and illumos
+- [opuntiaOS-Project/opuntiaOS](https://github.com/opuntiaOS-Project/opuntiaOS) - opuntiaOS - an operating system targeting x86, ARM and RISC-V.
+- [jamulussoftware/jamulus](https://github.com/jamulussoftware/jamulus) - Jamulus enables musicians to perform real-time jam sessions over the internet.
+- [larrikinist/Norton-Core](https://github.com/larrikinist/Norton-Core) - Source code for Norton's Core router.
+- [roberthawdon/dfshow](https://github.com/roberthawdon/dfshow) - An open source implementation of some of the applications from Larry Kroeker's DF-EDIT
+- [MariadeAnton/bcl](https://github.com/MariadeAnton/bcl) - Basic Compression Library in biicode http://bcl.comli.eu/
+- [kspalaiologos/bzip3](https://github.com/kspalaiologos/bzip3) - A better and stronger spiritual successor to BZip2.
+- [ptitSeb/box86](https://github.com/ptitSeb/box86) - Box86 - Linux Userspace x86 Emulator with a twist, targeted at ARM Linux devices
+- [ptitSeb/gl4es](https://github.com/ptitSeb/gl4es) - GL4ES is a OpenGL 2.1/1.5 to GL ES 2.0/1.1 translation library, with support for Pandora, ODroid, OrangePI, CHIP, Raspberry PI, Android, Emscripten and AmigaOS4.
+- [ptitSeb/box64](https://github.com/ptitSeb/box64) - Box64 - Linux Userspace x86_64 Emulator with a twist, targeted at ARM64 Linux devices
 
 ## Python 
 
+- [marteinn/Lua-To-Python](https://github.com/marteinn/Lua-To-Python) - Lua to python compiler
+- [imartinez/privateGPT](https://github.com/imartinez/privateGPT) - Interact with your documents using the power of GPT, 100% privately, no data leaks
+- [pthom/imgui_bundle](https://github.com/pthom/imgui_bundle) - Dear ImGui Bundle: easily create ImGui applications in Python and C++. Batteries included!
+- [asigalov61/Euterpe-X](https://github.com/asigalov61/Euterpe-X) - [DEPRECIATED] [PyTorch 2.0] [638M] [85.33% acc] Full-attention multi-instrumental music transformer for supervised music generation, optimized for speed, efficiency, and performance
+- [asigalov61/Allegro-Music-Transformer](https://github.com/asigalov61/Allegro-Music-Transformer) - Full-attention multi-instrumental music transformer featuring asymmetrical encoding with octo-velocity, and chords counters tokens, optimized for speed and performance
+- [QosmoInc/neutone_sdk](https://github.com/QosmoInc/neutone_sdk) - Join the community on Discord for more discussions around Neutone! https://discord.gg/VHSMzb8Wqp
+- [shiromofufactory/8bit-bgm-generator](https://github.com/shiromofufactory/8bit-bgm-generator) - 
+- [unitaryai/detoxify](https://github.com/unitaryai/detoxify) - Trained models & code to predict toxic comments on all 3 Jigsaw Toxic Comment Challenges. Built using ⚡ Pytorch Lightning and 🤗 Transformers. For access to our API, please email us at contact@unitary.
+- [EMATech/MidiExplorer](https://github.com/EMATech/MidiExplorer) - Yet another MIDI monitor, analyzer, debugger and manipulation tool.
+- [dharmx/vile](https://github.com/dharmx/vile) - Waste of time. Smelly widgets feat. Spaghetti code. Built with eww-3.0.
+- [t0thkr1s/dotfiles](https://github.com/t0thkr1s/dotfiles) - My essential dotfiles.
+- [jumper149/dotfiles](https://github.com/jumper149/dotfiles) - Dotfiles for my Linux-Systems
+- [kiddae/dotfiles](https://github.com/kiddae/dotfiles) - Files that start with a dot (they're very cool).
+- [isyuck/dotfiles](https://github.com/isyuck/dotfiles) - linux/osx
+- [jens-j/procedural_glyphs](https://github.com/jens-j/procedural_glyphs) - Create a procedurally generated character set for your own alien language
+- [twintproject/twint](https://github.com/twintproject/twint) - An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations.
+- [iamurze/dots](https://github.com/iamurze/dots) - my dotfiles
+- [ceuk/spotui](https://github.com/ceuk/spotui) - Spotify in the terminal 💻🎶
+- [thinkst/zippy](https://github.com/thinkst/zippy) - Detect AI-generated text [relatively] quickly via compression ratios
+- [alexandru-dinu/igcc](https://github.com/alexandru-dinu/igcc) - Interactive GCC - C/C++ REPL.
+- [ProjectUnifree/unifree](https://github.com/ProjectUnifree/unifree) - 
+- [eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee](https://github.com/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee) - eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+- [pastthepixels/lmms-midi](https://github.com/pastthepixels/lmms-midi) - Yet another Python script to convert uncompressed LMMS tracks to .mid files
+- [TranscryptOrg/Transcrypt](https://github.com/TranscryptOrg/Transcrypt) - Python 3.9 to JavaScript compiler - Lean, fast, open! -
+- [TDiblik/main-gate-alpr](https://github.com/TDiblik/main-gate-alpr) - Recognize license plates (and numbers) using fine-tuned yolov8, OCR (tesseract) and Hikvision camera
+- [ashduino101/offlinesequencer](https://github.com/ashduino101/offlinesequencer) - This will convert new OnlineSequencer sequences to a plain text file. Coming Soon (in a day or 2): re-converting text to .sequence files
+- [notAperson535/OneClick-macOS-Simple-KVM](https://github.com/notAperson535/OneClick-macOS-Simple-KVM) - Tools to set up a easy, quick macOS VM in QEMU, accelerated by KVM. Works on Linux AND Windows.
+- [dbrookman/trackrip](https://github.com/dbrookman/trackrip) - Extracts samples from various music tracker module formats
+- [jamesalbert/HolyC-for-Linux](https://github.com/jamesalbert/HolyC-for-Linux) - run HolyC on Linux secularly
+- [easlice/bandcamp-downloader](https://github.com/easlice/bandcamp-downloader) - Download your bandcamp collection using this python script.
+- [LawOff/DiscordServerCloner2.0](https://github.com/LawOff/DiscordServerCloner2.0) - A Discord Server Cloner made using Python
+- [B0ney/ordinary-file-sorter](https://github.com/B0ney/ordinary-file-sorter) - My customisable organizer for folders and files.
+- [nccgroup/blackboxprotobuf](https://github.com/nccgroup/blackboxprotobuf) - Blackbox protobuf is a Burp Suite extension for decoding and modifying arbitrary protobuf messages without the protobuf type definition.
+- [Flipnote-Collective/kwz-parser](https://github.com/Flipnote-Collective/kwz-parser) - Example full-featured Python parser for Flipnote Studio 3D's .kwz animation format
+- [Autodesk/quack](https://github.com/Autodesk/quack) - Quack - Reuse git modules in smart way
+- [lezgomatt/ezntfs](https://github.com/lezgomatt/ezntfs) - An easy-to-use wrapper for NTFS-3G on macOS
+- [Nuitka/Nuitka](https://github.com/Nuitka/Nuitka) - Nuitka is a Python compiler written in Python.  It's fully compatible with Python 2.6, 2.7, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, and 3.11. You feed it your Python app, it does a lot of clever things, a
+- [breakintoprogram/archive-follin](https://github.com/breakintoprogram/archive-follin) - An archive of music source code and drivers donated by Tim and Geoff Follin.
+- [onekey-sec/jefferson](https://github.com/onekey-sec/jefferson) - JFFS2 filesystem extraction tool
+- [outlines-dev/outlines](https://github.com/outlines-dev/outlines) - Guided Text Generation
+- [costales/gufw](https://github.com/costales/gufw) - Linux Firewall
+- [firewalld/firewalld](https://github.com/firewalld/firewalld) - Stateful zone based firewall daemon with D-Bus interface
+- [vye16/slahmr](https://github.com/vye16/slahmr) - 
+- [google-research/perceiver-ar](https://github.com/google-research/perceiver-ar) - 
+- [chip-red-pill/MicrocodeDecryptor](https://github.com/chip-red-pill/MicrocodeDecryptor) - 
+- [soroushmehr/sampleRNN_ICLR2017](https://github.com/soroushmehr/sampleRNN_ICLR2017) - SampleRNN: An Unconditional End-to-End Neural Audio Generation Model
+- [openai/jukebox](https://github.com/openai/jukebox) - Code for the paper "Jukebox: A Generative Model for Music"
+- [craftmine1000/jukebox-opt](https://github.com/craftmine1000/jukebox-opt) - Code for the paper "Jukebox: A Generative Model for Music"
+- [peterlazzarino/jukebox-windows](https://github.com/peterlazzarino/jukebox-windows) - Code for "Jukebox: A Generative Model for Music"
+- [devinacker/omgifol](https://github.com/devinacker/omgifol) - A Python library for manipulation of Doom WAD files
+- [xonsh/xonsh](https://github.com/xonsh/xonsh) - :shell: Python-powered, cross-platform, Unix-gazing shell.
+- [Magabes/FL-Studio-Automatic-Plugin-Organizer](https://github.com/Magabes/FL-Studio-Automatic-Plugin-Organizer) - This is a Python script that organizes FL Studio plugins by vendor name. It copies the plugin files from the default folder to an accessible/user-custom folder, creating subfolders for each company. I
+- [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) - Cross-platform, fast, feature-rich, GPU based terminal
+- [Lxtharia/minegrub-theme](https://github.com/Lxtharia/minegrub-theme) - A Grub Theme in the style of Minecraft!
+- [bkerler/mtkclient](https://github.com/bkerler/mtkclient) - MTK reverse engineering and flash tool
+- [plaaosert/credits_public](https://github.com/plaaosert/credits_public) - Public version of Frums - Credits animation repository
+- [divamgupta/stable-diffusion-tensorflow](https://github.com/divamgupta/stable-diffusion-tensorflow) - Stable Diffusion in TensorFlow / Keras
+- [facebookresearch/llama](https://github.com/facebookresearch/llama) - Inference code for LLaMA models
+- [NicklasVraa/Color-manager](https://github.com/NicklasVraa/Color-manager) - Recolor your favorite icon packs, themes and wallpapers with a few clicks or lines of code.
+- [dwalone/Latex2Python](https://github.com/dwalone/Latex2Python) - Desmos to Python / SymboLab to Python / LaTeX to Python syntax converter for mathematical expressions
+- [bpython/bpython](https://github.com/bpython/bpython) - bpython - A fancy curses interface to the Python interactive interpreter
+- [schorrm/arm2riscv](https://github.com/schorrm/arm2riscv) - Arm AArch64 to RISC-V Transpiler
+- [joshpxyne/gpt-migrate](https://github.com/joshpxyne/gpt-migrate) - Easily migrate your codebase from one framework or language to another.
+- [amamic1803/Full-Tilt-Pinball](https://github.com/amamic1803/Full-Tilt-Pinball) - Full Tilt! Pinball 1 & 2, all 6 tables (including Space Cadet)
+- [TermuxHackz/X-osint](https://github.com/TermuxHackz/X-osint) - This is an Open source intelligent framework ie an osint tool which gathers valid information about a phone number, user's email address, perform VIN Osint, and reverse, perform subdomain enumeration,
+- [whipper-team/whipper](https://github.com/whipper-team/whipper) - Python CD-DA ripper preferring accuracy over speed
+- [GimelStudio/GimelStudio](https://github.com/GimelStudio/GimelStudio) - Non-destructive, node based 2D image editor with an API for custom nodes
+- [sweetcocoa/pop2piano](https://github.com/sweetcocoa/pop2piano) - Official Repo of the paper "Pop2Piano : Pop Audio-based Piano Cover Generation"
+- [monkbai/DNN-decompiler](https://github.com/monkbai/DNN-decompiler) - BTD - Bin To DNN: A DNN Executables Decompiler
+- [asdf-format/asdf](https://github.com/asdf-format/asdf) - ASDF (Advanced Scientific Data Format) is a next generation interchange format for scientific data
+- [w4ffl35/krita_stable_diffusion](https://github.com/w4ffl35/krita_stable_diffusion) - A Stable Diffusion plugin for Krita
+- [joshiemoore/snakeware](https://github.com/joshiemoore/snakeware) - A free Linux distro with a Python-based userspace
+- [nv-tlabs/GET3D](https://github.com/nv-tlabs/GET3D) - 
+- [harelba/q](https://github.com/harelba/q) - q - Run SQL directly on delimited files and multi-file sqlite databases
+- [openai/whisper](https://github.com/openai/whisper) - Robust Speech Recognition via Large-Scale Weak Supervision
+- [carson-katri/dream-textures](https://github.com/carson-katri/dream-textures) - Stable Diffusion built-in to Blender
+- [erdewit/HiFiScan](https://github.com/erdewit/HiFiScan) - Optimize the audio quality of your loudspeakers
+- [taichi-dev/faster-python-with-taichi](https://github.com/taichi-dev/faster-python-with-taichi) - 
+- [onekey-sec/unblob](https://github.com/onekey-sec/unblob) - Extract files from any kind of container formats
+- [openairplay/airplay2-receiver](https://github.com/openairplay/airplay2-receiver) - AirPlay 2 Receiver - Python implementation
+- [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) - Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.
+- [Wasted-Audio/hvcc](https://github.com/Wasted-Audio/hvcc) - The heavy hvcc compiler for Pure Data patches. Updated to python3 and additional generators
+- [cmnybo/nrsc5-gui](https://github.com/cmnybo/nrsc5-gui) - A graphical interface for nrsc5
+- [markjfine/nrsc5-dui](https://github.com/markjfine/nrsc5-dui) - An enhanced, user-friendly version of nrsc5-gui that is not heavily dependent upon Python processing for audio generation.
+- [Nintorac/NeuralDX7](https://github.com/Nintorac/NeuralDX7) - Deep models related to the Yamaha DX7
+- [zenforic/jukebox-win-local](https://github.com/zenforic/jukebox-win-local) - Windows compatible code for the paper "Jukebox: A Generative Model for Music"
+- [Mr-Robert0/Logsensor](https://github.com/Mr-Robert0/Logsensor) - A Powerful Sensor Tool to discover login panels, and POST Form SQLi Scanning
+- [cpitclaudel/monospacifier](https://github.com/cpitclaudel/monospacifier) - Convert variable-pitch fonts to monospace (useful for unicode and indentation-friendly programming)
+- [Tiger14n/RVC-GUI](https://github.com/Tiger14n/RVC-GUI) - Just a fork of RVC for easy audio file voice conversion locally
+- [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft) - Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable mu
+- [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) - Voice data &lt;= 10 mins can also be used to train a good VC model!
+- [axcore/tartube](https://github.com/axcore/tartube) - A GUI front-end for youtube-dl, partly based on youtube-dl-gui and written in Python 3 / Gtk 3
+- [aristocratos/bpytop](https://github.com/aristocratos/bpytop) - Linux/OSX/FreeBSD resource monitor
 - [maguowei/starred](https://github.com/maguowei/starred) - creating your own Awesome List by GitHub stars!
 - [SuLvXiangXin/zipnerf-pytorch](https://github.com/SuLvXiangXin/zipnerf-pytorch) - Unofficial implementation of ZipNeRF
 - [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.
 - [snarfed/granary](https://github.com/snarfed/granary) - 💬 The social web translator
-- [fabiocaccamo/python-benedict](https://github.com/fabiocaccamo/python-benedict) - :blue_book: dict subclass with keylist/keypath support, built-in I/O operations (base64, csv, ini, json, pickle, plist, query-string, toml, xls, xml, yaml), s3 support and many utilities.
+- [fabiocaccamo/python-benedict](https://github.com/fabiocaccamo/python-benedict) - :blue_book: dict subclass with keylist/keypath support, built-in I/O operations (base64, csv, html, ini, json, pickle, plist, query-string, toml, xls, xml, yaml), s3 support and many utilities.
+- [w-okada/voice-changer](https://github.com/w-okada/voice-changer) - リアルタイムボイスチェンジャー Realtime Voice Changer
 - [stargatedaw/stargate](https://github.com/stargatedaw/stargate) - Innovation-first digital audio workstation (DAW), instrument and effect plugins, wave editor
 - [sensity-ai/dot](https://github.com/sensity-ai/dot) - The Deepfake Offensive Toolkit
 - [jwilk/abmagick](https://github.com/jwilk/abmagick) - abuse ImageMagick (or GraphicsMagick) to create arbitrary files
 - [smallsco/macstodon](https://github.com/smallsco/macstodon) - A basic Mastodon client for Classic Mac OS
 - [svc-develop-team/so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) - SoftVC VITS Singing Voice Conversion
 - [bytedance/uss](https://github.com/bytedance/uss) - 
-- [smol-ai/developer](https://github.com/smol-ai/developer) - with 100k context windows on the way, it's now feasible for every dev to have their own smol developer
+- [smol-ai/developer](https://github.com/smol-ai/developer) - the first library to let you embed a developer agent in your own app!
 - [ldrolez/free-midi-chords](https://github.com/ldrolez/free-midi-chords) - A collection of free MIDI chords and progressions ready to be used in your DAW, Akai MPC, or Roland MC-707/101
 - [casualsnek/waydroid_script](https://github.com/casualsnek/waydroid_script) - Python Script to  add OpenGapps, Magisk, libhoudini translation library and libndk translation library to waydroid !
 - [gaodechen/gpt-lyrics](https://github.com/gaodechen/gpt-lyrics) - TuneFlow Plugin - GPT Lyrics Generator
@@ -1370,7 +1294,8 @@
 - [wzaielamri/unmix](https://github.com/wzaielamri/unmix) - Code for unmixing audio signals in four different stems "drums, bass, vocals, others". The code is adapted from "Jukebox: A Generative Model for Music"
 - [ChocolateApp/Chocolate](https://github.com/ChocolateApp/Chocolate) - The future of media manager
 - [spotify/basic-pitch](https://github.com/spotify/basic-pitch) - A lightweight yet powerful audio-to-MIDI converter with pitch bend detection
-- [lukasHoel/text2room](https://github.com/lukasHoel/text2room) - Text2Room generates textured 3D meshes from a given text prompt using 2D text-to-image models.
+- [lukasHoel/text2room](https://github.com/lukasHoel/text2room) - Text2Room generates textured 3D meshes from a given text prompt using 2D text-to-image models (ICCV2023).
+- [NordSecurity/libdrop](https://github.com/NordSecurity/libdrop) - Libdrop is the library behind the file sharing feature of NordVPN applications.
 - [mpoon/gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader) - Convert code repos into an LLM prompt-friendly format. Mostly built by GPT-4.
 - [KeeyanGhoreshi/AudioToJummbox](https://github.com/KeeyanGhoreshi/AudioToJummbox) - Converts audio files into collections of notes and outputs them in Jummbox format.
 - [LeehamElectronics/exif-library-restorer](https://github.com/LeehamElectronics/exif-library-restorer) - a simple tool to restore exif data to your library
@@ -1407,7 +1332,6 @@
 - [dylanpdx/BetterTwitFix](https://github.com/dylanpdx/BetterTwitFix) - Fix Twitter video embeds in Discord (and Telegram!)
 - [foone/ecco-distortion-effect](https://github.com/foone/ecco-distortion-effect) - A reverse engineered implementation of the Ecco The Dolphin waving-effect seen in the background of text screens
 - [the6p4c/dfuse-extract](https://github.com/the6p4c/dfuse-extract) - Extract DfuSe images (.dfu) into plain binary files
-- [jamesalbert/HolyC-for-Linux](https://github.com/jamesalbert/HolyC-for-Linux) - run HolyC on Linux secularly
 - [GuyTevet/motion-diffusion-model](https://github.com/GuyTevet/motion-diffusion-model) - The official PyTorch implementation of the paper "Human Motion Diffusion Model"
 - [blackle/mastodon-data-viewer.py](https://github.com/blackle/mastodon-data-viewer.py) - a viewer for mastodon export data
 - [minetest-tools/mcimport](https://github.com/minetest-tools/mcimport) - 
@@ -1417,7 +1341,6 @@
 - [lkwq007/stablediffusion-infinity](https://github.com/lkwq007/stablediffusion-infinity) - Outpainting with Stable Diffusion on an infinite canvas
 - [soxoj/maigret](https://github.com/soxoj/maigret) - 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites
 - [impira/docquery](https://github.com/impira/docquery) - An easy way to extract information from documents
-- [openai/whisper](https://github.com/openai/whisper) - Robust Speech Recognition via Large-Scale Weak Supervision
 - [rickvg/Wwise-BNKExtract](https://github.com/rickvg/Wwise-BNKExtract) - Extract WEM files from AudioKinetic Wwise soundbank
 - [omduggineni/termvideo](https://github.com/omduggineni/termvideo) - View video files in a terminal!
 - [dankeyy/incdec.py](https://github.com/dankeyy/incdec.py) - for all your ++ -- needs
@@ -1501,8 +1424,8 @@
 - [mhsabbagh/green-recorder](https://github.com/mhsabbagh/green-recorder) - A simple screen recorder for Linux desktop. Supports Wayland & Xorg
 - [evilsocket/opensnitch](https://github.com/evilsocket/opensnitch) - OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch.
 - [lucidrains/imagen-pytorch](https://github.com/lucidrains/imagen-pytorch) - Implementation of Imagen, Google's Text-to-Image Neural Network, in Pytorch
-- [lyrebird-voice-changer/lyrebird](https://github.com/lyrebird-voice-changer/lyrebird) - 🦜 Simple and powerful voice changer for Linux, written in GTK 3
-- [geohot/tinygrad](https://github.com/geohot/tinygrad) - You like pytorch? You like micrograd? You love tinygrad! ❤️
+- [lyrebird-voice-changer/lyrebird](https://github.com/lyrebird-voice-changer/lyrebird) - 🦜 Simple and powerful voice changer for Linux, written with Python & GTK
+- [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad) - You like pytorch? You like micrograd? You love tinygrad! ❤️
 - [NATSpeech/NATSpeech](https://github.com/NATSpeech/NATSpeech) - A Non-Autoregressive Text-to-Speech (NAR-TTS) framework, including official PyTorch implementation of PortaSpeech (NeurIPS 2021) and DiffSpeech (AAAI 2022)
 - [Picovoice/leopard](https://github.com/Picovoice/leopard) - On-device speech-to-text engine powered by deep learning
 - [devttys0/yaffshiv](https://github.com/devttys0/yaffshiv) - YAFFS extractor
@@ -1517,7 +1440,7 @@
 - [deezer/spleeter](https://github.com/deezer/spleeter) - Deezer source separation library including pretrained models.
 - [Elleo/ibus-deepspeech](https://github.com/Elleo/ibus-deepspeech) - IBus plugin to allow any Linux application to make use of speech recognition
 - [eyalev/mdo](https://github.com/eyalev/mdo) - Terminal Markdown Viewer
-- [facebook/pcicrawler](https://github.com/facebook/pcicrawler) - pcicrawler is a Python based command line interface tool which can be used to display, filter and export information about PCI (Peripheral Component Interconnect) or PCIe buses and devices, as well as
+- [opencomputeproject/ocp-diag-pcicrawler](https://github.com/opencomputeproject/ocp-diag-pcicrawler) - pcicrawler is a Python based command line interface tool which can be used to display, filter and export information about PCI (Peripheral Component Interconnect) or PCIe buses and devices, as well as
 - [lagmoellertim/unsilence](https://github.com/lagmoellertim/unsilence) - Console Interface and Library to remove silent parts of a media file 🔈
 - [josh-richardson/cadmus](https://github.com/josh-richardson/cadmus) - A GUI frontend for @werman's Pulse Audio real-time noise suppression plugin
 - [JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR) - Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
@@ -1535,8 +1458,8 @@
 - [pzmarzly/ancs4linux](https://github.com/pzmarzly/ancs4linux) - iOS/iPadOS notification service client for Linux desktop (notifications on your desktop, over Bluetooth Low Energy)
 - [smacke/ffsubsync](https://github.com/smacke/ffsubsync) - Automagically synchronize subtitles with video.
 - [sxyu/svox2](https://github.com/sxyu/svox2) - Plenoxels: Radiance Fields without Neural Networks
-- [Taiko2k/TauonMusicBox](https://github.com/Taiko2k/TauonMusicBox) - The desktop music player from the future! :city_sunset:
-- [ZetaoYang/netease-cloud-music-appimage](https://github.com/ZetaoYang/netease-cloud-music-appimage) - netease-cloud-music AppImage
+- [Taiko2k/TauonMusicBox](https://github.com/Taiko2k/TauonMusicBox) - The desktop music player of today! (its the future now) :city_sunrise:
+- [holazt/netease-cloud-music-appimage](https://github.com/holazt/netease-cloud-music-appimage) - netease-cloud-music AppImage
 - [zanellia/prometeo](https://github.com/zanellia/prometeo) - An experimental Python-to-C transpiler and domain specific language for embedded high-performance computing
 - [amaranth-lang/amaranth](https://github.com/amaranth-lang/amaranth) - A modern hardware definition language and toolchain based on Python
 - [dhondta/dronesploit](https://github.com/dhondta/dronesploit) - Drone pentesting framework console
@@ -1554,7 +1477,7 @@
 - [yazeed44/gjf](https://github.com/yazeed44/gjf) - A tool in Python to fix invalid GeoJSON objects and files
 - [bee-san/pyWhat](https://github.com/bee-san/pyWhat) - 🐸   Identify anything. pyWhat easily lets you identify emails, IP addresses, and more. Feed it a .pcap file or some text and it'll tell you what it is! 🧙‍♀️
 - [3dlg-hcvc/plan2scene](https://github.com/3dlg-hcvc/plan2scene) - Official implementation of the paper Plan2Scene.
-- [vkbo/novelWriter](https://github.com/vkbo/novelWriter) - novelWriter is an open source plain text editor designed for writing novels. It supports a minimal markdown-like syntax for formatting text. It is written with Python 3 (3.7+) and Qt 5 (5.10+) for cro
+- [vkbo/novelWriter](https://github.com/vkbo/novelWriter) - novelWriter is an open source plain text editor designed for writing novels. It supports a minimal markdown-like syntax for formatting text. It is written with Python 3 (3.8+) and Qt 5 (5.10+) for cro
 - [synesthesiam/voice2json](https://github.com/synesthesiam/voice2json) - Command-line tools for speech and intent recognition on Linux
 - [chip-red-pill/uCodeDisasm](https://github.com/chip-red-pill/uCodeDisasm) - 
 - [uktrade/stream-unzip](https://github.com/uktrade/stream-unzip) - Python function to stream unzip all the files in a ZIP archive - without loading the entire ZIP file or any of its files into memory at once
@@ -1572,12 +1495,12 @@
 - [osnr/horrifying-pdf-experiments](https://github.com/osnr/horrifying-pdf-experiments) - :syringe: Stuff which works in Chrome and maybe Acrobat and Foxit.
 - [AzisK/readsql](https://github.com/AzisK/readsql) - Convert SQL to most human readable format
 - [Opticos/GWSL-Source](https://github.com/Opticos/GWSL-Source) - The actual code for GWSL. And some prebuilt releases.
-- [beurtschipper/Depix](https://github.com/beurtschipper/Depix) - Recovers passwords from pixelized screenshots
+- [spipm/Depix](https://github.com/spipm/Depix) - Recovers passwords from pixelized screenshots
 - [mikf/gallery-dl](https://github.com/mikf/gallery-dl) - Command-line program to download image galleries and collections from several image hosting sites
 - [airbus-seclab/c-compiler-security](https://github.com/airbus-seclab/c-compiler-security) - Security-related flags and options for C compilers
 - [affjljoo3581/GPT2](https://github.com/affjljoo3581/GPT2) - PyTorch Implementation of OpenAI GPT-2
 - [alievk/avatarify-python](https://github.com/alievk/avatarify-python) - Avatars for Zoom, Skype and other video-conferencing apps.
-- [BenWiederhake/ear](https://github.com/BenWiederhake/ear) - Listen to the words and reliably detect the human language in which they are written.
+- [BenWiederhake/ear](https://github.com/BenWiederhake/ear) - Reliably detects the natural language of a short text, including some confidence indicators
 - [bilelmoussaoui/Hardcode-Tray](https://github.com/bilelmoussaoui/Hardcode-Tray) - Fixes Hardcoded tray icons in Linux
 - [breuleux/jurigged](https://github.com/breuleux/jurigged) - Hot reloading for Python
 - [chaosprint/RaveForce](https://github.com/chaosprint/RaveForce) - RaveForce - An OpenAI Gym style toolkit for music generation experiments.
@@ -1585,7 +1508,7 @@
 - [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) - Clone a voice in 5 seconds to generate arbitrary speech in real-time
 - [coqui-ai/TTS](https://github.com/coqui-ai/TTS) - 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
 - [anthonynsimon/timeflake](https://github.com/anthonynsimon/timeflake) - Timeflake is a 128-bit, roughly-ordered, URL-safe UUID.
-- [opendreamnet/dreampower](https://github.com/opendreamnet/dreampower) - DeepNude algorithm fork with improvements.
+- [sukebenet/dreampower](https://github.com/sukebenet/dreampower) - DeepNude algorithm fork with improvements.
 - [eps696/aphantasia](https://github.com/eps696/aphantasia) - CLIP + FFT/DWT/RGB = text to image/video
 - [fatchord/WaveRNN](https://github.com/fatchord/WaveRNN) - WaveRNN Vocoder + TTS
 - [gaogaotiantian/viztracer](https://github.com/gaogaotiantian/viztracer) - VizTracer is a low-overhead logging/debugging/profiling tool that can trace and visualize your python code execution.
@@ -1617,7 +1540,6 @@
 - [Donnnno/Arcticons](https://github.com/Donnnno/Arcticons) - A monotone line-based icon pack for android
 - [casualsnek/cassowary](https://github.com/casualsnek/cassowary) - Run Windows Applications on Linux as if they are native, Use linux applications to launch files files located in windows vm without needing to install applications on vm. With easy to use configuratio
 - [nneonneo/universal-doom](https://github.com/nneonneo/universal-doom) - A single .exe binary which runs DOOM on DOS 6, Windows 95 and Windows 10 (and probably everything in between).
-- [mstorsjo/msvc-wine](https://github.com/mstorsjo/msvc-wine) - Scripts for setting up and running MSVC in Wine on Linux
 - [MisterHW/44780HD](https://github.com/MisterHW/44780HD) - 
 - [waydroid/waydroid](https://github.com/waydroid/waydroid) - Waydroid uses a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.
 - [bugnano/rnr](https://github.com/bugnano/rnr) - The RNR File Manager (RNR's Not Ranger)
@@ -1627,7 +1549,7 @@
 - [craftmine1000/jukebox-saveopt](https://github.com/craftmine1000/jukebox-saveopt) - 
 - [paul-nameless/tg](https://github.com/paul-nameless/tg) - terminal telegram client
 - [mxrch/GHunt](https://github.com/mxrch/GHunt) - 🕵️‍♂️ Offensive Google framework.
-- [muflone/gwakeonlan](https://github.com/muflone/gwakeonlan) - A GTK+ utility to awake machines using the Wake on LAN.
+- [muflone/gwakeonlan](https://github.com/muflone/gwakeonlan) - A GTK+ utility to awake machines using the Wake on LAN
 - [linuxmint/hypnotix](https://github.com/linuxmint/hypnotix) - An M3U IPTV Player
 - [jwoglom/signal-curses](https://github.com/jwoglom/signal-curses) - Curses-backed terminal interface for Signal using signal-cli
 - [guardicore/monkey](https://github.com/guardicore/monkey) - Infection Monkey - An open-source adversary emulation platform
@@ -1652,129 +1574,142 @@
 - [rbanffy/3270font](https://github.com/rbanffy/3270font) - A 3270 font in a modern format
 - [MycroftAI/mimic3](https://github.com/MycroftAI/mimic3) - A fast local neural text to speech engine for Mycroft
 
-## Reason 
+## Others 
 
-- [onivim/oni2](https://github.com/onivim/oni2) - Native, lightweight modal code editor
+- [chkhld/jsfx](https://github.com/chkhld/jsfx) - A free collection of JS (JesuSonic) plugins for Reaper
+- [apple/ml-live-pose](https://github.com/apple/ml-live-pose) - 
+- [zju3dv/4K4D](https://github.com/zju3dv/4K4D) - 4K4D: Real-Time 4D View Synthesis at 4K Resolution
+- [linuxdotexe/nordic-wallpapers](https://github.com/linuxdotexe/nordic-wallpapers) - A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme. Made with ImageGoNord by Schrödinger Hat.
+- [devellison/pianoshooter](https://github.com/devellison/pianoshooter) - FL Studio / ZGameEditor visualization of midi roll/piano.
+- [addy-dclxvi/diminished-tray-icons](https://github.com/addy-dclxvi/diminished-tray-icons) - Simple GTK tray icons
+- [BullsEye0/google_dork_list](https://github.com/BullsEye0/google_dork_list) - Google Dorks | Google helps you to find Vulnerable Websites that Indexed in Google Search Results. Here is the latest collection of Google Dorks. A collection of 13.760 Dorks. Author: Jolanda de Koff
+- [rozniak/MSN-Emoticons](https://github.com/rozniak/MSN-Emoticons) - Vector versions of the good ol' classic MSN emoticons.
+- [kxproject/kX-Audio-driver-binaries](https://github.com/kxproject/kX-Audio-driver-binaries) - pre-compiled driver builds (official)
+- [MeadowlarkDAW/Meadowlark](https://github.com/MeadowlarkDAW/Meadowlark) - A (currently incomplete) open-source Digital Audio Workstation
+- [RandalLinden/ACCESS](https://github.com/RandalLinden/ACCESS) - ACCESS Amiga Development Toolchain for NES, SNES, SuperFX
+- [Zopolis4/gcj](https://github.com/Zopolis4/gcj) - An attempt to integrate the GNU Compiler for Java (GCJ) back into GCC.
+- [autc04/Retro68](https://github.com/autc04/Retro68) - a gcc-based cross-compiler for classic 68K and PPC Macintoshes
+- [kcning/crystalhd-firmware](https://github.com/kcning/crystalhd-firmware) - Broadcom Crystal HD Decoder firmware
+- [pokeheadroom/RENDER96-HD-TEXTURE-PACK](https://github.com/pokeheadroom/RENDER96-HD-TEXTURE-PACK) - we'd like to think of this texture pack as a resource also, if you want to give sm64 your own look feel free to use these as a base for accuracy, just credit them render96 boys & girls
+- [vigliensoni/soundfonts](https://github.com/vigliensoni/soundfonts) - sf2 from different sources
+- [dominichayesferen/WinTheme-To-PlasmaGT](https://github.com/dominichayesferen/WinTheme-To-PlasmaGT) - Convert a Windows theme into a Plasma Global Theme
+- [pmlg/generative_music_playground](https://github.com/pmlg/generative_music_playground) - Links for music + machine learning
+- [osintambition/Social-Media-OSINT-Tools-Collection](https://github.com/osintambition/Social-Media-OSINT-Tools-Collection) - A collection of most useful osint tools for SOCINT.
+- [mypyc/mypyc](https://github.com/mypyc/mypyc) - Compile type annotated Python to fast C extensions
+- [ravynsoft/ravynos](https://github.com/ravynsoft/ravynos) - A BSD-based OS project that aims to provide an experience like and some compatibility with macOS (formerly known as airyxOS)
+- [yangdongchao/text-to-sound-synthesis-demo](https://github.com/yangdongchao/text-to-sound-synthesis-demo) - This is a demo webpage for our paper 'text-to-sound synthesis'
+- [intel/intel-one-mono](https://github.com/intel/intel-one-mono) - Intel One Mono font repository
+- [bromite/bromite](https://github.com/bromite/bromite) - Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!
+- [btw-so/open-source-alternatives](https://github.com/btw-so/open-source-alternatives) - List of open-source alternatives to everyday SaaS products.
+- [csteinmetz1/ai-audio-startups](https://github.com/csteinmetz1/ai-audio-startups) - Community list of startups working with AI in audio and music technology
+- [tuneflow/audioldm-plugin](https://github.com/tuneflow/audioldm-plugin) - 
+- [Fausto-Korpsvart/Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme) - A GTK theme based on the Gruvbox colour palette.
+- [extracell/exchanger](https://github.com/extracell/exchanger) - a plugin that exchanges sine partials for different waveforms. download under "releases"
+- [jubbon/my-awesome-stars](https://github.com/jubbon/my-awesome-stars) - 
+- [m040601/my-awesome-stars](https://github.com/m040601/my-awesome-stars) - A curated list of my GitHub stars!
+- [dracula/dracula-theme](https://github.com/dracula/dracula-theme) - 🧛🏻‍♂️ One theme. All platforms.
+- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - 沉浸式双语网页翻译扩展 , 支持输入框翻译， 鼠标悬停翻译， PDF, Epub, 字幕文件, TXT 文件翻译 - Immersive Dual Web Page Translation Extension
+- [worproject/RPi-Windows-Drivers](https://github.com/worproject/RPi-Windows-Drivers) - Windows on ARM device drivers for the Raspberry Pi single-board computer.
+- [Scyne/stadiaRawBtFw](https://github.com/Scyne/stadiaRawBtFw) - A dump of the Raw Stadia controller BT Firmware
+- [darktohka/clean-flash-builds](https://github.com/darktohka/clean-flash-builds) - Repository of clean Flash Player builds.
+- [New-Club-Penguin/NewCP-App-Build](https://github.com/New-Club-Penguin/NewCP-App-Build) - 
+- [arthur-liberman/vfd-configurations](https://github.com/arthur-liberman/vfd-configurations) - vfd.config - A collection of configuration files for linux devices with a front facing display.
+- [gmrandazzo/TOO](https://github.com/gmrandazzo/TOO) - TOO - Tensorflow On Odroid
+- [bratpeki/tools](https://github.com/bratpeki/tools) - A master list of FOSS software tools
+- [gbdev/awesome-gbdev](https://github.com/gbdev/awesome-gbdev) - A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.
+- [ItsHoul/blobicons](https://github.com/ItsHoul/blobicons) - Unfunny icon pack with every icon being a blob cat
+- [CathyKMeow/rosetta-linux-asahi](https://github.com/CathyKMeow/rosetta-linux-asahi) - Hacked RosettaLinux that runs on Asahi Linux
+- [MiCode/Xiaomi_Kernel_OpenSource](https://github.com/MiCode/Xiaomi_Kernel_OpenSource) - Xiaomi Mobile Phone Kernel OpenSource
+- [adgsenpai/LinuxSoundUpgrade](https://github.com/adgsenpai/LinuxSoundUpgrade) - a guide to tell you how to upgrade sound on any Linux distribution
+- [OpenStick/OpenStick](https://github.com/OpenStick/OpenStick) - reverse engineering on msm8916 based 4G modem.
+- [mer-hybris/libhybris](https://github.com/mer-hybris/libhybris) - libhybris
+- [skerkour/bloom](https://github.com/skerkour/bloom) - 
+- [zimlit/colorscheme](https://github.com/zimlit/colorscheme) - 
+- [TobleMiner/HPE-FlexibleLOM-adapter](https://github.com/TobleMiner/HPE-FlexibleLOM-adapter) - Adapter for using HPE FlexibleLOM cards in full height PCIe slots
+- [pornganizer/PGV5](https://github.com/pornganizer/PGV5) - Pornganizer V5
+- [wzykubek/FOSS_Stuff](https://github.com/wzykubek/FOSS_Stuff) - In this repo you can find some free, open source and privacy applications and services to stop use proprietary spyware.
+- [bigasdev/Twitter-Gif-Maker](https://github.com/bigasdev/Twitter-Gif-Maker) - My application to help with encoding and converting videos to gif to use on twitter with ffmpeg
+- [5bentz/linux-asus-t100](https://github.com/5bentz/linux-asus-t100) - Getting Linux (Esp. Ubuntu) up and running well on the Asus Transformer T100
+- [andirueckel/undefined-medium](https://github.com/andirueckel/undefined-medium) - undefined medium — a free and open-source monospace typeface with 400+ characters
+- [osxfuse/osxfuse](https://github.com/osxfuse/osxfuse) - FUSE extends macOS by adding support for user space file systems
+- [GRAnimated/SMMGuide](https://github.com/GRAnimated/SMMGuide) - A full guide on how to mod Super Mario Maker.
+- [a-j-wood/pv](https://github.com/a-j-wood/pv) - Pipe Viewer - monitor the progress of data through a pipe
+- [seebye/ueberzug](https://github.com/seebye/ueberzug) - 
+- [slacka/WoeUSB](https://github.com/slacka/WoeUSB) - WoeUSB is a simple tool that enable you to create your own usb stick windows installer from an iso image or a real DVD. It is a fork of Congelli501's WinUSB.
+- [rmottola/Arctic-Fox](https://github.com/rmottola/Arctic-Fox) - Web Browser for Mac OS X 10.6+, Linux (PowerPC, x86, amd64, ARM, MIPS), NetBSD, OpenBSD, and Windows XP.
+- [amarioguy/AppleWOAProject](https://github.com/amarioguy/AppleWOAProject) - AppleWOA project website. Head https://github.com/AppleWOA (@AppleWOA) to see the actual progress of project repositories!
+- [adrianlarion/useful-sed](https://github.com/adrianlarion/useful-sed) - Useful sed scripts & patterns.
+- [llvm-mos/llvm-mos](https://github.com/llvm-mos/llvm-mos) - Port of LLVM to the MOS 6502 and related processors
+- [olilarkin/awesome-musicdsp](https://github.com/olilarkin/awesome-musicdsp) - A curated list of my favourite music DSP and audio programming resources
+- [BlackOtton/RedStar-Media](https://github.com/BlackOtton/RedStar-Media) - Extracted media files from North Korean OS, Red Star 3.0
+- [leereilly/games](https://github.com/leereilly/games) - :video_game: A list of popular/awesome video games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.
+- [fujitsu/A64FX](https://github.com/fujitsu/A64FX) - 
+- [ganny26/awesome-audioqr](https://github.com/ganny26/awesome-audioqr) - A curated list of Audio QR / NSDT libraries
+- [gilescope/cyberpunkfonts](https://github.com/gilescope/cyberpunkfonts) - Cyberpunk inspired fonts for coding
+- [TimoSalomaki/awesome-dear-imgui](https://github.com/TimoSalomaki/awesome-dear-imgui) - A collection of awesome dear imgui bindings, extensions and resources
+- [openrisc/or1k-gcc](https://github.com/openrisc/or1k-gcc) - GCC port for OpenRISC 1000
+- [redecentralize/alternative-internet](https://github.com/redecentralize/alternative-internet) - A collection of interesting new networks and tech aiming at decentralisation (in some form).
+- [reHackable/awesome-reMarkable](https://github.com/reHackable/awesome-reMarkable) - A curated list of projects related to the reMarkable tablet
+- [sailfishos/gst-omx](https://github.com/sailfishos/gst-omx) - OpenMAX IL wrapper plugin for GStreamer that uses Android hardware codecs through libhybris
+- [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps
+- [TheLastZombie/sshpm](https://github.com/TheLastZombie/sshpm) - The SSH profile manager.
+- [turbo/openftp4](https://github.com/turbo/openftp4) - A list of all FTP servers in IPv4 that allow anonymous logins.
+- [xexpanderx/Fluxbox-themes](https://github.com/xexpanderx/Fluxbox-themes) - Fluxbox theme collections
+- [abbodi1406/vcredist](https://github.com/abbodi1406/vcredist) - AIO Repack for latest Microsoft Visual C++ Redistributable Runtimes
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch.
+- [ansilove/BlockZone](https://github.com/ansilove/BlockZone) - A faithful recreation of the original DOS font.
+- [SpaceExplorationTechnologies/starlink-wifi](https://github.com/SpaceExplorationTechnologies/starlink-wifi) - 
+- [hexdump0815/linux-mainline-and-mali-on-odroid-u3](https://github.com/hexdump0815/linux-mainline-and-mali-on-odroid-u3) - tools and patches to run linux mainline with mali gles and opengl on an odroid U2, U3, U3+, X and X2
+- [uzkbwza/viii](https://github.com/uzkbwza/viii) - a small bitmap font for coding
+- [chitralekha18/AutoLyrixAlign](https://github.com/chitralekha18/AutoLyrixAlign) - Pre-trained model and script to automatically align lyrics to polyphonic audio
+- [morrownr/88x2bu](https://github.com/morrownr/88x2bu) - Linux Driver for USB WiFi Adapters that are based on the RTL8812BU and RTL8822BU Chipsets
+- [morrownr/8812au](https://github.com/morrownr/8812au) - Linux Driver for USB WiFi Adapters that are based on the RTL8812AU Chipset
+- [morrownr/8821au](https://github.com/morrownr/8821au) - Linux Driver for USB WiFi Adapters that are based on the RTL8811AU and RTL8821AU Chipsets
+- [morrownr/8821cu](https://github.com/morrownr/8821cu) - Linux Driver for USB WiFi Adapters that are based on the RTL8811CU, RTL8821CU and RTL8731AU Chipsets
+- [aieater/rocm_pytorch_informations](https://github.com/aieater/rocm_pytorch_informations) - The official page of ROCm/PyTorch will contain information that is always confusing. On this page we will endeavor to describe accurate information based on the knowledge gained by GPUEater infrastruc
+- [SGNight/Arm-NativeBridge](https://github.com/SGNight/Arm-NativeBridge) - ARM translation layer for Android x86
+- [iNPUTmice/Conversations](https://github.com/iNPUTmice/Conversations) - Conversations is an open source XMPP/Jabber client for Android
+- [pftf/RPi3](https://github.com/pftf/RPi3) - Raspberry Pi 3 UEFI Firmware Images
+- [natethinks/jog](https://github.com/natethinks/jog) - Simple script to print the last 10 commands you ran in the current directory
+- [davidenunes/tensorflow-wheels](https://github.com/davidenunes/tensorflow-wheels) - Tensorflow Wheels
+- [hakavlad/le9-patch](https://github.com/hakavlad/le9-patch) - [PATCH] mm: Protect the working set under memory pressure to prevent thrashing, avoid high latency and prevent livelock in near-OOM conditions
+- [hexdump0815/linux-mainline-on-arm-chromebooks](https://github.com/hexdump0815/linux-mainline-on-arm-chromebooks) - running linux mainline on arm chromebooks - for example: samsung xe303c12 and xe503c12 (snow and peach), acer c100, c101 and c201 (veyron speedy, minnie etc. and gru bob and kevin), medion s2013 and s
+- [Syndrizzle/hotfiles](https://github.com/Syndrizzle/hotfiles) - 🏠 A collection of personal configuration files for various rices I have made.
 
-## Roff 
+## HLSL 
 
-- [oasislinux/oasis](https://github.com/oasislinux/oasis) - a small statically-linked linux system
-- [yask123/Instant-Music-Downloader](https://github.com/yask123/Instant-Music-Downloader) - 🎷  Downloads Music From The Web
-
-## Ruby 
-
-- [koyuspace/mastodon](https://github.com/koyuspace/mastodon) - The koyu.space version of glitch-soc
-- [jankowskib/FELix](https://github.com/jankowskib/FELix) - An open-source flash tool for Allwinner
-- [specious/facebook-cli](https://github.com/specious/facebook-cli) - :computer: Facebook command line client (needs to be updated)
-- [tenderlove/tenderjit](https://github.com/tenderlove/tenderjit) - JIT for Ruby that is written in Ruby
-- [hartator/wayback-machine-downloader](https://github.com/hartator/wayback-machine-downloader) - Download an entire website from the Wayback Machine.
-- [chrisseaton/rhizome](https://github.com/chrisseaton/rhizome) - A JIT for Ruby, implemented in pure Ruby
-- [DannyBen/bashly](https://github.com/DannyBen/bashly) - Bash command line framework and CLI generator
-- [ruby-next/ruby-next](https://github.com/ruby-next/ruby-next) - Ruby Next makes modern Ruby code run in older versions and alternative implementations
-
-## Rust 
-
-- [kpreid/all-is-cubes](https://github.com/kpreid/all-is-cubes) - Yet another block/voxel game; in this one the blocks are made out of blocks. Runs in browsers on WebGL+WebAssembly.
-- [a2aaron/nyasynth](https://github.com/a2aaron/nyasynth) - 
-- [crablang/crab](https://github.com/crablang/crab) - A community fork of a language named after a plant fungus. All of the memory-safe features you love, now with 100% less bureaucracy!
-- [greatest-ape/OctaSine](https://github.com/greatest-ape/OctaSine) - Frequency modulation synthesizer plugin (VST2, CLAP). Runs on macOS, Windows and Linux.
-- [qhdwight/bevy_fps_controller](https://github.com/qhdwight/bevy_fps_controller) - Source engine inspired Bevy FPS controller plugin
-- [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 很简单的用 Rust 打包网页生成很小的桌面 App
-- [B0ney/xmodits-py](https://github.com/B0ney/xmodits-py) - xmodits python library
-- [NordSecurity/libdrop](https://github.com/NordSecurity/libdrop) - Libdrop is the library behind the file sharing feature of NordVPN applications.
-- [immunant/c2rust](https://github.com/immunant/c2rust) - Migrate C code to Rust
-- [astonbitecode/j4rs](https://github.com/astonbitecode/j4rs) - Java for Rust
-- [queer/boxxy](https://github.com/queer/boxxy) - boxxy puts bad Linux applications in a box with only their files.
-- [OpenGMK/OpenGMK](https://github.com/OpenGMK/OpenGMK) - A rewrite of the GameMaker Classic engine runners with additional tooling
-- [hikari-no-yume/touchHLE](https://github.com/hikari-no-yume/touchHLE) - High-level emulator for iPhone OS apps
-- [Spotifyd/spotifyd](https://github.com/Spotifyd/spotifyd) - A spotify daemon
-- [rdrpenguin04/rmms](https://github.com/rdrpenguin04/rmms) - LMMS successor candidate, written in Rust
-- [evmar/retrowin32](https://github.com/evmar/retrowin32) - windows emulator
-- [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
-- [stalwartlabs/jmap-server](https://github.com/stalwartlabs/jmap-server) - Stalwart JMAP server
-- [michaelgiba/iq](https://github.com/michaelgiba/iq) - jq for images - experimental
-- [feather-rs/feather](https://github.com/feather-rs/feather) - A Minecraft server implementation in Rust
-- [kaplanelad/shellfirm](https://github.com/kaplanelad/shellfirm) - Intercept any risky patterns (default or defined by you) and prompt you a small challenge for double verification
-- [rapiz1/catp](https://github.com/rapiz1/catp) - Print the output of a running process
-- [elkowar/eww](https://github.com/elkowar/eww) - ElKowars wacky widgets
-- [jrnxf/fsrx](https://github.com/jrnxf/fsrx) - 📚 flow state reading in the terminal
-- [JojiiOfficial/LiveBudsCli](https://github.com/JojiiOfficial/LiveBudsCli) - A tool to control your Galaxy buds+, live and pro (beta) from linux
-- [imsnif/diskonaut](https://github.com/imsnif/diskonaut) - Terminal disk space navigator 🔭
-- [B0ney/xmodits](https://github.com/B0ney/xmodits) - A tool to rip samples from tracker modules. Supports IT, XM, S3M, MOD, UMX and MPTM formats.
-- [SoptikHa2/desed](https://github.com/SoptikHa2/desed) - Debugger for Sed: demystify and debug your sed scripts, from comfort of your terminal.
-- [rnd-ash/razer-laptop-control](https://github.com/rnd-ash/razer-laptop-control) - Project to create driver/software to control performance of razer laptops
-- [osa1/tiny](https://github.com/osa1/tiny) - A terminal IRC client
-- [mgunyho/tere](https://github.com/mgunyho/tere) - Terminal file explorer
-- [nerdypepper/taizen](https://github.com/nerdypepper/taizen) - curses based mediawiki browser
-- [sharkdp/bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
-- [timvisee/ffsend](https://github.com/timvisee/ffsend) - :mailbox_with_mail: Easily and securely share files from the command line. A fully featured Firefox Send client.
-- [harababurel/gcsf](https://github.com/harababurel/gcsf) - a FUSE file system based on Google Drive
-- [shssoichiro/oxipng](https://github.com/shssoichiro/oxipng) - Multithreaded PNG optimizer written in Rust
-- [MarginResearch/cannoli](https://github.com/MarginResearch/cannoli) - High-performance QEMU memory and instruction tracing
-- [sharkdp/fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'
-- [SeaDve/Mousai](https://github.com/SeaDve/Mousai) - Identify songs in seconds
-- [hannobraun/fornjot](https://github.com/hannobraun/fornjot) - Early-stage b-rep CAD kernel, written in the Rust programming language.
-- [evmar/n2](https://github.com/evmar/n2) - n2 ("into"), a ninja compatible build system
-- [PolyMeilex/Neothesia](https://github.com/PolyMeilex/Neothesia) - Flashy Synthesia Like Software For Linux,Windows and MacOs
-- [PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless) - jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data.
-- [haimgel/display-switch](https://github.com/haimgel/display-switch) - Turn a $30 USB switch into a full-featured multi-monitor KVM switch
-- [alacritty/alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator.
-- [elfshaker/elfshaker](https://github.com/elfshaker/elfshaker) - elfshaker stores binary objects efficiently
-- [gfx-rs/naga](https://github.com/gfx-rs/naga) - Universal shader translation in Rust
-- [google/pix-image-viewer](https://github.com/google/pix-image-viewer) - Desktop image viewer. View thousands of images in a zoomable, pannable grid.
-- [jamesmcm/vopono](https://github.com/jamesmcm/vopono) - Run applications through VPN tunnels with temporary network namespaces
-- [intgr/ego](https://github.com/intgr/ego) - Alter Ego: run Linux desktop applications under a different local user
-- [imsnif/bandwhich](https://github.com/imsnif/bandwhich) - Terminal bandwidth utilization tool
-- [mmstick/fontfinder](https://github.com/mmstick/fontfinder) - GTK application for browsing and installing fonts from Google's font archive
-- [nushell/nushell](https://github.com/nushell/nushell) - A new type of shell
-- [orhun/kmon](https://github.com/orhun/kmon) - Linux Kernel Manager and Activity Monitor 🐧💻
-- [phiresky/ripgrep-all](https://github.com/phiresky/ripgrep-all) - rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.
-- [wookietreiber/strace-analyzer](https://github.com/wookietreiber/strace-analyzer) - analyzes strace output
-- [zoeyfyi/Boop-GTK](https://github.com/zoeyfyi/Boop-GTK) - Port of @IvanMathy's Boop to GTK, a scriptable scratchpad for developers.
-- [timvisee/lazymc](https://github.com/timvisee/lazymc) - 💤 Put your Minecraft server to rest when idle.
-- [0x192/universal-android-debloater](https://github.com/0x192/universal-android-debloater) - Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.
-- [nuta/nsh](https://github.com/nuta/nsh) - A command-line shell like fish, but POSIX compatible.
-- [alexhallam/tv](https://github.com/alexhallam/tv) - 📺(tv) Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment.
-- [mgdm/htmlq](https://github.com/mgdm/htmlq) - Like jq, but for HTML.
-- [landaire/unfuck](https://github.com/landaire/unfuck) - Python 2.7 bytecode d̶e̶o̶b̶f̶u̶s̶c̶a̶t̶o̶r unfucker
-- [rcoh/angle-grinder](https://github.com/rcoh/angle-grinder) - Slice and dice logs on the command line
-- [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - a structural diff that understands syntax 🟥🟩
-- [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) - Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
-- [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
-- [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
-- [slp/krunvm](https://github.com/slp/krunvm) - Create microVMs from OCI images
-- [ComunidadAylas/PackSquash](https://github.com/ComunidadAylas/PackSquash) - 📦 Minecraft: Java Edition resource and data pack optimizer which aims to achieve the best possible compression, performance and protection, improving pack distribution, storage and in-game load times.
-- [dbrgn/tealdeer](https://github.com/dbrgn/tealdeer) - A very fast implementation of tldr in Rust.
-- [iceiix/stevenarella](https://github.com/iceiix/stevenarella) - Multi-protocol Minecraft-compatible client written in Rust
-- [wfxr/csview](https://github.com/wfxr/csview) - 📠 Pretty and fast csv viewer for cli with cjk/emoji support.
-- [mygnu/rcue](https://github.com/mygnu/rcue) - Corsair H150i PRO, usb userspace driver
-- [ezrosent/frawk](https://github.com/ezrosent/frawk) - an efficient awk-like language
-- [nachoparker/dutree](https://github.com/nachoparker/dutree) - a tool to analyze file system usage written in Rust
-- [qarmin/czkawka](https://github.com/qarmin/czkawka) - Multi functional app to find duplicates, empty folders, similar images etc.
-- [sayanarijit/xplr](https://github.com/sayanarijit/xplr) - A hackable, minimal, fast TUI file explorer
-- [ogham/dog](https://github.com/ogham/dog) - A command-line DNS client.
-- [NilsIrl/MozWire](https://github.com/NilsIrl/MozWire) - MozWire is an unofficial configuration manager giving Linux, macOS users (among others), access to MozillaVPN.
-- [jpochyla/psst](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI
-- [xiaoyang-sde/https-dns](https://github.com/xiaoyang-sde/https-dns) - Minimal and efficient DNS-over-HTTPS (DoH) client
-- [Canop/lfs](https://github.com/Canop/lfs) - A linux utility to get information on filesystems, like df but better
-- [wez/wezterm](https://github.com/wez/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust
-- [watchexec/watchexec](https://github.com/watchexec/watchexec) - Executes commands in response to file modifications
-
-## SCSS 
-
-- [lassekongo83/adw-gtk3](https://github.com/lassekongo83/adw-gtk3) - The theme from libadwaita ported to GTK-3
-- [shimmerproject/Greybird](https://github.com/shimmerproject/Greybird) - Desktop Suite for Xfce
-
-## Scala 
-
-- [microsoft/SynapseML](https://github.com/microsoft/SynapseML) - Simple and Distributed Machine Learning
-
-## Scheme 
-
-- [addy-dclxvi/dotfiles](https://github.com/addy-dclxvi/dotfiles) - My personal backup of my dotfiles on ThinkPad-X230-Debian-Openbox and Aspire-A514-Debian-Fluxbox
+- [DeadlyRedCube/Cathode-Retro](https://github.com/DeadlyRedCube/Cathode-Retro) - A collection of shaders to emulate the display of an NTSC signal through a CRT TV
+- [Matsilagi/RSRetroArch](https://github.com/Matsilagi/RSRetroArch) - (Curated) Repository of RetroArch and related ports for ReShade
 
 ## Shell 
 
+- [georgy7/build-with-musl](https://github.com/georgy7/build-with-musl) - Small static executables.
+- [boubounokefalos/dotfiles_moon](https://github.com/boubounokefalos/dotfiles_moon) - Setup based on i3wm
+- [xero/dotfiles](https://github.com/xero/dotfiles) - rice 🍚 custom linux config files. as seen on r/unixporn #noricenolife neovim cultist. dotfiles are perpetual wip
+- [jschmid1/gopro_as_webcam_on_linux](https://github.com/jschmid1/gopro_as_webcam_on_linux) - Allows to use your GoPro camera as a webcam on linux
+- [kiddae/polybar-themes](https://github.com/kiddae/polybar-themes) - (Deprecated) A repository of themes for polybar.
+- [Fmstrat/winapps](https://github.com/Fmstrat/winapps) - Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration.
+- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,200+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python,
+- [dylanaraps/pfetch](https://github.com/dylanaraps/pfetch) - 🐧 A pretty system information tool written in POSIX sh.
+- [stark/siji](https://github.com/stark/siji) - An iconic bitmap font based on Stlarch with additional glyphs.
+- [archcraft-os/archcraft](https://github.com/archcraft-os/archcraft) - // Source : ISO
+- [juacq97/dotfiles](https://github.com/juacq97/dotfiles) - Un respaldo de mis dotfiles más importantes en mi laptop
+- [uniquepointer/polywins](https://github.com/uniquepointer/polywins) - A featureful and customizable taskbar for polybar.
+- [betafcc/clc](https://github.com/betafcc/clc) - Tiny bash utility for  coloring terminal output and prompt
+- [zolrath/wemux](https://github.com/zolrath/wemux) - Multi-User Tmux Made Easy
+- [s0la/orw](https://github.com/s0la/orw) - Openbox Ricing Wrapper
+- [meaningful-ooo/sponge](https://github.com/meaningful-ooo/sponge) - 🧽 Clean fish history from typos automatically
+- [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) - apt-get for .debs published via GitHub or direct download 📦
+- [KDE/oxygen-icons5](https://github.com/KDE/oxygen-icons5) - Oxygen icon theme
+- [armbian/build](https://github.com/armbian/build) - Armbian Linux Build Framework
+- [zador-blood-stained/h3-fel-mass-storage](https://github.com/zador-blood-stained/h3-fel-mass-storage) - Script and binary files for mounting SD/eMMC on sunxi boards over USB OTG connection
+- [Tecate/bitmap-fonts](https://github.com/Tecate/bitmap-fonts) - Monospaced bitmap fonts for X11, good for terminal use.
+- [kearwood/sunpci](https://github.com/kearwood/sunpci) - SunPCi related projects
+- [p8952/bocker](https://github.com/p8952/bocker) - Docker implemented in around 100 lines of bash
+- [hectorm/hblock](https://github.com/hectorm/hblock) - Improve your security and privacy by blocking ads, tracking and malware domains.
+- [hpi-swa/native-minecraft-server](https://github.com/hpi-swa/native-minecraft-server) - Use GraalVM Native Image to turn the Minecraft server into native executables that are small in footprint, fast, and cheap to deploy.
+- [pog102/devify](https://github.com/pog102/devify) - Device notification system using udev rules for monitoring connections
+- [AmpereComputing/NVIDIA-GPU-Accelerated-Linux-Desktop-on-Ampere](https://github.com/AmpereComputing/NVIDIA-GPU-Accelerated-Linux-Desktop-on-Ampere) - This repo contains scripts and documents to enable Nvidia GPU accelerated desktop on Ampere CPU based workstation. It also demonstrated on installing desktop applications like open source DOOM3.
 - [Frogging-Family/nvidia-all](https://github.com/Frogging-Family/nvidia-all) - Nvidia driver latest to 396 series AIO installer
 - [zayronxio/Zafiro-icons](https://github.com/zayronxio/Zafiro-icons) - icon pack flat with light colors
 - [ful1e5/XCursor-pro](https://github.com/ful1e5/XCursor-pro) - Modern XCursors.
@@ -1790,7 +1725,6 @@
 - [waja/maldetect](https://github.com/waja/maldetect) - Debian packaging of Linux Malware Detect (https://github.com/rfxn/linux-malware-detect)
 - [rhasspy/rhasspy](https://github.com/rhasspy/rhasspy) - Offline private voice assistant for many human languages
 - [kaboomserver/server](https://github.com/kaboomserver/server) - Server files for the Kaboom server
-- [xHak9x/finduser](https://github.com/xHak9x/finduser) - Find usernames across over 75 social networks
 - [cdown/clipmenu](https://github.com/cdown/clipmenu) - Clipboard management using dmenu
 - [overcast07/wayback-machine-spn-scripts](https://github.com/overcast07/wayback-machine-spn-scripts) - Bash scripts which interact with Internet Archive Wayback Machine's Save Page Now
 - [GloriousEggroll/wine-ge-custom](https://github.com/GloriousEggroll/wine-ge-custom) - My custom build of wine, made to use with lutris. Built with lutris's buildbot.
@@ -1814,9 +1748,8 @@
 - [comfies/bed](https://github.com/comfies/bed) - bash only text editor
 - [adi1090x/canvas](https://github.com/adi1090x/canvas) - 🖼️ A Gradient / Blured Wallpaper Generator And Setter.
 - [oliverwiegers/dotfiles](https://github.com/oliverwiegers/dotfiles) - ~/
-- [tkchia/build-ia16](https://github.com/tkchia/build-ia16) - Scripts to build IA-16 GCC toolchain, Ubuntu source .deb's, & FreeDOS binary packages ― fork of https://github.com/crtc-demos/build-ia16 • mirror of https://gitlab.com/tkchia/build-ia16 • Ubuntu binar
 - [huijunchen9260/dmenufm](https://github.com/huijunchen9260/dmenufm) - A simple file manager using dmenu
-- [adi1090x/plymouth-themes](https://github.com/adi1090x/plymouth-themes) - A hugh collection (80+) of plymouth themes ported from android bootanimations
+- [adi1090x/plymouth-themes](https://github.com/adi1090x/plymouth-themes) - A huge collection (80+) of plymouth themes ported from android bootanimations
 - [adi1090x/rofi](https://github.com/adi1090x/rofi) - A huge collection of Rofi based custom Applets, Launchers & Powermenus.
 - [filiparag/wikiman](https://github.com/filiparag/wikiman) - Wikiman is an offline search engine for manual pages, Arch Wiki, Gentoo Wiki and other documentation.
 - [fehawen/dotfiles](https://github.com/fehawen/dotfiles) - A better $HOME.
@@ -1827,7 +1760,6 @@
 - [Blacksuan19/Dotfiles](https://github.com/Blacksuan19/Dotfiles) - KDE Plasma for twm users.
 - [4lgn/dotfiles](https://github.com/4lgn/dotfiles) - 🔧   .files - different setups separated in branches
 - [adi1090x/polybar-themes](https://github.com/adi1090x/polybar-themes) - A huge collection of polybar themes with different styles, colors and variants.
-- [Fabian-G/dotfiles](https://github.com/Fabian-G/dotfiles) - Some of my dotfiles and scripts
 - [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch) - 🖼️  A command-line system information tool written in bash 3.2+
 - [jdonald/raspbian-multiarch](https://github.com/jdonald/raspbian-multiarch) - Revamp Rasbpian's APT packages to work with armhf and aarch64 side-by-side
 - [wishihab/userrecon](https://github.com/wishihab/userrecon) - Find usernames across over 75 social networks
@@ -1860,6 +1792,7 @@
 - [v1s1t0r1sh3r3/airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon) - This is a multi-use bash script for Linux systems to audit wireless networks.
 - [Winetricks/winetricks](https://github.com/Winetricks/winetricks) - Winetricks is an easy way to work around problems in Wine
 - [JetBrains/jdk8u](https://github.com/JetBrains/jdk8u) - 
+- [mstorsjo/msvc-wine](https://github.com/mstorsjo/msvc-wine) - Scripts for setting up and running MSVC in Wine on Linux
 - [alexivkin/brother-in-arms](https://github.com/alexivkin/brother-in-arms) - Brother Printer drivers for ARM architecture and Raspberry Pi
 - [spxak1/weywot](https://github.com/spxak1/weywot) - My notes on using Pop!_OS
 - [0xf4b1/qemu-kvm-windows](https://github.com/0xf4b1/qemu-kvm-windows) - QEMU/KVM setup with GPU passthrough for Windows on an Arch Linux host
@@ -1875,15 +1808,205 @@
 - [MichaIng/DietPi](https://github.com/MichaIng/DietPi) - Lightweight justice for your single-board computer!
 - [boctulus/chres](https://github.com/boctulus/chres) - Change Linux resolution by command line
 - [makedeb/makedeb](https://github.com/makedeb/makedeb) - A simplicity-focused packaging tool for Debian archives
-- [newbit1/libndk_translation_Module](https://github.com/newbit1/libndk_translation_Module) - Installs the libndk_translation functions into your AVD
 - [minecraft-linux/appimage-builder](https://github.com/minecraft-linux/appimage-builder) - Only for Github Actions, The hacked linux-packaging-scripts of minecraft-linux (endless tweaked)
 
-## Svelte 
+## Raku 
 
-- [yashash-pugalia/win11-svelte](https://github.com/yashash-pugalia/win11-svelte) - Recreating Windows 11 with Svelte.
+- [lizmat/App-Rak](https://github.com/lizmat/App-Rak) - 21st century grep / find / ack / ag / rg on steroids
+
+## Go 
+
+- [antonmedv/walk](https://github.com/antonmedv/walk) - Terminal file manager
+- [orangekame3/paclear](https://github.com/orangekame3/paclear) - 👾paclear is a clear command with PAC-MAN animation👾
+- [jesseduffield/horcrux](https://github.com/jesseduffield/horcrux) - Split your file into encrypted fragments so that you don't need to remember a passcode
+- [tsudoko/pullcord](https://github.com/tsudoko/pullcord) - Discord archiver
+- [safing/portmaster](https://github.com/safing/portmaster) - 🏔 Love Freedom - ❌ Block Mass Surveillance
+- [quackduck/devzat](https://github.com/quackduck/devzat) - The devs are over here at devzat, chat over SSH!
+- [joerdav/xc](https://github.com/joerdav/xc) - Markdown defined task runner.
+- [sibprogrammer/xq](https://github.com/sibprogrammer/xq) - Command-line XML and HTML beautifier and content extractor
+- [cshum/imagorvideo](https://github.com/cshum/imagorvideo) - imagor video thumbnail server in Go and ffmpeg C bindings
+- [ddworken/hishtory](https://github.com/ddworken/hishtory) - Your shell history: synced, queryable, and in context
+- [fabiensanglard/ccps](https://github.com/fabiensanglard/ccps) - SDK for CPS-1 boards
+- [noahgorstein/jqp](https://github.com/noahgorstein/jqp) - A TUI playground to experiment with jq
+- [superfly/litefs](https://github.com/superfly/litefs) - FUSE-based file system for replicating SQLite databases across a cluster of machines
+- [Xe/x](https://github.com/Xe/x) - Various tools, trinkets and experiments
+- [TheYahya/enola](https://github.com/TheYahya/enola) - This is Sherlock's sister, Modern shiny CLI tool written with Golang to help you: 🔎 Hunt down social media accounts by username across social networks
+- [mvdan/sh](https://github.com/mvdan/sh) - A shell parser, formatter, and interpreter with bash support; includes shfmt
+- [tidwall/jj](https://github.com/tidwall/jj) - JSON Stream Editor (command line utility)
+- [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+- [jangler/faunatone](https://github.com/jangler/faunatone) - Tracker-style microtonal MIDI sequencer
+- [ssleert/zfxtop](https://github.com/ssleert/zfxtop) - [WIP] fetch top for gen Z with X written by bubbletea enjoyer
+- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - Your CLI home video recorder 📼
+- [stashapp/stash](https://github.com/stashapp/stash) - An organizer for your porn, written in Go.  Documentation:  https://docs.stashapp.cc
+- [psanford/tpm-fido](https://github.com/psanford/tpm-fido) - A WebAuthn/U2F token protected by a TPM (Go/Linux)
+- [kgretzky/evilginx2](https://github.com/kgretzky/evilginx2) - Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication
+- [inkeliz/karmem](https://github.com/inkeliz/karmem) - Karmem is a fast binary serialization format, faster than Google Flatbuffers and optimized for TinyGo and WASM.
+- [charmbracelet/gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀
+- [joaoofreitas/challenge-generator](https://github.com/joaoofreitas/challenge-generator) - A program that generates a folder structure with challenges and projects for mastering a programming language.
+- [redcode-labs/Sammler](https://github.com/redcode-labs/Sammler) - A tool to extract useful data from documents
+- [AnalogJ/scrutiny](https://github.com/AnalogJ/scrutiny) - Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds
+- [schollz/miti](https://github.com/schollz/miti) - miti is a musical instrument textual interface. Basically, its MIDI, but with human-readable text. :musical_note:
+- [MauriceGit/compiler](https://github.com/MauriceGit/compiler) - Compiler for a small language into x86-64 Assembly
+- [ikemen-engine/Ikemen-GO](https://github.com/ikemen-engine/Ikemen-GO) - An open-source fighting game engine that supports MUGEN resources.
+- [gnojus/wedl](https://github.com/gnojus/wedl) - Small command line utility to download from https://wetransfer.com
+- [schollz/hostyoself](https://github.com/schollz/hostyoself) - Host yo' self from your browser, your phone, your toaster.
+- [cruise-automation/fwanalyzer](https://github.com/cruise-automation/fwanalyzer) - a tool to analyze filesystem images for security
+- [mholt/timeliner](https://github.com/mholt/timeliner) - All your digital life on a single timeline, stored locally
+- [cheat/cheat](https://github.com/cheat/cheat) - cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not fre
+- [fd0/machma](https://github.com/fd0/machma) - Easy parallel execution of commands with live feedback
+- [heppu/gkill](https://github.com/heppu/gkill) - Interactice process killer for Linux and macOS
+- [justjanne/powerline-go](https://github.com/justjanne/powerline-go) - A beautiful and useful low-latency prompt for your shell, written in go
+- [gcla/termshark](https://github.com/gcla/termshark) - A terminal UI for tshark, inspired by Wireshark
+- [geremarchive/przm](https://github.com/geremarchive/przm) - 🎨 A simple, yet feature rich color picker and manipulator
+- [BharatKalluri/moviescore](https://github.com/BharatKalluri/moviescore) - A cli tool to get movie ratings and reviews directly to your terminal!
+- [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) - Find and verify credentials
+- [free5gc/free5gc](https://github.com/free5gc/free5gc) - Open source 5G core network base on 3GPP R15
+- [benhoyt/goawk](https://github.com/benhoyt/goawk) - A POSIX-compliant AWK interpreter written in Go, with CSV support
+- [arp242/uni](https://github.com/arp242/uni) - Query the Unicode database from the commandline, with good support for emojis
+- [elliotchance/c2go](https://github.com/elliotchance/c2go) - ⚖️ A tool for transpiling C to Go.
+- [olivia-ai/olivia](https://github.com/olivia-ai/olivia) - 💁‍♀️Your new best friend powered by an artificial neural network
+- [orhun/pkgtop](https://github.com/orhun/pkgtop) - Interactive package manager and resource monitor designed for the GNU/Linux.
+- [rootVIII/pdfinverter](https://github.com/rootVIII/pdfinverter) - darken (or lighten) a PDF
+- [lunixbochs/usercorn](https://github.com/lunixbochs/usercorn) - dynamic binary analysis via platform emulation
+- [catatsuy/lls](https://github.com/catatsuy/lls) - you can get a list of files in a directory that contains a large number of files
+- [WithGJR/regit-go](https://github.com/WithGJR/regit-go) - ReGit: A Tiny Git-Compatible Git Implementation
+- [lima-vm/lima](https://github.com/lima-vm/lima) - Linux virtual machines
+- [berty/berty](https://github.com/berty/berty) - Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
+- [johnkerl/miller](https://github.com/johnkerl/miller) - Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON
+- [liamg/scout](https://github.com/liamg/scout) - 🔭 Lightweight URL fuzzer and spider: Discover a web server's undisclosed files, directories and VHOSTs
+- [profclems/glab](https://github.com/profclems/glab) - The GitLab CLI tool. Archived: now officially adopted by GitLab as the official CLI tool and maintained at https://gitlab.com/gitlab-org/cli. See https://github.com/profclems/glab/issues/983
+- [rsc/c2go](https://github.com/rsc/c2go) - C to Go translation tool supporting Go toolchain migration
+- [wader/fq](https://github.com/wader/fq) - jq for binary formats - tool, language and decoders for working with binary and text formats
+- [m3o/m3o](https://github.com/m3o/m3o) - Serverless Micro Services
+- [benjojo/userspace-vga2usb](https://github.com/benjojo/userspace-vga2usb) - A userspace driver implementation of the Epiphan VGA2USB LR
+- [antonmedv/fx](https://github.com/antonmedv/fx) - Terminal JSON viewer & processor
+- [schollz/croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another :crocodile: :package:
+- [dundee/gdu](https://github.com/dundee/gdu) - Fast disk usage analyzer with console interface written in Go
+- [mathaou/termdbms](https://github.com/mathaou/termdbms) - A TUI for viewing and editing database files.
+- [souvikinator/lsx](https://github.com/souvikinator/lsx) - ls Xtended : A command line utility that lets you navigate through terminal like a pro 😎.
+- [Bios-Marcel/cordless](https://github.com/Bios-Marcel/cordless) - The Discord terminal client you never knew you wanted.
+- [rgburke/grv](https://github.com/rgburke/grv) - GRV is a terminal interface for viewing git repositories
+- [JamieCrisman/desamber](https://github.com/JamieCrisman/desamber) - time to desamber date in golang
+- [nakabonne/pbgopy](https://github.com/nakabonne/pbgopy) - Copy and paste between devices
+- [redcode-labs/neurax](https://github.com/redcode-labs/neurax) - A framework for constructing self-spreading binaries
+- [zincsearch/zincsearch](https://github.com/zincsearch/zincsearch) - ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
+- [akavel/up](https://github.com/akavel/up) - Ultimate Plumber is a tool for writing Linux pipes with instant live preview
+
+## JavaScript 
+
+- [aiko-chan-ai/DiscordBotClient](https://github.com/aiko-chan-ai/DiscordBotClient) - (Discord Bot Client) A patched version of discord, with bot login support (and Vencord !?)
+- [OscarAblinger/whatsapp-to-signal-chat-transfer](https://github.com/OscarAblinger/whatsapp-to-signal-chat-transfer) - Utility to transfer chat history from whatsapp over to signal as good as possible
+- [TomerAberbach/grfn](https://github.com/TomerAberbach/grfn) - 🦅 A tiny (~400B) utility that executes a dependency graph of async functions as concurrently as possible.
+- [MohamedBakoush/WatchVideoByLink](https://github.com/MohamedBakoush/WatchVideoByLink) - Video Archiving and Streaming Service.
+- [eromatiya/the-glorious-startpage](https://github.com/eromatiya/the-glorious-startpage) - a glorified startpage
+- [sindresorhus/transliterate](https://github.com/sindresorhus/transliterate) - Convert Unicode characters to Latin characters using transliteration
+- [spicetify/spicetify-cli](https://github.com/spicetify/spicetify-cli) - Command-line tool to customize Spotify client. Supports Windows, MacOS, and Linux.
+- [obra/Youtube2Webpage](https://github.com/obra/Youtube2Webpage) - I learn much better from text than from videos
+- [jasoncoon/led-mapper](https://github.com/jasoncoon/led-mapper) - An online tool to generate and visualize maps for irregular and/or gapped LED layouts, for use with FastLED, Pixelblaze and other libraries.
+- [plasma-umass/scalene](https://github.com/plasma-umass/scalene) - Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python with AI-powered optimization proposals
+- [qsniyg/maxurl](https://github.com/qsniyg/maxurl) - Finds larger/original versions of images and videos
+- [dosyago/DownloadNet](https://github.com/dosyago/DownloadNet) - 💾 DownloadNet - All content your browse online available offline. Search through the full-text of all pages in your browser history. ⭐️ Star to support our work!
+- [jamiebuilds/the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) - :snowman: Possibly the smallest compiler ever
+- [open-duelyst/duelyst](https://github.com/open-duelyst/duelyst) - Duelyst is a digital collectible card game and turn-based strategy hybrid, developed by Counterplay Games.
+- [pulse-browser/browser](https://github.com/pulse-browser/browser) - Pulse Browser: An experimental firefox fork
+- [lucide-icons/lucide](https://github.com/lucide-icons/lucide) - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.
+- [feathericons/feather](https://github.com/feathericons/feather) - Simply beautiful open-source icons
+- [CoolElectronics/bookmarkfs](https://github.com/CoolElectronics/bookmarkfs) - Exploit chrome's profile sync for free cloud storage
+- [tholman/cursor-effects](https://github.com/tholman/cursor-effects) - Old-school cursor effects for your browser built with modern JavaScript
+- [saharmor/realtime-transcription-playground](https://github.com/saharmor/realtime-transcription-playground) - A real-time transcription project using React and socketio
+- [insin/control-panel-for-twitter](https://github.com/insin/control-panel-for-twitter) - Browser extension which gives you more control over your Twitter timeline and adds missing features and UI improvements - available for desktop and mobile browsers
+- [marko-js/marko](https://github.com/marko-js/marko) - A declarative, HTML-based language that makes building web apps fun
+- [ashduino101/OnlineSequencer-FFT](https://github.com/ashduino101/OnlineSequencer-FFT) - Online Sequencer FFT script collection
+- [ilirbajri/ORCHESTOOLS-GENESYN-2](https://github.com/ilirbajri/ORCHESTOOLS-GENESYN-2) - ORCHESTOOLS | GENESYN 2
+- [wseagar/eight-dollars](https://github.com/wseagar/eight-dollars) - A browser extension that shows twitter blue vs real verified users
+- [dice2o/BingGPT](https://github.com/dice2o/BingGPT) - Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux)
+- [SoniKast/Edge2003](https://github.com/SoniKast/Edge2003) - A Firefox CSS based on MondySpartan's Microsoft Edge in 2003 mockup.
+- [pulsar-edit/pulsar](https://github.com/pulsar-edit/pulsar) - A Community-led Hyper-Hackable Text Editor
+- [andrewstephens75/as-dithered-image](https://github.com/andrewstephens75/as-dithered-image) - HTML custom element to correctly dither an image giving pixel-perfect crisp results on all displays
+- [koyuspace/gemproxy](https://github.com/koyuspace/gemproxy) - Gemini web proxy
+- [KanHarI/gpt-commit-summarizer](https://github.com/KanHarI/gpt-commit-summarizer) - 
+- [PiotrDabkowski/Js2Py](https://github.com/PiotrDabkowski/Js2Py) - JavaScript to Python Translator & JavaScript interpreter written in 100% pure Python🚀 Try it online:
+- [opengaming/osgameclones](https://github.com/opengaming/osgameclones) - Open Source Clones of Popular Games
+- [rugk/mastodon-simplified-federation](https://github.com/rugk/mastodon-simplified-federation) - Simplifies following and interacting with remote users on other Mastodon instances.
+- [mantzaris/Tagasaurus](https://github.com/mantzaris/Tagasaurus) - Tagasuarus, the gateway to your semantic multiverse "Tag your Planet!"
+- [parvardegr/sharing](https://github.com/parvardegr/sharing) - Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app
+- [TiBeN/shortcutd](https://github.com/TiBeN/shortcutd) - Launch commands when pressing keyboard keys combinations. No graph. env needed. Support keyboard hotplug
+- [t-mart/kill-sticky](https://github.com/t-mart/kill-sticky) - Bookmarklet to remove sticky elements and restore scrolling to web pages!
+- [mifi/lossless-cut](https://github.com/mifi/lossless-cut) - The swiss army knife of lossless video/audio editing
+- [vaneenige/offline-gallery](https://github.com/vaneenige/offline-gallery) - 🎈 A 16kb Preact & Redux based Progressive Web App that offers an offline gallery experience of external images.
+- [dhanishgajjar/vscode-icons](https://github.com/dhanishgajjar/vscode-icons) - Custom Visual Studio Code Icons
+- [1egoman/debundle](https://github.com/1egoman/debundle) - :card_file_box: A javascript debundler. Takes a Browserify or Webpack bundle and recreates the initial, pre-bundled source.
+- [d3ward/b2ntp](https://github.com/d3ward/b2ntp) - Kanban style New Tab Page extension with your bookmarks and powerful search
+- [Wicklets/wick-editor](https://github.com/Wicklets/wick-editor) - A free and open-source tool for creating games, animations and everything in-between!
+- [ehmorris/High-Resolution-Downloader-For-Instagram](https://github.com/ehmorris/High-Resolution-Downloader-For-Instagram) - A Chrome extension for easily downloading high resolution copies of any Instagram photo, video, or story.
+- [Azgaar/Fantasy-Map-Generator](https://github.com/Azgaar/Fantasy-Map-Generator) - Web application generating interactive and highly customizable maps
+- [dufferzafar/Userscripts](https://github.com/dufferzafar/Userscripts) - A collection of scripts that make spending time on the web easy.
+- [BoostIO/BoostNote-Legacy](https://github.com/BoostIO/BoostNote-Legacy) - This repository is outdated and new Boost Note app is available! We've launched a new Boost Note app which supports real-time collaborative writing. https://github.com/BoostIO/BoostNote-App
+- [wekan/wekan](https://github.com/wekan/wekan) - The Open Source kanban (built with Meteor). Keep variable/table/field names camelCase. For translations, only add Pull Request changes to wekan/i18n/en.i18n.json , other translations are done at https
+- [720kb/ndm](https://github.com/720kb/ndm) - :computer: npm desktop manager https://720kb.github.io/ndm
+- [fabiocolacio/Marker](https://github.com/fabiocolacio/Marker) - 🖊 A gtk3 markdown editor
+- [aksakalli/gtop](https://github.com/aksakalli/gtop) - System monitoring dashboard for terminal
+- [djadmin/medium-cli](https://github.com/djadmin/medium-cli) - Medium for Hackers - :computer: A CLI for Medium Stories.
+- [feross/spoof](https://github.com/feross/spoof) - Easily spoof your MAC address in macOS, Windows, & Linux!
+- [GNOME/gnome-maps](https://github.com/GNOME/gnome-maps) - Read-only mirror of https://gitlab.gnome.org/GNOME/gnome-maps
+- [IonicaBizau/cli-github](https://github.com/IonicaBizau/cli-github) - :smile_cat: A fancy GitHub client for command line.
+- [riyadhalnur/weather-cli](https://github.com/riyadhalnur/weather-cli) - Check the weather for your city from your terminal
+- [scholtzm/punk](https://github.com/scholtzm/punk) - ⚡ Alternative cross-platform Steam client for desktop
+- [sindresorhus/empty-trash-cli](https://github.com/sindresorhus/empty-trash-cli) - Empty the trash
+- [sindresorhus/is-up-cli](https://github.com/sindresorhus/is-up-cli) - Check whether a website is up or down
+- [sindresorhus/open-shortcut-cli](https://github.com/sindresorhus/open-shortcut-cli) - Open the URL from a web shortcut file in the browser
+- [sindresorhus/trash-cli](https://github.com/sindresorhus/trash-cli) - Move files and folders to the trash
+- [xxczaki/bitly-cli-client](https://github.com/xxczaki/bitly-cli-client) - 🔪 Shorten links with Bitly in your terminal!
+- [xtyrrell/undollar](https://github.com/xtyrrell/undollar) - undollar eats the dollar sign in the command you just pasted into your terminal
+- [terkelg/ramme](https://github.com/terkelg/ramme) - Unofficial Instagram Desktop App.
+- [thecoder75/liveme-pro-tools](https://github.com/thecoder75/liveme-pro-tools) - LiveMe Pro Tools
+- [Toinane/colorpicker](https://github.com/Toinane/colorpicker) - A mininal but complete colorpicker desktop app
+- [igdmapps/igdm](https://github.com/igdmapps/igdm) - Desktop application for Instagram DMs
+- [mikebell/tweetdeck-desktop](https://github.com/mikebell/tweetdeck-desktop) - An unofficial tweetdeck desktop app.
+- [kashav/identicon](https://github.com/kashav/identicon) - Little tool to explore reverse-engineering GitHub's identicon algorithm
+- [MrRio/vtop](https://github.com/MrRio/vtop) - Wow such top. So stats. More better than regular top.
+- [DusteDdk/dstream](https://github.com/DusteDdk/dstream) - bespoke music player for web
+- [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) - A cross-platform GUI for youtube-dl made in Electron and node.js
+- [lllyasviel/style2paints](https://github.com/lllyasviel/style2paints) - sketch + style = paints :art: (TOG2018/SIGGRAPH2018ASIA)
+- [rastapasta/mapscii](https://github.com/rastapasta/mapscii) - 🗺  MapSCII is a Braille & ASCII world map renderer for your console - enter =&gt; telnet mapscii.me &lt;= on Mac (brew install telnet) and Linux, connect with PuTTY on Windows
+- [nikolaeu/numi](https://github.com/nikolaeu/numi) - Beautiful calculator app for macOS
+- [comby-tools/comby-reducer](https://github.com/comby-tools/comby-reducer) - A simple program reducer for any language.
+- [osnr/TabFS](https://github.com/osnr/TabFS) - 🗄 Mount your browser tabs as a filesystem.
+- [danthedaniel/js-shaders](https://github.com/danthedaniel/js-shaders) - CPU rendered ASCII art shader writing tool with hot reloading.
+- [fanfare/googleimagesrestored](https://github.com/fanfare/googleimagesrestored) - This extension attempts to make Google Images look and feel like it did before they changed everything on August 6th, 2019.
+- [graphitemaster/breaking_the_physical_limits_of_fonts](https://github.com/graphitemaster/breaking_the_physical_limits_of_fonts) - Breaking the physical limits of fonts
+- [otringal/MB-userscripts](https://github.com/otringal/MB-userscripts) - 
+- [iaddis/metalnes](https://github.com/iaddis/metalnes) - Transistor level NES simulation
+- [marktext/marktext](https://github.com/marktext/marktext) - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
+- [google/zx](https://github.com/google/zx) - A tool for writing better scripts
+- [xxczaki/odc](https://github.com/xxczaki/odc) - 📦 Update npm dependencies easily!
+- [vladocar/screenshoteer](https://github.com/vladocar/screenshoteer) - Make website screenshots and mobile emulations from the command line.
+- [prey/prey-node-client](https://github.com/prey/prey-node-client) - Node.js client for the Prey anti-theft software.
+- [cecekpawon/Bandcamp-Yo-Ben](https://github.com/cecekpawon/Bandcamp-Yo-Ben) - Bandcamp.com 128 download helper #userscripts
+- [horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) - Program for determining types of files for Windows, Linux and MacOS.
+- [SadeghHayeri/GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) - GreenTunnel is an anti-censorship utility designed to bypass the DPI system that is put in place by various ISPs to block access to certain websites.
+- [m4heshd/offlinebay](https://github.com/m4heshd/offlinebay) - Official repository of the project OfflineBay
+- [lutzroeder/netron](https://github.com/lutzroeder/netron) - Visualizer for neural network, deep learning and machine learning models
+- [hpennington/kanception](https://github.com/hpennington/kanception) - 
+- [Thomasorus/Kaku](https://github.com/Thomasorus/Kaku) - Kaku - 書く - A markup language I did for myself
+- [model-zoo/shift-ctrl-f](https://github.com/model-zoo/shift-ctrl-f) - 🔎 Search the information available on a webpage using natural language instead of an exact string match.
+- [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome) - Bypass Paywalls web browser extension for Chrome and Firefox.
+- [stackgl/shader-school](https://github.com/stackgl/shader-school) - :mortar_board: A workshopper for GLSL shaders and graphics programming
+
+## Kotlin 
+
+- [EchoInMirror/EchoInMirror](https://github.com/EchoInMirror/EchoInMirror) - [WIP] A free and open source Music Production Workstation (DAW).
+- [sdercolin/utaformatix3](https://github.com/sdercolin/utaformatix3) - An application for converting projects among singing voice synthesizer softwares.
+- [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language.
+- [basti564/Oculess](https://github.com/basti564/Oculess) - Removes account requirements and telemetry from Oculus Quest devices
+- [TwidereProject/Twidere-Android](https://github.com/TwidereProject/Twidere-Android) - 
 
 ## Swift 
 
+- [cormiertyshawn895/Retroactive](https://github.com/cormiertyshawn895/Retroactive) - Run Aperture, iPhoto, and iTunes on macOS Ventura, macOS Monterey, macOS Big Sur, and macOS Catalina. Xcode 11.7 on macOS Mojave. Final Cut Pro 7, Logic Pro 9, and iWork ’09 on macOS Mojave or macOS H
+- [Mortennn/Dozer](https://github.com/Mortennn/Dozer) - Hide menu bar icons on macOS
+- [Whisky-App/Whisky](https://github.com/Whisky-App/Whisky) - A modern Wine wrapper for macOS built with SwiftUI
+- [maxgoedjen/secretive](https://github.com/maxgoedjen/secretive) - Store SSH keys in the Secure Enclave
 - [lwouis/alt-tab-macos](https://github.com/lwouis/alt-tab-macos) - Windows alt-tab on macOS
 - [kartik-venugopal/aural-player](https://github.com/kartik-venugopal/aural-player) - An audio player for macOS, inspired by Winamp.
 - [goranmoomin/HackerNews](https://github.com/goranmoomin/HackerNews) - macOS HackerNews client that aims to be a Mac-assed Mac app. Written in Swift + AppKit.
@@ -1891,34 +2014,357 @@
 - [schappim/macOCR](https://github.com/schappim/macOCR) - Get any text on your screen into your clipboard.
 - [jariz/Akku](https://github.com/jariz/Akku) - Experimental bluetooth headset battery monitoring application for MacOS
 
-## TypeScript 
+## PostScript 
 
-- [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - A dynamically generated activity graph to show your GitHub activities of last 31 days.
-- [w-okada/voice-changer](https://github.com/w-okada/voice-changer) - リアルタイムボイスチェンジャー Realtime Voice Changer
-- [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - Immersive Dual Web Page Translation Extension - 沉浸式双语网页翻译扩展
-- [pmndrs/detect-gpu](https://github.com/pmndrs/detect-gpu) - Classifies GPUs based on their 3D rendering benchmark score allowing the developer to provide sensible default settings for graphically intensive applications.
-- [ci7lus/tweet2image](https://github.com/ci7lus/tweet2image) - Convert tweets to images
-- [vercel/satori](https://github.com/vercel/satori) - Enlightened library to convert HTML and CSS to SVG
-- [Platane/snk](https://github.com/Platane/snk) - 🟩⬜ Generates a snake game from a github user contributions graph and output a screen capture as animated svg or gif
-- [discord/react-dnd-accessible-backend](https://github.com/discord/react-dnd-accessible-backend) - An add-on backend for `react-dnd` that provides support for keyboards and screenreaders by default.
-- [upscayl/upscayl](https://github.com/upscayl/upscayl) - 🆙 Upscayl - Free and Open Source AI Image Upscaler for Linux, MacOS and Windows built with Linux-First philosophy.
-- [sneljo1/auryo](https://github.com/sneljo1/auryo) - [Discontinued] Auryo - Unofficial Soundcloud Desktop App
-- [samuelmaddock/metastream](https://github.com/samuelmaddock/metastream) - Watch streaming media with friends.
-- [vladimiry/ElectronMail](https://github.com/vladimiry/ElectronMail) - Unofficial ProtonMail Desktop App
-- [Musish/Musish](https://github.com/Musish/Musish) - Apple Music...ish
-- [iongion/podman-desktop-companion](https://github.com/iongion/podman-desktop-companion) - Podman desktop companion
-- [BoostIO/BoostNote-App](https://github.com/BoostIO/BoostNote-App) - Boost Note is a document driven project management tool that maximizes remote DevOps team velocity.
-- [cs01/termpair](https://github.com/cs01/termpair) - View and control terminals from your browser with end-to-end encryption 🔒
-- [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) - MapLibre GL JS - Interactive vector tile maps in WebGL2
-- [Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) - A Native GOG and Epic Games Launcher for Linux, Windows and Mac.
-- [m3o/m3o](https://github.com/m3o/m3o) - Serverless Micro services gateway
-- [sindresorhus/caprine](https://github.com/sindresorhus/caprine) - Elegant Facebook Messenger desktop app
-- [Unleash/unleash](https://github.com/Unleash/unleash) - Open-source feature management solution built for developers.
+- [dectalk/dectalk](https://github.com/dectalk/dectalk) - Modern builds for the 90s/00s DECtalk text-to-speech application.
 
-## V 
+## Objective-C 
 
-- [vlang/c2v](https://github.com/vlang/c2v) - C/C++ to V translator
-- [vlang/v](https://github.com/vlang/v) - Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in &lt;1s with zero library dependencies. Supports automatic C =&gt; V translation. https://vlang.io
+- [elk-audio/mda-vst2](https://github.com/elk-audio/mda-vst2) - MDA plugins in VST 2.4 format, adapted to use CMake and targeted at Linux systems
+- [dosdude1/discord-lite](https://github.com/dosdude1/discord-lite) - An ultra-lightweight native Discord client for vintage and modern Mac OS
+- [darlinghq/darling](https://github.com/darlinghq/darling) - Darwin/macOS emulation layer for Linux
+- [TomHarte/CP-M-for-OS-X](https://github.com/TomHarte/CP-M-for-OS-X) - A z80 emulator + CP/M-80 reimplementation that intends to allow original CP/M software to be used under OS X.
+- [HexFiend/HexFiend](https://github.com/HexFiend/HexFiend) - A fast and clever hex editor for macOS
+
+## Java 
+
+- [alipay/fury](https://github.com/alipay/fury) - A blazing fast multi-language serialization framework powered by jit and zero-copy
+- [NeRdTheNed/JarTighten](https://github.com/NeRdTheNed/JarTighten) - Jar file size optimiser
+- [RaphiMC/ViaBedrock](https://github.com/RaphiMC/ViaBedrock) - ViaVersion addon to add support for Minecraft: Bedrock Edition servers
+- [languagetool-org/languagetool](https://github.com/languagetool-org/languagetool) - Style and Grammar Checker for 25+ Languages
+- [git-moss/ConvertWithMoss](https://github.com/git-moss/ConvertWithMoss) - Converts multisamples from a source format (WAV, multisample, KMP, wavestate, NKI, SFZ, SoundFont 2) to a different destination format.
+- [fnuecke/sedna](https://github.com/fnuecke/sedna) - Sedna - a pure Java RISC-V emulator.
+- [Col-E/Code2HTML](https://github.com/Col-E/Code2HTML) - JavaFX tool for converting source code to styled HTML
+- [Col-E/dex-translator](https://github.com/Col-E/dex-translator) - A translation library for converting between Dalvik and JVM bytecode
+- [Col-E/r8](https://github.com/Col-E/r8) - Mirror of R8 with some minor improvements
+- [mirkosertic/Bytecoder](https://github.com/mirkosertic/Bytecoder) - Framework to interpret and transpile JVM bytecode to JavaScript, OpenCL or WebAssembly.
+- [DropSnorz/OwlPlug](https://github.com/DropSnorz/OwlPlug) - Audio plugin manager. Small tool to manage VST / AU / LV2 plugins on Windows, MacOS and Linux.
+- [lbalazscs/Pixelitor](https://github.com/lbalazscs/Pixelitor) - A desktop image editor
+- [DesktopECHO/T95-H616-Malware](https://github.com/DesktopECHO/T95-H616-Malware) - "Pre-Owned" malware in ROM for AllWinner H616/H618 & RockChip RK3328 Android TV Boxes
+- [Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer) - A Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)
+- [ViaVersion/ViaFabricPlus](https://github.com/ViaVersion/ViaFabricPlus) - Fabric mod to connect to EVERY Minecraft server version (Release, Beta, Alpha, Classic, Snapshots, Bedrock) with QoL fixes to the gameplay
+- [Vineflower/vineflower](https://github.com/Vineflower/vineflower) - Modern Java decompiler aiming to be as accurate as possible, with an emphasis on output quality. Fork of the Fernflower decompiler.
+- [ViaVersion/ViaProxy](https://github.com/ViaVersion/ViaProxy) - Standalone proxy which allows players to join EVERY Minecraft server version (Classic, Alpha, Beta, Release, Bedrock)
+- [DC37/Super-Mario-Paint](https://github.com/DC37/Super-Mario-Paint) - Super Mario Paint - A remake of the music composer in Mario Paint (1992)
+- [cguz/java-to-rust](https://github.com/cguz/java-to-rust) - A command line Java to rust converter
+- [arnetheduck/j2c](https://github.com/arnetheduck/j2c) - Java to C++ translator
+- [patri9ck/a2ln-app](https://github.com/patri9ck/a2ln-app) - A way to display Android phone notifications on Linux (App)
+- [supertokens/supertokens-core](https://github.com/supertokens/supertokens-core) - Open source alternative to Auth0 / Firebase Auth / AWS Cognito
+- [JacksonHoggard/voodoo2d](https://github.com/JacksonHoggard/voodoo2d) - 👹 2D Java Game Engine built in OpenGL
+- [dragonwell-project/dragonwell8](https://github.com/dragonwell-project/dragonwell8) - Alibaba Dragonwell8 JDK
+- [iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool) - A tool for reverse engineering Android apk files
+- [ibilux/MobyDroid](https://github.com/ibilux/MobyDroid) - Android Device Manager with a Graphic User Interface (GUI) – Manage Android on Linux, Windows and MacOS.
+- [jindrapetrik/jpexs-decompiler](https://github.com/jindrapetrik/jpexs-decompiler) - JPEXS Free Flash Decompiler
+- [jtransc/jtransc](https://github.com/jtransc/jtransc) - Bytecode to source converting Java & Kotlin code into JavaScript, C++, D, C#, PHP, AS3, Dart and Haxe and run it everywhere. Also use JVM code in your favourite language as a library.
+- [queer/utt](https://github.com/queer/utt) - utt is the universal text transformer
+- [DJayalath/ImSter](https://github.com/DJayalath/ImSter) - Hide and view encrypted text inside images
+- [Genymobile/gnirehtet](https://github.com/Genymobile/gnirehtet) - Gnirehtet provides reverse tethering for Android
+- [rom1v/sndcpy](https://github.com/rom1v/sndcpy) - Android audio forwarding (scrcpy, but for audio)
+- [onthegomap/planetiler](https://github.com/onthegomap/planetiler) - Flexible tool to build planet-scale vector tilesets from OpenStreetMap data fast
+- [thesimj/jBaseZ85](https://github.com/thesimj/jBaseZ85) - Java implementation of ZeroMQ Base-85 encoding. Base85 is a binary-to-text encoding library.
+- [akhilkedia/AllTrans](https://github.com/akhilkedia/AllTrans) - Completely Translate Android apps in-place aka Google translate in Chrome
+- [CellularPrivacy/Android-IMSI-Catcher-Detector](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector) - AIMSICD • Fight IMSI-Catcher, StingRay and silent SMS!
+- [exadel-inc/CompreFace](https://github.com/exadel-inc/CompreFace) - Leading free and open-source face recognition system
+- [ringosham/TranslateMod](https://github.com/ringosham/TranslateMod) - A chat translation mod for Minecraft
+- [Treer/Amidst-for-Minetest](https://github.com/Treer/Amidst-for-Minetest) - the Amidst project converted to support Minetest (aka Amidstest)
+- [hex007/freej2me](https://github.com/hex007/freej2me) - A free J2ME emulator with libretro, awt and sdl2 frontends.
+- [AsamK/signal-cli](https://github.com/AsamK/signal-cli) - signal-cli provides an unofficial commandline, dbus and JSON-RPC interface for the Signal messenger.
+- [pxb1988/dex2jar](https://github.com/pxb1988/dex2jar) - Tools to work with android .dex and java .class files
+- [JesusFreke/smali](https://github.com/JesusFreke/smali) - smali/baksmali
+
+## Vim Script 
+
+- [sainnhe/everforest](https://github.com/sainnhe/everforest) - 🌲 Comfortable & Pleasant Color Scheme for Vim
+- [ParallaxWave/blood_i3](https://github.com/ParallaxWave/blood_i3) - 
+- [nerdypepper/scientifica](https://github.com/nerdypepper/scientifica) - tall, condensed, bitmap font for geeks
+- [1dollarsteak/dotfiles](https://github.com/1dollarsteak/dotfiles) - 
+- [romeovs/creep](https://github.com/romeovs/creep) - a pretty sweet 4px wide pixel font.
+- [morhetz/gruvbox](https://github.com/morhetz/gruvbox) - Retro groove color scheme for Vim
+
+## PHP 
+
+- [rsheasby/Conky-Lililo-2018](https://github.com/rsheasby/Conky-Lililo-2018) - Remake of iceman358's Conky lililo config with working weather and better documentation.
+- [nadrad/h-m-m](https://github.com/nadrad/h-m-m) - Hackers Mind Map
+- [DirectoryLister/DirectoryLister](https://github.com/DirectoryLister/DirectoryLister) - 📂 Directory Lister is the easiest way to expose the contents of any web-accessible folder for browsing and sharing.
+- [bwdutton/gallery3](https://github.com/bwdutton/gallery3) - The simplest, most intuitive way to host your photos on your website.
+
+## Lua 
+
+- [saimoomedits/dotfiles](https://github.com/saimoomedits/dotfiles) - The ArchLinux and AwesomeWM configs. 📂
+- [hmathsan/dotfiles](https://github.com/hmathsan/dotfiles) - Dotfiles for my Arch linux setup
+- [afreidz/dots](https://github.com/afreidz/dots) - Dotfiles for AwesomeWM on Linux setup
+- [davidgiven/wordgrinder](https://github.com/davidgiven/wordgrinder) - A word processor which gets the hell out of your way and lets you get some work done.
+- [rxyhn/yoru](https://github.com/rxyhn/yoru) - 夜 - Yoru | Aesthetic and Beautiful Awesome  Environment :first_quarter_moon:
+- [jazz-g/shining-plum](https://github.com/jazz-g/shining-plum) - Dotfiles for r/unixporn
+- [eromatiya/the-glorious-dotfiles](https://github.com/eromatiya/the-glorious-dotfiles) - A glorified personal dot files
+- [dcao/dotfiles](https://github.com/dcao/dotfiles) - my config, nixified
+- [aravindps/dotfiles](https://github.com/aravindps/dotfiles) - 
+- [szorfein/dotfiles](https://github.com/szorfein/dotfiles) - Dotfiles for unix, managed by GNU stow.
+- [kluete/recover_itunes](https://github.com/kluete/recover_itunes) - rip meta-tags from iTunes database
+- [rxi/lite](https://github.com/rxi/lite) - A lightweight text editor written in Lua
+- [lite-xl/lite-xl](https://github.com/lite-xl/lite-xl) - A lightweight text editor written in Lua
+- [edubart/nelua-lang](https://github.com/edubart/nelua-lang) - Minimal, efficient, statically-typed and meta-programmable systems programming language heavily inspired by Lua, which compiles to C and native code.
+
+## Nix 
+
+- [rxyhn/yuki](https://github.com/rxyhn/yuki) - 雪 - Yuki | Snowflake  :snowflake:
+
+## Elixir 
+
+- [plausible/analytics](https://github.com/plausible/analytics) - Simple, open source, lightweight (&lt; 1 KB) and privacy-friendly web analytics alternative to Google Analytics.
+
+## Assembly 
+
+- [historicalsource/revolution-x](https://github.com/historicalsource/revolution-x) - a rock and roll shooting game
+- [jefflomax/word-writer-6-commodore-64](https://github.com/jefflomax/word-writer-6-commodore-64) - Word Writer 6 for the Commodore 64 Source Code - 6502 Assembly Language (C) 1983 - 1991
+- [galaxyhaxz/smw-src](https://github.com/galaxyhaxz/smw-src) - Source code to Super Mario World (SNES disassembly)
+- [Sakura-IT/SonnetAmiga](https://github.com/Sakura-IT/SonnetAmiga) - Reimplementation of WarpOS supporting Sonnet Crescendo 7200 and other PowerPC PCI cards (mirror of CVS development repository).
+- [matt-kempster/m2c](https://github.com/matt-kempster/m2c) - A MIPS and PowerPC decompiler.
+- [pret/pokered](https://github.com/pret/pokered) - Disassembly of Pokémon Red/Blue
+- [pwk4m1/TinyBIOS](https://github.com/pwk4m1/TinyBIOS) - A minimalist open source BIOS project for fun
+- [mertyildiran/ldca](https://github.com/mertyildiran/ldca) - Self-replicating, self-modifying Assembly program that can evolve into every possible computer program in the universe (EXPERIMENTAL)
+- [davidgiven/cpm65](https://github.com/davidgiven/cpm65) - CP/M for the 6502
+- [faissaloo/mfcd](https://github.com/faissaloo/mfcd) - An 864 byte Linux fan control daemon for the mid-2011 Macbook Air
+- [NattyNarwhal/vmwmouse](https://github.com/NattyNarwhal/vmwmouse) - VMware mouse driver for Windows 3.1
+- [historicalsource/pinballfantasies](https://github.com/historicalsource/pinballfantasies) - Pinball Fantasies (MS-DOS Port)
+- [tgrysztar/fasm](https://github.com/tgrysztar/fasm) - flat assembler 1 - reconstructed source history
+- [alexfru/regal86](https://github.com/alexfru/regal86) - Register Allocator for 8086
+- [fcambus/spleen](https://github.com/fcambus/spleen) - Monospaced bitmap fonts
+- [Myself086/Project-Nested](https://github.com/Myself086/Project-Nested) - 
+- [nrdmn/elbrus-docs](https://github.com/nrdmn/elbrus-docs) - 
+- [uniabis/z80depacker](https://github.com/uniabis/z80depacker) - Depackers for Z80
+- [intel/intel-sgx-ssl](https://github.com/intel/intel-sgx-ssl) - Intel® Software Guard Extensions SSL
+- [akkartik/mu](https://github.com/akkartik/mu) - Soul of a tiny new machine. More thorough tests → More comprehensible and rewrite-friendly software → More resilient society.
+- [ilyakurdyukov/micro-lzmadec](https://github.com/ilyakurdyukov/micro-lzmadec) - Micro LZMA decoder
+
+## Verilog 
+
+- [ultraembedded/biriscv](https://github.com/ultraembedded/biriscv) - 32-bit Superscalar RISC-V CPU
+
+## Jupyter Notebook 
+
+- [shie-ld/textwritten](https://github.com/shie-ld/textwritten) - Convert text file to handwritten pdf file
+- [AliaksandrSiarohin/first-order-model](https://github.com/AliaksandrSiarohin/first-order-model) - This repository contains the source code for the paper First Order Motion Model for Image Animation
+- [suno-ai/bark](https://github.com/suno-ai/bark) - 🔊 Text-Prompted Generative Audio Model
+- [oyvindln/vhs-decode](https://github.com/oyvindln/vhs-decode) - Software defined VHS decoder - Fork (maybe temporary) of the ld-decode Laserdisc rf decoder
+- [MubertAI/Mubert-Text-to-Music](https://github.com/MubertAI/Mubert-Text-to-Music) - A simple notebook demonstrating prompt-based music generation via Mubert API
+- [carefree0910/carefree-creator](https://github.com/carefree0910/carefree-creator) - AI magics meet Infinite draw board.
+- [williamyang1991/VToonify](https://github.com/williamyang1991/VToonify) - [SIGGRAPH Asia 2022] VToonify: Controllable High-Resolution Portrait Video Style Transfer
+- [tasercake/lowpolypy](https://github.com/tasercake/lowpolypy) - Robust Low-Poly Image Generator
+- [sedthh/pyxelate](https://github.com/sedthh/pyxelate) - Python class that generates pixel art from images
+- [mozilla/TTS](https://github.com/mozilla/TTS) - :robot: :speech_balloon: Deep learning for Text to Speech  (Discussion forum: https://discourse.mozilla.org/c/tts)
+- [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2) - Tacotron 2 - PyTorch implementation with faster-than-realtime inference
+- [vijishmadhavan/SkinDeep](https://github.com/vijishmadhavan/SkinDeep) - Get Deinked!!
+- [snakers4/silero-models](https://github.com/snakers4/silero-models) - Silero Models: pre-trained speech-to-text, text-to-speech and text-enhancement models made embarrassingly simple
+
+## QML 
+
+- [g-fb/haruna](https://github.com/g-fb/haruna) - Moved to https://invent.kde.org/multimedia/haruna
+- [Swordfish90/cool-retro-term](https://github.com/Swordfish90/cool-retro-term) - A good looking terminal emulator which mimics the old cathode display...
+
+## HTML 
+
+- [Templarian/MaterialDesign-Font](https://github.com/Templarian/MaterialDesign-Font) - Distribution Repo for the TTF font
+- [GTFOBins/GTFOBins.github.io](https://github.com/GTFOBins/GTFOBins.github.io) - GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems
+- [PhilipPanda/TempleOS-Theme](https://github.com/PhilipPanda/TempleOS-Theme) - Temple OS Theme / Rice For Arch Linux
+- [dtinth/2012-beyondthenetwork-visualization](https://github.com/dtinth/2012-beyondthenetwork-visualization) - Code that is used to generate the YouTube video that visualizes the tracker song Beyond the Network used in Bejeweled II
+- [RootMyTV/RootMyTV.github.io](https://github.com/RootMyTV/RootMyTV.github.io) - RootMyTV is a user-friendly exploit for rooting/jailbreaking LG webOS smart TVs.
+- [dy/wavefont](https://github.com/dy/wavefont) - Typeface for rendering waveform/data
+- [bitwig/dawproject](https://github.com/bitwig/dawproject) - Open exchange format for DAWs
+- [Hans5958/Domino-English-Translation](https://github.com/Hans5958/Domino-English-Translation) - :earth_asia: Let's translate Domino, a Japanese MIDI editor!
+- [howl-editor/howl](https://github.com/howl-editor/howl) - The Howl Editor
+- [woanware/woanware.github.io](https://github.com/woanware/woanware.github.io) - 
+- [airbnb/lottie](https://github.com/airbnb/lottie) - Lottie documentation for http://airbnb.io/lottie.
+- [ligurio/awesome-ttygames](https://github.com/ligurio/awesome-ttygames) - Unix ASCII games
+- [kevquirk/512kb.club](https://github.com/kevquirk/512kb.club) - Website for the 512 KB Club
+- [oidoid/mem](https://github.com/oidoid/mem) - 🤖 Proportional and monospaced sans light pixel font family.
+- [ianhan/BitmapFonts](https://github.com/ianhan/BitmapFonts) - My collection of bitmap fonts pulled from various demoscene archives over the years
+- [larsbrinkhoff/awesome-cpus](https://github.com/larsbrinkhoff/awesome-cpus) - All CPU and MCU documentation in one place
+- [retrohun/blog](https://github.com/retrohun/blog) - retrohunblog
+- [grassmunk/Chicago95](https://github.com/grassmunk/Chicago95) - A rendition of everyone's favorite 1995 Microsoft operating system for Linux.
+- [KuroLabs/Airshare](https://github.com/KuroLabs/Airshare) - Cross-platform content sharing in a local network
+- [alufers/mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger) - Automagically reverse-engineer REST APIs via capturing traffic
+
+## CSS 
+
+- [juacq97/spicetify-themes](https://github.com/juacq97/spicetify-themes) - A community-driven collection of themes for Spicetify (https://github.com/khanhas/spicetify-cli)
+- [spicetify/spicetify-themes](https://github.com/spicetify/spicetify-themes) - A community-driven collection of themes for customizing Spotify through Spicetify - https://github.com/spicetify/spicetify-cli
+- [ManuLosta/dotfiles](https://github.com/ManuLosta/dotfiles) - My desktop rice
+- [Brettm12345/github-moonlight](https://github.com/Brettm12345/github-moonlight) - A beatiful dark blue userstyle for GItHub. Made with :heart:
+- [flavioluis9/Firefox](https://github.com/flavioluis9/Firefox) - 
+- [flavioluis9/dots](https://github.com/flavioluis9/dots) - 
+- [vinceliuice/Layan-gtk-theme](https://github.com/vinceliuice/Layan-gtk-theme) - Layan-gtk-theme
+- [mut-ex/my-i3-dotfiles](https://github.com/mut-ex/my-i3-dotfiles) - Dotfiles for my i3 setup
+- [gumieri/dotfiles](https://github.com/gumieri/dotfiles) - Personal dotfiles with configurations for sway, vim, zsh, etc.
+- [Griffith-Femto/forest-dots](https://github.com/Griffith-Femto/forest-dots) - 
+- [PoSayDone/.dotfiles_new](https://github.com/PoSayDone/.dotfiles_new) - dotfiles for archlinux
+- [Marda33/SkeuoCord](https://github.com/Marda33/SkeuoCord) - A skeuomorphic overhaul for Discord.
+- [Bowserinator/hellomouse-youtube-style](https://github.com/Bowserinator/hellomouse-youtube-style) - Undo that bad youtube UI update
+- [simeydotme/pokemon-cards-css](https://github.com/simeydotme/pokemon-cards-css) - A collection of advanced CSS styles to create realistic-looking effects for the faces of Pokemon cards.
+- [Wamphyre/BSD-XFCE](https://github.com/Wamphyre/BSD-XFCE) - Turn your FreeBSD system in a complete and reliable workstation and creative studio with no hassle in minutes! Feel the daemon inside!
+- [ZorinOS/zorin-desktop-themes](https://github.com/ZorinOS/zorin-desktop-themes) - 
+- [nxll/dotfiles](https://github.com/nxll/dotfiles) - BACKUP ALL THE DOTS!!!
+- [mehedirm6244/Miserable_Xfce](https://github.com/mehedirm6244/Miserable_Xfce) - My miserable dotfiles for Xfce
+- [owl4ce/dotfiles](https://github.com/owl4ce/dotfiles) - :cherry_blossom: Aesthetic OpenboxWM Environment
+- [vinceliuice/Orchis-theme](https://github.com/vinceliuice/Orchis-theme) - Orchis is a [Material Design](https://material.io) theme for GNOME/GTK based desktop environments.
+- [VijayLalwani/SeaOwl](https://github.com/VijayLalwani/SeaOwl) - dotfiles for my post.
+- [eromatiya/thunderblurred](https://github.com/eromatiya/thunderblurred) - A theme for Thunderbird
+- [addy-dclxvi/xfwm4-theme-collections](https://github.com/addy-dclxvi/xfwm4-theme-collections) - My Xfwm/Xfce Theme Collections
+- [haryirfantri/idOS](https://github.com/haryirfantri/idOS) - 
+- [EliverLara/Sweet](https://github.com/EliverLara/Sweet) - Light and dark colorful Gtk3.20+ theme
+- [nekonako/dotfiles](https://github.com/nekonako/dotfiles) - 🏡 Comfy home for linux user
+- [elenapan/dotfiles](https://github.com/elenapan/dotfiles) - There is no place like ~/
+- [mohabaks/dotfiles](https://github.com/mohabaks/dotfiles) - :computer:  my ricing configs.
+- [xexpanderx/cinnamon-themes](https://github.com/xexpanderx/cinnamon-themes) - 
+- [marssantoso/dotfiles](https://github.com/marssantoso/dotfiles) - archlinux configuration files
+- [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css) - The minimal amount of CSS to replicate the GitHub Markdown style
+
+## Haskell 
+
+- [ix/calico](https://github.com/ix/calico) - cat, but for colors 😼
+- [koalaman/shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck, a static analysis tool for shell scripts
+
+## ActionScript 
+
+- [analgesicproductions/Anodyne-1-Repo](https://github.com/analgesicproductions/Anodyne-1-Repo) - Anodyne 1 Source Code
+- [TerryCavanagh/VVVVVV](https://github.com/TerryCavanagh/VVVVVV) - The source code to VVVVVV! http://thelettervsixtim.es/
+- [adobe/avmplus](https://github.com/adobe/avmplus) - Source code for the Actionscript virtual machine
+
+## Batchfile 
+
+- [shorthorn-project/One-Core-API-Binaries-Canary](https://github.com/shorthorn-project/One-Core-API-Binaries-Canary) - One-Core-API Canary
+- [Skulltrail192/One-Core-API-Binaries](https://github.com/Skulltrail192/One-Core-API-Binaries) - 
+- [pal1000/mesa-dist-win](https://github.com/pal1000/mesa-dist-win) - Pre-built Mesa3D drivers for Windows
+- [corbindavenport/cobalt](https://github.com/corbindavenport/cobalt) - Lightweight operating system based on FreeDOS
+- [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) - 🚀 An open and lightweight modification to Windows, designed to optimize performance, privacy and security.
+
+## Vue 
+
+- [Lissy93/dashy](https://github.com/Lissy93/dashy) - 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!
+
+## Awk 
+
+- [crossbowerbt/awk-webserver](https://github.com/crossbowerbt/awk-webserver) - A simple webserver, written in GNU awk, that supports directory listing and download of file from the directory where it is launched
+- [TheMozg/awk-raycaster](https://github.com/TheMozg/awk-raycaster) - Pseudo-3D shooter written completely in gawk using raycasting technique
+- [soimort/translate-shell](https://github.com/soimort/translate-shell) - :speech_balloon: Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
+
+## GDScript 
+
+- [V-Sekai/unidot_importer](https://github.com/V-Sekai/unidot_importer) - Import .unitypackage and other assets designed for Unity Engine as a GDScript addon for vanilla Godot 4.x
+- [RodZill4/material-maker](https://github.com/RodZill4/material-maker) - A procedural textures authoring and 3D model painting tool based on the Godot game engine
+- [Orama-Interactive/Pixelorama](https://github.com/Orama-Interactive/Pixelorama) - A free & open-source 2D sprite editor, made with the Godot Engine! Available on Windows, Linux, macOS and the Web!
+- [mbrlabs/Lorien](https://github.com/mbrlabs/Lorien) - Infinite canvas drawing/whiteboarding app for Windows, Linux and macOS. Made with Godot.
+- [heroiclabs/fishgame-godot](https://github.com/heroiclabs/fishgame-godot) - "Fish Game" for Godot is a 2-4 player online multiplayer game created as a demo of Nakama; an open-source scalable game server, using the Godot game engine.
+
+## Makefile 
+
+- [sadko4u/lsp-plugins](https://github.com/sadko4u/lsp-plugins) - Linux Studio Plugins Project
+- [Allwinner-Homlet/H3-BSP4.4-buildroot](https://github.com/Allwinner-Homlet/H3-BSP4.4-buildroot) - 
+- [ad-si/awesome-music-production](https://github.com/ad-si/awesome-music-production) - A curated list of software, services, and resources to create and distribute music
+- [publicsamples/Oi-Grandad](https://github.com/publicsamples/Oi-Grandad) - 4 Voice Granular Synth
+- [GModal/ChaffVerb](https://github.com/GModal/ChaffVerb) - An audio plugin utilizing pitch shifting, echo and reverb, for creating sounds from shimmers to whale songs. In LV2, VST, VST3 and CLAP formats.
+- [zynaddsubfx/zyn-fusion-build](https://github.com/zynaddsubfx/zyn-fusion-build) - Build Scripts For Zyn-Fusion
+- [eerimoq/monolinux](https://github.com/eerimoq/monolinux) - Create embedded Linux systems with a single statically linked executable.
+
+## Svelte 
+
+- [stemrollerapp/stemroller](https://github.com/stemrollerapp/stemroller) - Isolate vocals, drums, bass, and other instrumental stems from any song
+- [yashash-pugalia/win11-svelte](https://github.com/yashash-pugalia/win11-svelte) - Recreating Windows 11 with Svelte.
+
+## Haxe 
+
+- [FunkinCrew/Funkin](https://github.com/FunkinCrew/Funkin) - A rhythm game made with HaxeFlixel
+- [deepnight/ldtk](https://github.com/deepnight/ldtk) - Modern, lightweight and efficient 2D level editor
+
+## GLSL 
+
+- [higan-emu/higan](https://github.com/higan-emu/higan) - higan is a multi-system emulator focused on accuracy, preservation, and configurability.
+- [X0nk/Bliss-Shader](https://github.com/X0nk/Bliss-Shader) - A minecraft shader which is an edit of chocapic v9
+- [rsn8887/Sharp-Bilinear-Shaders](https://github.com/rsn8887/Sharp-Bilinear-Shaders) - sharp bilinear shaders for RetroPie, Recalbox and Libretro for sharp pixels without pixel wobble and minimal blurring
+
+## sed 
+
+- [chebykinn/sedmario](https://github.com/chebykinn/sedmario) - NES Super Mario Bros level 1 written in pure sed!
+
+## Dart 
+
+- [Merrit/nyrna](https://github.com/Merrit/nyrna) - Suspend games and applications.
+- [liftoff-app/liftoff](https://github.com/liftoff-app/liftoff) - 🐒  A mobile client for lemmy
+- [flutter/flutter](https://github.com/flutter/flutter) - Flutter makes it easy and fast to build beautiful apps for mobile and beyond
+
+## PowerShell 
+
+- [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) - A simple powershell script to remove bloatware apps from windows, disable telemetry, bing in windows search aswell as perform various other changes to declutter and improve your windows experience. Th
+- [ShaunLawrie/PwshPaint](https://github.com/ShaunLawrie/PwshPaint) - 🎨 A PowerShell Module for drawing pixelated art in the terminal - because why not.
+- [jamesstringerparsec/Easy-GPU-PV](https://github.com/jamesstringerparsec/Easy-GPU-PV) - A Project dedicated to making GPU Partitioning on Windows easier!
+
+## Pascal 
+
+- [red-prig/fpPS4](https://github.com/red-prig/fpPS4) - PS4 compatibility layer (emulator) on Free Pascal
+- [asiekierka/almost-of-zzt](https://github.com/asiekierka/almost-of-zzt) - (Almost) development backup of ZZT's original source code.
+- [asiekierka/reconstruction-of-zzt](https://github.com/asiekierka/reconstruction-of-zzt) - The Reconstruction of ZZT
+- [robhagemans/hoard-of-bitfonts](https://github.com/robhagemans/hoard-of-bitfonts) - turns out I like bitmap fonts
+- [ZXDunny/SpecBAS](https://github.com/ZXDunny/SpecBAS) - An enhanced Sinclair  BASIC interpreter for modern PCs
+
+## SCSS 
+
+- [vinceliuice/WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme) - MacOS Big Sur like theme for Gnome desktops
+- [lassekongo83/adw-gtk3](https://github.com/lassekongo83/adw-gtk3) - The theme from libadwaita ported to GTK-3
+- [shimmerproject/Greybird](https://github.com/shimmerproject/Greybird) - Desktop Suite for Xfce
+
+## Nim 
+
+- [nim-lang/nimforum](https://github.com/nim-lang/nimforum) - Lightweight alternative to Discourse written in Nim
+- [ansiwave/ansiwave](https://github.com/ansiwave/ansiwave) - A modern BBS
+- [def-/nim-small-coreutils](https://github.com/def-/nim-small-coreutils) - Coreutils that compile into tiny binaries
+
+## XSLT 
+
+- [cardonabits/haxo-hw](https://github.com/cardonabits/haxo-hw) - Haxophone, an electronic musical instrument that resembles a saxophone
+
+## CMake 
+
+- [ultralight-ux/Ultralight](https://github.com/ultralight-ux/Ultralight) - Lightweight, high-performance HTML renderer for game and app developers.
+- [dreamworksanimation/openmoonray](https://github.com/dreamworksanimation/openmoonray) - MoonRay is DreamWorks’ open-source, award-winning, state-of-the-art production MCRT renderer.
+- [python-cmake-buildsystem/python-cmake-buildsystem](https://github.com/python-cmake-buildsystem/python-cmake-buildsystem) - A cmake buildsystem for compiling Python
+- [microsoft/vcpkg](https://github.com/microsoft/vcpkg) - C++ Library Manager for Windows, Linux, and MacOS
+
+## Crystal 
+
+- [phil294/AHK_X11](https://github.com/phil294/AHK_X11) - AutoHotkey for Linux (X11-based systems)
+
+## Red 
+
+- [red/red](https://github.com/red/red) - Red is a next-generation programming language strongly inspired by Rebol, but with a broader field of usage thanks to its native-code compiler, from system programming to high-level scripting and cros
+
+## Ruby 
+
+- [tenderlove/fisk](https://github.com/tenderlove/fisk) - A pure Ruby assembler
+- [lfzawacki/musical-artifacts](https://github.com/lfzawacki/musical-artifacts) - Helping to catalog, preserve and free the artifacts you need to produce music.
+- [koyuspace/mastodon](https://github.com/koyuspace/mastodon) - The koyu.space version of glitch-soc
+- [jankowskib/FELix](https://github.com/jankowskib/FELix) - An open-source flash tool for Allwinner
+- [specious/facebook-cli](https://github.com/specious/facebook-cli) - :computer: Facebook command line client (needs to be updated)
+- [tenderlove/tenderjit](https://github.com/tenderlove/tenderjit) - JIT for Ruby that is written in Ruby
+- [hartator/wayback-machine-downloader](https://github.com/hartator/wayback-machine-downloader) - Download an entire website from the Wayback Machine.
+- [chrisseaton/rhizome](https://github.com/chrisseaton/rhizome) - A JIT for Ruby, implemented in pure Ruby
+- [DannyBen/bashly](https://github.com/DannyBen/bashly) - Bash command line framework and CLI generator
+- [ruby-next/ruby-next](https://github.com/ruby-next/ruby-next) - Ruby Next makes modern Ruby code run in older versions and alternative implementations
+
+## Zig 
+
+- [mkeeter/futureproof](https://github.com/mkeeter/futureproof) - A live editor for fragment shaders, powered by Neovim, WebGPU, and Zig!
+- [orhun/linuxwave](https://github.com/orhun/linuxwave) - Generate music from the entropy of Linux 🐧🎵
+- [Jarred-Sumner/hop](https://github.com/Jarred-Sumner/hop) - 
+- [ziglang/zig](https://github.com/ziglang/zig) - General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.
+
+## D 
+
+- [klknn/kdr](https://github.com/klknn/kdr) - klknn dplug repository
+- [dd86k/ddcpuid](https://github.com/dd86k/ddcpuid) - 🔬 dd's x86 CPU Identification tool
+- [dd86k/ddx86](https://github.com/dd86k/ddx86) - ** WIP ** x86 soft emulator, MS-DOS layer, rewrite of dd86
+- [dd86k/dd86](https://github.com/dd86k/dd86) - No longer maintained. See URL.
+- [dlang/dmd](https://github.com/dlang/dmd) - dmd D Programming Language compiler
+- [CyberShadow/btdu](https://github.com/CyberShadow/btdu) - sampling disk usage profiler for btrfs
 
 ## VBA 
 
@@ -1929,6 +2375,10 @@
 
 - [ztachip/ztachip](https://github.com/ztachip/ztachip) - Opensource software/hardware platform to build edge AI solutions deployed on FPGA or custom ASIC hardware.
 - [stnolting/neo430](https://github.com/stnolting/neo430) - :computer: A damn small msp430-compatible customizable soft-core microcontroller-like processor system written in platform-independent VHDL.
+
+## POV-Ray SDL 
+
+- [zamaudio/zam-plugins](https://github.com/zamaudio/zam-plugins) - Collection of LADSPA/LV2/VST/JACK audio plugins for high-quality processing
 
 ## Vala 
 
@@ -1953,32 +2403,113 @@
 - [p-e-w/plotinus](https://github.com/p-e-w/plotinus) - A searchable command palette in every modern GTK+ application
 - [SubhadeepJasu/pebbles](https://github.com/SubhadeepJasu/pebbles) - An easy to use yet powerful calculator app
 
-## Vim Script 
+## HolyC 
 
-- [ParallaxWave/blood_i3](https://github.com/ParallaxWave/blood_i3) - 
-- [nerdypepper/scientifica](https://github.com/nerdypepper/scientifica) - tall, condensed, bitmap font for geeks
-- [1dollarsteak/dotfiles](https://github.com/1dollarsteak/dotfiles) - 
-- [romeovs/creep](https://github.com/romeovs/creep) - a pretty sweet 4px wide pixel font.
-- [morhetz/gruvbox](https://github.com/morhetz/gruvbox) - Retro groove color scheme for Vim
+- [Zeal-Operating-System/ZealOS](https://github.com/Zeal-Operating-System/ZealOS) - The Zeal Operating System is a modernized fork of the 64-bit Temple Operating System, TempleOS.
+
+## OpenSCAD 
+
+- [dosdude1/zif-ide-ssd](https://github.com/dosdude1/zif-ide-ssd) - A custom-designed IDE SSD for use in any machine that utilizies a 1.8" ZIF IDE hard disk.
+- [tenderlove/analog-terminal-bell](https://github.com/tenderlove/analog-terminal-bell) - A bell for your terminal that is analog
+
+## V 
+
+- [vlang/c2v](https://github.com/vlang/c2v) - C/C++ to V translator
+- [vlang/v](https://github.com/vlang/v) - Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in &lt;1s with zero library dependencies. Supports automatic C =&gt; V translation. https://vlang.io
+
+## Clojure 
+
+- [tonsky/FiraCode](https://github.com/tonsky/FiraCode) - Free monospaced font with programming ligatures
+- [penpot/penpot](https://github.com/penpot/penpot) - Penpot - The Open-Source design & prototyping platform
+- [logseq/logseq](https://github.com/logseq/logseq) - A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: http://trello.com/b/8txSM12G/roadmap
+
+## Dockerfile 
+
+- [PowerUser64/radium-build](https://github.com/PowerUser64/radium-build) - Easily compile the Radium Tracker/DAW
+
+## Roff 
+
+- [oasislinux/oasis](https://github.com/oasislinux/oasis) - a small statically-linked linux system
+- [yask123/Instant-Music-Downloader](https://github.com/yask123/Instant-Music-Downloader) - 🎷  Downloads Music From The Web
+
+## mcfunction 
+
+- [K-bai/Terrain-Creator](https://github.com/K-bai/Terrain-Creator) - Create custom terrain block by block in minecraft
+
+## Scheme 
+
+- [addy-dclxvi/dotfiles](https://github.com/addy-dclxvi/dotfiles) - My personal backup of my dotfiles on ThinkPad-X230-Debian-Openbox and Aspire-A514-Debian-Fluxbox
 
 ## Visual Basic 
 
 - [zelon88/Registry_Monitor](https://github.com/zelon88/Registry_Monitor) - A Windows script to monitor registry hives for modifications & notify you when modifications have occured.
 
-## Zig 
+## Processing 
 
-- [orhun/linuxwave](https://github.com/orhun/linuxwave) - Generate music from the entropy of Linux 🐧🎵
-- [Jarred-Sumner/hop](https://github.com/Jarred-Sumner/hop) - 
-- [ziglang/zig](https://github.com/ziglang/zig) - General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.
+- [AdrianMargel/procedural-ink](https://github.com/AdrianMargel/procedural-ink) - 
 
-## mcfunction 
+## Scala 
 
-- [K-bai/Terrain-Creator](https://github.com/K-bai/Terrain-Creator) - Create custom terrain block by block in minecraft
+- [microsoft/SynapseML](https://github.com/microsoft/SynapseML) - Simple and Distributed Machine Learning
+
+## Julia 
+
+- [JuliaLang/julia](https://github.com/JuliaLang/julia) - The Julia Programming Language
+
+## Perl 
+
+- [smxi/inxi](https://github.com/smxi/inxi) - inxi is a full featured CLI system information tool. It is available in most Linux distribution repositories, and does its best to support the BSDs.
+- [dave-theunsub/clamtk](https://github.com/dave-theunsub/clamtk) - An easy to use, light-weight, on-demand virus scanner for Linux systems
+- [FFmpeg/gas-preprocessor](https://github.com/FFmpeg/gas-preprocessor) - Perl script that implements a subset of the GNU as preprocessor that Apple's as doesn't
+- [oysttyer/oysttyer](https://github.com/oysttyer/oysttyer) - An interactive console text-based command-line Twitter client written in Perl
+
+## Markdown 
+
+- [tldr-pages/tldr](https://github.com/tldr-pages/tldr) - 📚 Collaborative cheatsheets for console commands
+
+## AutoIt 
+
+- [Bioruebe/UniExtract2](https://github.com/Bioruebe/UniExtract2) - Universal Extractor 2 is a tool to extract files from any type of archive or installer.
+- [rcmaehl/WhyNotWin11](https://github.com/rcmaehl/WhyNotWin11) - Detection Script to help identify why your PC is not Windows 11 Release Ready. Now Supporting Update Checks!
+
+## OCaml 
+
+- [facebook/infer](https://github.com/facebook/infer) - A static analyzer for Java, C, C++, and Objective-C
+- [BinaryAnalysisPlatform/bap](https://github.com/BinaryAnalysisPlatform/bap) - Binary Analysis Platform
+
+## LLVM 
+
+- [lifting-bits/anvill](https://github.com/lifting-bits/anvill) - anvill forges beautiful LLVM bitcode out of raw machine code
+- [hughperkins/coriander](https://github.com/hughperkins/coriander) - Build NVIDIA® CUDA™ code for OpenCL™ 1.2 devices
+
+## Coq 
+
+- [AbsInt/CompCert](https://github.com/AbsInt/CompCert) - The CompCert formally-verified C compiler
+
+## Emacs Lisp 
+
+- [a-schaefers/systemE](https://github.com/a-schaefers/systemE) - 🤣 A lightweight systemd replacement written in Emacs lisp 🤣
+
+## Reason 
+
+- [onivim/oni2](https://github.com/onivim/oni2) - Native, lightweight modal code editor
+
+## Common Lisp 
+
+- [atlas-engineer/nyxt](https://github.com/atlas-engineer/nyxt) - Nyxt - the hacker's browser.
+
+## PLpgSQL 
+
+- [turbo/pg-shortkey](https://github.com/turbo/pg-shortkey) - YouTube-like Short IDs as Postgres Primary Keys
+
+## Cuda 
+
+- [dingwentao/GPU-lossless-compression](https://github.com/dingwentao/GPU-lossless-compression) - GPU-Accelerated Lossless Data Compressors Survey
 
 
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [SatyrDiamond](https://github.com/SatyrDiamond) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [satyrdiamond](https://github.com/satyrdiamond) has waived all copyright and related or neighboring rights to this work.
 
